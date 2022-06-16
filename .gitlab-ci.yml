@@ -1,0 +1,8 @@
+image: ruby:2.7
+
+pages:
+  script:
+    - echo 1
+  artifacts:
+    paths:
+    - public
