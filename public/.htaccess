@@ -1,5 +1,5 @@
 #Protect Directory
 AuthName "Dialog prompt"
 AuthType Basic
-AuthUserFile ../secret/.hjfd78342
+AuthUserFile secret/.hjfd78342
 Require valid-user
