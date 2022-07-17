@@ -131,9 +131,6 @@ footer {
   padding: 15px;
   border: 1px solid black;
 }
-.button-row a:not(:last-child) {
-  margin-right: 15px;
-}
 .speakers {
   padding: 20px 20px;
 }
@@ -160,11 +157,21 @@ footer {
   padding: 5px 5px;
 }
 }
+
+/* Submission buttons should appear in one row in larger screens, and
+ * vertically in smaller screens.
+ */
 @media all and (max-width: 43.75em) {
-.button-row a {
-  display: table;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  .button-row a {
+    display: table;
+    margin-top: 10px;
+  }
 }
+/* We remove the margin on the right when buttons appear all
+ * on the same row, so that they are centered.
+ */
+@media all and (min-width: 43.75em) {
+  .button-row a:not(:last-child) {
+    margin-right: 15px;
+  }
 }
