@@ -6,6 +6,7 @@ SMC-IT / SCC 2023
 
 Date: 18-21 July, 2023
 Venue: Caltech, Pasadena, CA, USA
+https://smcit-scc.space
 
 Sponsored by: IEEE Computer Society and the Technical Committee on Software
 Engineering
