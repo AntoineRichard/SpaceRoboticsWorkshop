@@ -152,3 +152,11 @@ footer {
 .supporters img {
   max-width: 100%;
 }
+
+/* 600 */
+@media all and (max-width: 37.5em) {
+.content-text {
+  width: 90%;
+  padding: 5px 5px;
+}
+}
