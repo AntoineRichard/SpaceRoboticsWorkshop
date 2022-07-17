@@ -176,4 +176,7 @@ footer {
   .button-row a:not(:last-child) {
     margin-right: 15px;
   }
+  .button-row  {
+    margin-bottom: 30px;
+  }
 }
