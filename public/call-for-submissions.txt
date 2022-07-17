@@ -244,4 +244,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue
 
-Last change: Jun 10, 2022 (v2-draft)
+Last change: July 15, 2022 v2
