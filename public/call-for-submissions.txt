@@ -194,7 +194,7 @@ you prefer a full-day, or one or two half-day time-slots.
 
 FORMAT
 Templates can be found on the SMC-IT/SCC 2023 web site:
-http://smc-it.org
+http://smcit-scc.space
 
 SCHEDULE
 * CFP: Call for Abstracts (including papers, posters and presentations):
