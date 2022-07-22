@@ -188,6 +188,6 @@ footer {
  */
 @media all and (max-width: 43.75em) {
   .vimeo-wrapper > .embed-responsive {
-    padding-bottom: 100vw;
+    padding-bottom: 100vh;
   }
 }
