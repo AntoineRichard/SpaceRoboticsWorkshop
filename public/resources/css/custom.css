@@ -198,7 +198,7 @@ footer {
  * effect is unnecessary and not showing up on smaller screens anyway).
  */
 @media all and (max-width: 43.75em) {
-  .footer {
+  footer {
     display: none;
   }
 }
