@@ -181,12 +181,13 @@ footer {
     margin-bottom: 30px;
   }
 }
+
 /* We make the top welcome message's background full screen on small devices by
  * modifying the height of the injected vimeo video to take the full screen.
  * Otherwise, a white rectangle appears on smaller screens.
  */
 @media all and (max-width: 43.75em) {
-  .vimeo-wrapper iframe {
-    height: 100vw;
+  .vimeo-wrapper > .embed-responsive {
+    padding-bottom: 100vw;
   }
 }
