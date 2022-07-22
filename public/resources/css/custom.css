@@ -191,3 +191,14 @@ footer {
     padding-bottom: 100vh;
   }
 }
+
+/* We completely eliminate the footer in smaller screens.
+ *
+ * On larger screens, it shows a portion of the background video, but the
+ * effect is unnecessary and not showing up on smaller screens anyway).
+ */
+@media all and (max-width: 43.75em) {
+  .footer {
+    display: none;
+  }
+}
