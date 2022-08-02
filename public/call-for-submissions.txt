@@ -218,7 +218,7 @@ General Chair (SCC): Jim Butler (NASA JPL)
 General Co-chair (SMC-IT) Yogita Shah (NASA JPL)
 Finance Chair: James Oyama (NASA JPL)
 Finance Co-Chair: Brian Duncan (Johns Hopkins University / APL)
-Program Chair (SMC-IT): Ivan Perez (NIA / NASA LaRC)
+Program Chair (SMC-IT): Ivan Perez (KBR / NASA Ames Research Center)
 Program Chair (SCC): Christopher Green (NASA Goddard)
 Program Co-chair (SMC-IT): Marie Farrell (Maynooth University)
 Program Co-chair (SCC): David Henriquez (NASA JPL)
@@ -244,4 +244,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue
 
-Last change: July 15, 2022 v2
+Last change: Aug 1, 2022 v3
