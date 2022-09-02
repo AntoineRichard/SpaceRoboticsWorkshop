@@ -6,7 +6,6 @@ SMC-IT / SCC 2023
 
 Date: 18-21 July, 2023
 Venue: Caltech, Pasadena, CA, USA
-https://smcit-scc.space
 
 Sponsored by: IEEE Computer Society and the Technical Committee on Software
 Engineering
@@ -134,6 +133,10 @@ following:
 
 * Infusion and adoption of industry standards for space applications.
 
+The organization committee is considering to have a closed-door session. If you
+might be interested in submitting work for that session, please contact the
+chairs at: smcit-scc_chairs@jpl.nasa.gov.
+
 SUBMISSIONS
 
 The SMC-IT/SCC 2023 Technical Committee is seeking four kinds of
@@ -240,8 +243,8 @@ ORGANIZING COMMITTEE:
 STEERING COMMITTEE:
 - Richard Doyle (NASA JPL)
 - Rupak Biswas (NASA)
-- Jana Roche
+- Jana Roche (The Aerospace Corporation)
 - Chris Mattman (NASA JPL)
-- Yisong Yue
+- Yisong Yue (Caltech)
 
-Last change: Aug 1, 2022 v3
+Last change: Aug 17, 2022 v4
