@@ -216,7 +216,7 @@ SCHEDULE
 * Workshop Authors Acceptance Notification (workshop submissions): May 15, 2023
 
 CONFERENCE CHAIRS:
-General Chair (SMC-IT): Prashanth Pandian (NASA JPL)
+General Chair (SMC-IT): Alessandro Pinto (NASA JPL)
 General Chair (SCC): Jim Butler (NASA JPL)
 General Co-chair (SMC-IT) Yogita Shah (NASA JPL)
 Finance Chair: James Oyama (NASA JPL)
@@ -247,4 +247,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue (Caltech)
 
-Last change: Sep 27, 2022 v5
+Last change: Sep 30, 2022 v6
