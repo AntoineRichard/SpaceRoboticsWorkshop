@@ -196,6 +196,14 @@ including the theme, scope, and goals of your workshop, as well as
 any potential speakers already identified. Please also indicate whether
 you prefer a full-day, or one or two half-day time-slots.
 
+OTHER SESSIONS (BOTH SMC-IT AND SCC)
+
+The SMC-IT/SCC committee is also planning on holding an "Unclassified, 
+US Persons Only” session and a “Classified Session” hosted by the 
+Aerospace Corporation. If you are interested in submitting a presentation 
+for either of these sessions, please contact the chairs at: 
+smcit-scc_chairs@jpl.nasa.gov.
+
 FORMAT
 Templates can be found on the SMC-IT/SCC 2023 web site:
 http://smcit-scc.space
