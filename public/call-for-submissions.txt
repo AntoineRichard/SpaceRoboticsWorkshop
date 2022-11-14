@@ -231,7 +231,7 @@ Finance Chair: James Oyama (NASA JPL)
 Finance Co-Chair: Brian Duncan (Johns Hopkins University / APL)
 Program Chair (SMC-IT): Ivan Perez (KBR / NASA Ames Research Center)
 Program Chair (SCC): Christopher Green (NASA Goddard)
-Program Co-chair (SMC-IT): Marie Farrell (Maynooth University)
+Program Co-chair (SMC-IT): Marie Farrell (University of Manchester)
 Program Co-chair (SCC): David Henriquez (NASA JPL)
 Advisors to the Chairs:
 - Larry Bergman (NASA JPL, Ret.)
