@@ -214,7 +214,7 @@ SCHEDULE
 * CFP: Call for Miniworkshops: Jul 15, 2022
 * Submission Site Open: Sep 1, 2022
 * Abstract Submission Deadline (for SCC): Nov 18, 2022
-* Miniworkshop Proposal Submission Deadline: Nov 18, 2022
+* Miniworkshop Proposal Submission Deadline: Dec 5, 2022
 * Abstract Acceptance Notification (for SCC): Dec 15, 2022
 * Miniworkshop Acceptance Notification: Dec 15, 2022
 * Deadline Papers (for SMC-IT and SCC): Jan 31, 2023
