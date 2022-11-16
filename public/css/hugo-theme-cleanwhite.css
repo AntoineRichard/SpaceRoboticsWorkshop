@@ -296,23 +296,23 @@ pre code{
         background:0 0
     }
 }
-.navbar-custom.invert .navbar-toggle:active{	
-    background-color:rgba(0,0,0,.05)	
-}	
-.navbar-custom.invert .navbar-toggle .icon-bar{	
-    background-color:#404040	
-}	
-.navbar-custom.invert .navbar-brand{	
-    color:#404040	
-}	
-.navbar-custom.invert .navbar-brand:hover,.navbar-custom.invert .navbar-brand:focus{	
-    color:#0085a1	
-}	
-.navbar-custom.invert .nav li a{	
-    color:#404040	
-}	
-.navbar-custom.invert .nav li a:hover,.navbar-custom.invert .nav li a:focus{	
-    color:#0085a1	
+.navbar-custom.invert .navbar-toggle:active{
+    background-color:rgba(0,0,0,.05)
+}
+.navbar-custom.invert .navbar-toggle .icon-bar{
+    background-color:#404040
+}
+.navbar-custom.invert .navbar-brand{
+    color:#404040
+}
+.navbar-custom.invert .navbar-brand:hover,.navbar-custom.invert .navbar-brand:focus{
+    color:#0085a1
+}
+.navbar-custom.invert .nav li a{
+    color:#404040
+}
+.navbar-custom.invert .nav li a:hover,.navbar-custom.invert .nav li a:focus{
+    color:#0085a1
 }
 @media only screen and (min-width:1170px){
     .navbar-custom{
@@ -330,22 +330,27 @@ pre code{
     .navbar-custom.is-fixed{
         position:fixed;
         top:-61px;
+        -webkit-transition:-webkit-transform 0.3s;
+        -moz-transition:-moz-transform 0.3s;
+        transition: all linear 0.3s;
+    }
+    .navbar-custom.is-highlighted{
         background-color:rgba(255,255,255,.9);
         border-bottom:1px solid #f2f2f2;
-        -webkit-transition:-webkit-transform .3s;
-        -moz-transition:-moz-transform .3s;
-        transition:transform .3s
+        -webkit-transition:-webkit-transform 0.3s;
+        -moz-transition:-moz-transform 0.3s;
+        transition: all linear 0.3s;
     }
-    .navbar-custom.is-fixed .navbar-brand{
+    .navbar-custom.is-highlighted .navbar-brand{
         color:#404040
     }
-    .navbar-custom.is-fixed .navbar-brand:hover,.navbar-custom.is-fixed .navbar-brand:focus{
+    .navbar-custom.is-highlighted .navbar-brand:hover,.navbar-custom.is-fixed .navbar-brand:focus{
         color:#0085a1
     }
-    .navbar-custom.is-fixed .nav li a{
+    .navbar-custom.is-highlighted .nav li a{
         color:#404040
     }
-    .navbar-custom.is-fixed .nav li a:hover,.navbar-custom.is-fixed .nav li a:focus{
+    .navbar-custom.is-highlighted .nav li a:hover,.navbar-custom.is-fixed .nav li a:focus{
         color:#0085a1
     }
     .navbar-custom.is-visible{
@@ -357,7 +362,7 @@ pre code{
     }
 }
 .intro-header{
-    background:no-repeat center center;	
+    background:no-repeat center center;
     background-color:#a3a3a3;
     background-attachment:scroll;
     -webkit-background-size:cover;
@@ -366,22 +371,22 @@ pre code{
     -o-background-size:cover;
     margin-bottom:0
 }
-.intro-header.style-text{	
-    background:0 0	
-}	
-.intro-header.style-text .site-heading,.intro-header.style-text .post-heading,.intro-header.style-text .page-heading{	
-    padding:85px 0 20px;	
-    color:#404040	
-}	
-.intro-header.style-text .site-heading .subheading,.intro-header.style-text .post-heading .subheading,.intro-header.style-text .page-heading .subheading{	
-    margin-bottom:15px	
-}	
-.intro-header.style-text .post-heading .meta a,.intro-header.style-text .tags a,.intro-header.style-text .tags .tag{	
-    border-color:#404040;	
-    color:#404040	
-}	
-.intro-header.style-text .tags a:hover,.intro-header.style-text .tags .tag:hover,.intro-header.style-text .tags a:active,.intro-header.style-text .tags .tag:active{	
-    background-color:rgba(0,0,0,.05)	
+.intro-header.style-text{
+    background:0 0
+}
+.intro-header.style-text .site-heading,.intro-header.style-text .post-heading,.intro-header.style-text .page-heading{
+    padding:85px 0 20px;
+    color:#404040
+}
+.intro-header.style-text .site-heading .subheading,.intro-header.style-text .post-heading .subheading,.intro-header.style-text .page-heading .subheading{
+    margin-bottom:15px
+}
+.intro-header.style-text .post-heading .meta a,.intro-header.style-text .tags a,.intro-header.style-text .tags .tag{
+    border-color:#404040;
+    color:#404040
+}
+.intro-header.style-text .tags a:hover,.intro-header.style-text .tags .tag:hover,.intro-header.style-text .tags a:active,.intro-header.style-text .tags .tag:active{
+    background-color:rgba(0,0,0,.05)
 }
 @media only screen and (min-width:768px){
     .intro-header{
