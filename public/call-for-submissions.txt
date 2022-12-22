@@ -214,9 +214,9 @@ SCHEDULE
 * CFP: Call for Miniworkshops: Jul 15, 2022
 * Submission Site Open: Sep 1, 2022
 * Abstract Submission Deadline (for SCC): Nov 18, 2022
-* Miniworkshop Proposal Submission Deadline: Dec 5, 2022
 * Abstract Acceptance Notification (for SCC): Dec 15, 2022
-* Miniworkshop Acceptance Notification: Dec 15, 2022
+* Miniworkshop Proposal Submission Deadline: Jan 13, 2023 (extended)
+* Miniworkshop Acceptance Notification: Jan 31, 2023 (extended)
 * Deadline Papers (for SMC-IT and SCC): Jan 31, 2023
 * Authors Acceptance Notification (full papers): March 15, 2023
 * Deadline Workshop Submissions: April 15, 2023
@@ -233,6 +233,8 @@ Program Chair (SMC-IT): Ivan Perez (KBR / NASA Ames Research Center)
 Program Chair (SCC): Christopher Green (NASA Goddard)
 Program Co-chair (SMC-IT): Marie Farrell (University of Manchester)
 Program Co-chair (SCC): David Henriquez (NASA JPL)
+Workshop Chair (SMC-IT): Sanaz Sheikhi (Stony Brook University)
+Diversity Chair: Divya Gopinath (KBR / NASA Ames Research Center)
 Advisors to the Chairs:
 - Larry Bergman (NASA JPL, Ret.)
 - Michael Campbell (The Aerospace Corporation, Ret.)
@@ -242,7 +244,7 @@ Advisors to the Chairs:
 ORGANIZING COMMITTEE:
 - David Rutishauser (NASA JSC)
 - Mariam Malek (NASA JPL)
-- María Dolores Rodríguez Moreno (Universidad de Alcala de Henares)
+- Maria Dolores Rodriguez Moreno (Universidad de Alcala de Henares)
 - Keith Schubert (Baylor University)
 - Michela Munoz Fernandez (NASA)
 - Brian Duncan (Johns Hopkins University / APL)
@@ -255,4 +257,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue (Caltech)
 
-Last change: Nov 14, 2022 v7
+Last change: Dec 21, 2022 v8
