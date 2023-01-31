@@ -4,7 +4,8 @@ SMC-IT / SCC 2023
 9th International Conference on Space Mission Challenges for Information Technology (SMC-IT)
 14th International Conference on Space Computing (SCC)
 
-Date: 18-21 July, 2023
+** Submission deadline: Mar 3, 2023 **
+Conference Date: 18-21 July, 2023
 Venue: Caltech, Pasadena, CA, USA
 
 Sponsored by: IEEE Computer Society and the Technical Committee on Software
