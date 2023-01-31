@@ -1,4 +1,4 @@
-CALL FOR PAPERS
+CALL FOR PAPERS (EXTENDED)
 SMC-IT / SCC 2023
 
 9th International Conference on Space Mission Challenges for Information Technology (SMC-IT)
@@ -147,11 +147,13 @@ FULL PAPERS WITH PRESENTATION (BOTH SMC-IT AND SCC)
 
 SMC-IT/SCC 2023 will again use a single-pass, full-paper review process.
 Full papers can be up to 10 pages in length and require a verbal
-presentation. For full papers submitted to SCC, a separate abstract (between
-four paragraphs and one page in length) *must* be submitted first, which will
-be used by the PC to identify the appropriate reviewers efficiently.  Authors
-of full papers must submit a final version of their paper of up to 10 pages at
-the outset, plus references.
+presentation.
+
+**SMC-IT: Note that it is _not_ required to submit an abstract to SMC-IT prior
+to the paper submission.**
+
+Authors of full papers must submit a final version of their paper of up to 10
+pages at the outset, plus references.
 
 All papers accepted for SMC-IT/SCC 2023 will be published in the IEEE
 conference proceedings, indexed in the IEEE Xplore database. Note that
@@ -213,15 +215,13 @@ SCHEDULE
     Jul 15, 2022
 * CFP: Call for Miniworkshops: Jul 15, 2022
 * Submission Site Open: Sep 1, 2022
-* Abstract Submission Deadline (for SCC): Nov 18, 2022
-* Abstract Acceptance Notification (for SCC): Dec 15, 2022
+* Abstract Submission Deadline (SCC ONLY): Nov 18, 2022
+* Abstract Acceptance Notification (SCC ONLY): Dec 15, 2022
 * Miniworkshop Proposal Submission Deadline: Jan 13, 2023 (extended)
 * Miniworkshop Acceptance Notification: Jan 31, 2023 (extended)
-* Deadline Papers (for SMC-IT and SCC): Jan 31, 2023
-* Authors Acceptance Notification (full papers): March 15, 2023
-* Deadline Workshop Submissions: April 15, 2023
+* Deadline Papers (for SMC-IT and SCC; no prior abstract submission required): Mar 3, 2023
+* Authors Acceptance Notification (full papers): Apr 7, 2023
 * Deadline Final Versions (papers, posters, presentations): May 15, 2023
-* Workshop Authors Acceptance Notification (workshop submissions): May 15, 2023
 
 CONFERENCE CHAIRS:
 General Chair (SMC-IT): Alessandro Pinto (NASA JPL)
@@ -257,4 +257,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue (Caltech)
 
-Last change: Dec 21, 2022 v8
+Last change: Jan 30, 2023 v9-for-website
