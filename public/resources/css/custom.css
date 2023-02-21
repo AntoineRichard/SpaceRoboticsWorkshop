@@ -214,6 +214,7 @@ footer {
   }
   .speakers td {
     padding: 0px !important;
+    width: 100%;
   }
   .speakers tr {
     display: inline-grid;
