@@ -204,3 +204,18 @@ footer {
     display: none;
   }
 }
+
+/* We completely eliminate spacing around the speaker pictures on the front
+ * page in smaller screens.
+ */
+@media all and (max-width: 43.75em) {
+  .speakers {
+    padding: 0px 0px !important;
+  }
+  .speakers td {
+    padding: 0px !important;
+  }
+  .speakers tr {
+    display: inline-grid;
+  }
+}
