@@ -236,6 +236,7 @@ Program Co-chair (SMC-IT): Marie Farrell (University of Manchester)
 Program Co-chair (SCC): David Henriquez (NASA JPL)
 Workshop Chair (SMC-IT): Sanaz Sheikhi (Stony Brook University)
 Diversity Chair: Divya Gopinath (KBR / NASA Ames Research Center)
+Faculty Advisor: Prof. George Djorgovski (Caltech)
 Advisors to the Chairs:
 - Larry Bergman (NASA JPL, Ret.)
 - Michael Campbell (The Aerospace Corporation, Ret.)
@@ -258,4 +259,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue (Caltech)
 
-Last change: Jan 30, 2023 v9-for-website
+Last change: Feb 22, 2023 v10-for-website
