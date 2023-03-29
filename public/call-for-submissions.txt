@@ -242,7 +242,7 @@ Advisors to the Chairs:
 - Larry Bergman (NASA JPL, Ret.)
 - Michael Campbell (The Aerospace Corporation, Ret.)
 - Michelle Carter (The Aerospace Corporation)
-- Amalaye Oyake (Blue Origin)
+- Amalaye Oyake (Past Chairperson - SMC-IT 2019)
 
 ORGANIZING COMMITTEE:
 - David Rutishauser (NASA JSC)
@@ -260,4 +260,4 @@ STEERING COMMITTEE:
 - Chris Mattman (NASA JPL)
 - Yisong Yue (Caltech)
 
-Last change: Feb 22, 2023 v10-for-website
+Last change: Mar 28, 2023 v11-for-website
