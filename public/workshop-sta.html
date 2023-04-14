@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space Trusted Autonomy Workshop - IEEE SMC-IT/SCC 2023</title>
+    <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+    <link rel="stylesheet" href="/css/zanshang.css">
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/resources/css/custom.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hux-blog.js"></script>
+    <!-- Request from IEEE -->
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise(json)
+    });
+    </script>
+    <!-- END: Request from IEEE -->
+</head>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
+    <div class="container-fluid">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2023</a>
+        </div>
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#dates">Dates</a></li>
+                    <li><a target="_blank" href="/call-for-submissions.txt">Call for Submissions</a></li>
+                    <li><a href="/speakers.html">Speakers</a></li>
+                    <!--
+                    <li><a href="/#program">Program</a></li>
+                    -->
+                    <li><a href="/submissions.html">Submissions</a></li>
+                    <li><a href="/workshops.html">Workshops</a></li>
+                    <li><a href="/#venue">Venue</a></li>
+                    <li><a href="https://cvent.me/qdLV49" target="_blank">Registration</a></li>
+                    <li><a href="/#organization">Organization</a></li>
+                    <li><a href="/#sponsors">Sponsors</a></li>
+                    <!--
+                    <li><a href="/archive">Archive</a></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<script>
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+
+            $navbar.className = " ";
+
+            setTimeout(function(){
+
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        } else {
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+<header class="intro-header" style="background-image: url('/')">
+    <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
+     <iframe src="https://player.vimeo.com/video/387675206?background=1&autoplay=1&loop=1&byline=0&title=0"
+             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Space Trusted Autonomy Workshop</h1>
+                    <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>Caltech, Pasadena, CA, USA - 18-21 July 2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="summary"></a>
+    <h1>Summary</h1>
+    <p>
+      The objective of this workshop will be to start on the development of metrics to measure capability and trust for Space Trusted Autonomy.  All SMC-IT participants are welcome to attend and provide input.
+    <p>
+      Technology Readiness Levels are a mainstay for organizations that fund, develop, test, acquire, or use technologies. Technology Readiness Levels provide a standardized assessment of a technology’s maturity and enable consistent comparison among technologies. They inform decisions throughout a technology’s development life cycle, from concept, through development, to use. A variety of alternative Readiness Levels have been developed, including Algorithm Readiness Levels, Manufacturing Readiness Levels, Human Readiness Levels, Commercialization Readiness Levels, Machine Learning Readiness Levels, and Technology Commitment Levels. However, while Technology Readiness Levels have been increasingly applied to emerging disciplines, there are unique challenges to assessing the rapidly developing capabilities of autonomy. This mini-workshop will explore the concept of Space Trusted Autonomy Readiness (STAR) Levels, which were recently featured in a publication (https://arxiv.org/pdf/2210.09059.pdf) that identifies a two-dimensional scale of readiness and trust appropriate for the special challenges of assessing autonomy technologies that seek space use. It draws inspiration from other readiness levels’ definitions, and from the rich field of trust and trustworthiness. The Space Trusted Autonomy Readiness Levels were developed by a collaborative Space Trusted Autonomy subgroup, which was created from The Space Science and Technology Partnership Forum between the United States Space Force, the National Aeronautics and Space Administration, and the National Reconnaissance Office.
+    </p>
+    <p>
+      <b>Moderators:</b><br>
+      Dr. Kerianne Hobbs, Air Force Research Laboratory <br>
+      Dr. Martin Feather, Jet Propulsion Laboratory, California Institute of Technology <br>
+      Mr. Yuri O. Gawdiak, NASA Headquarters  <br>
+    </p>
+    <p>
+    This will be an active workshop on Thursday, 20 July 2023.
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="schedule"></a>
+    <h1>Schedule</h1>
+    <table class="table table-hover">
+    <thead class="thead-light">
+    <tr>
+      <th>TIME (PDT)</th>
+      <th>TITLE</th>
+      <th>PRESENTER</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:15 AM</th>
+      <td>Introduction to Trust</td>
+      <td>Mr. Yuri O. Gawdiak</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:30 AM</th>
+      <td>Trust Readiness Levels</td>
+      <td>Dr. Kerianne Hobbs</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:45 AM</th>
+      <td>Breakout Discussion on Metrics</td>
+      <td>All Participants</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:30 AM</th>
+      <td>Group Outbriefs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">11:45 AM</th>
+      <td>LUNCH BREAK</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">1:30 PM</th>
+      <td>Introduction to STAR Levels</td>
+      <td>Dr. Kerianne Hobbs</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">1:45 PM</th>
+      <td>Example Autonomy</td>
+      <td>Dr. Kerianne Hobbs</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">2:00 PM</th>
+      <td>Breakout Discussion on Metrics</td>
+      <td>All Participants</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">2:45 PM</th>
+      <td>Group Outbriefs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">3:00 PM</th>
+      <td>BREAK</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">3:15 PM</th>
+      <td>Choose Your Own Adventure</td>
+      <td>All Participants</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">3:30 PM</th>
+      <td>Breakout Discussion on STAR Levels or Trust</td>
+      <td>All Participants</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">4:15 PM</th>
+      <td>Group Outbriefs</td>
+      <td>Panelists</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">4:30 PM</th>
+      <td>Workshop Summary</td>
+      <td>Dr. Martin Feather</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">4:45 PM</th>
+      <td>END</td>
+      <td></td>
+    </tr>
+    </tbody>
+    </table>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="sponsors"></a>
+    <h1>Supporters</h1>
+    <table class="supporters">
+      <tr>
+        <td>
+          <img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png">
+          <br>
+          IEEE
+        </td>
+      </tr>
+    </table>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <h1>Contact</h1>
+    <p>If you have any questions, feel free to contact us at:</p>
+    <ul>
+      <li>Email: smcit-scc_chairs@jpl.nasa.gov</li>
+      <li>Twitter: @smcit_conference</li>
+      <li>Twitter: @scc_conference</li>
+    </ul>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2023 - <a href="https://www.ieee.org/security-privacy.html">Privacy Policy</a></p>
+  </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+               </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; IEEE SMC-IT/SCC 2023
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+</body>
+</html>
