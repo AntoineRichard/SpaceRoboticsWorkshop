@@ -157,6 +157,10 @@ footer {
   list-style: none;
 }
 
+#silver-sponsor-list ul {
+  list-style: none;
+}
+
 /* 600 */
 @media all and (max-width: 37.5em) {
 .content-text {
