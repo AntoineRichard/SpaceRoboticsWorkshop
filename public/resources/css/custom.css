@@ -7,6 +7,10 @@
   src: url(/resources/fonts/Lato-Regular.ttf);
 }
 
+.collapse.show {
+  visibility: visible;
+}
+
 h1 {
   font-family: LatoThin;
   margin-top: 10px;

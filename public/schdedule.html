@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tracks - IEEE SMC-IT/SCC 2023</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+  <link rel="stylesheet" href="/css/zanshang.css">
+  <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/resources/css/custom.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/hux-blog.js"></script>
+  <!-- Request from IEEE -->
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise(json)
+  });
+  </script>
+  <!-- END: Request from IEEE -->
+  <style>
+     .table a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+      }
+     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+       color: #495057;
+       background-color: #fff;
+       border-color: #dee2e6 #dee2e6 #fff;
+     }
+     .nav-tabs .nav-link {
+       border: 1px solid transparent;
+       border-top-left-radius: .25rem;
+       border-top-right-radius: .25rem;
+     }
+     .nav-link {
+       display: block;
+       padding: .5rem 1rem;
+     }
+    .section-background
+     {
+      background-image: url(section-background.jpg);
+      background-size: 100% auto;
+      }
+     .heading-bold
+     {
+         color:black;
+         font-size:14.0pt;
+         font-family:Arial, sans-serif;
+         font-weight: bold;
+     }
+     .time-row
+     {
+         color:black;
+         font-size:14.0pt;
+         font-family:Arial, sans-serif;
+         min-width: 120px;
+     }
+
+     .cell-dabney
+     {
+         background-color: #ebfff4;
+     }
+
+     .cell-dabney
+     {
+         background-color: #ebfff4;
+     }
+
+     .cell-noyessmall
+     {
+         background-color: #bf8f00;
+     }
+
+     .cell-baxterlh
+     {
+         background-color: #fc9d9d;
+     }
+
+     .cell-spalding
+     {
+         background-color: #fabf8f;
+     }
+
+     .cell-baxter
+     {
+         background-color: #48beff;
+     }
+
+     .cell-gatesannex {
+         background-color: #fe6d73;
+     }
+
+     .cell-yellow
+     {
+         background-color: #F6FE85;
+     }
+  </style>
+</head>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2023</a>
+    </div>
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#dates">Dates</a></li>
+          <li><a target="_blank" href="/call-for-submissions.txt">Call for Submissions</a></li>
+          <li><a href="/speakers.html">Speakers</a></li>
+          <li><a href="/tracks.html">Tracks</a></li>
+          <li><a href="/submissions.html">Submissions</a></li>
+          <li><a href="/#venue">Venue</a></li>
+          <li><a href="https://cvent.me/qdLV49" target="_blank">Registration</a></li>
+          <li><a href="/#organization">Organization</a></li>
+          <li><a href="/#sponsors">Sponsors</a></li>
+          <!--
+          <li><a href="/archive">Archive</a></li>
+          -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  var $body   = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+  function handleMagic(e){
+    if ($navbar.className.indexOf('in') > 0)
+    {
+      $navbar.className = " ";
+
+      setTimeout(function(){
+        if($navbar.className.indexOf('in') < 0)
+        {
+            $collapse.style.height = "0px"
+        }
+      }, 400)
+    }
+    else
+    {
+        $collapse.style.height = "auto"
+        $navbar.className += " in";
+    }
+  }
+</script>
+<header class="intro-header" style="background-image: url('/')">
+  <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
+    <iframe src="https://player.vimeo.com/video/387675206?background=1&autoplay=1&loop=1&byline=0&title=0"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>SCHEDULE</h1>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>Caltech, Pasadena, CA, USA - 18-21 July 2023</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="tabs" class="project-tab" style="background: linear-gradient(to bottom, #ffffff 6%, #c9c9c9 100%);">
+  <br />
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-left: 0; margin-bottom: 0; list-style: none;">
+              <a class="nav-item nav-link active" style="flex: 1 1 auto; text-align: center;" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">DAY 1</a>
+              <a class="nav-item nav-link" style="flex: 1 1 auto; text-align: center;" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">DAY 2</a>
+              <a class="nav-item nav-link" style="flex: 1 1 auto; text-align: center;" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">DAY 3</a>
+              <a class="nav-item nav-link" style="flex: 1 1 auto; text-align: center;" id="nav-day4-tab"    data-toggle="tab" href="#nav-day4"    role="tab" aria-controls="nav-day4"    aria-selected="false">DAY 4</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <table class="table table-striped table-bordered">
+              <tr>
+                <td>TIME</td>
+                <td class="active text-center heading-bold" colspan="6">TUESDAY, JULY 18, 2023</td>
+<tr>
+<td class="time-row">07:00</td>
+<td class="cell-dabney text-center" colspan="6">Registration Check-in and Continental Breakfast<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:00</td>
+<td class="cell-baxterlh text-center" colspan="6">Welcome and Logistics<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:30</td>
+<td class="cell-baxterlh text-center" colspan="6">Keynote: Laurie Leshin<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">09:15</td>
+<td class="cell-baxterlh text-center" colspan="6">Keynote: Katherine Bouman<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:00</td>
+<td class="cell-dabney text-center" colspan="6">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:15</td>
+<td class="cell-white">
+</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Fielding dependable autonomous systems for space science missions
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Components, Radiation, Packaging
+</span>
+<ul>
+<li>
+SEFI Mitigation Middleware Radiation Test Results for NASA and Other GPU Applications
+ (<a href="#abstract-2425" data-toggle="collapse">abstract</a>)
+<div id="abstract-2425" class="collapse">
+<p>Emerging space mission requirements for complex autonomous operations, high-end sensor processing, swarm/constellation management, planetary/lunar landing, and autonomous exploration missions, etc. require processing requirements that rad-hard processors cannot achieve and fault tolerance requirements that COTS processors alone cannot meet. Troxel Aerospace’s SEFI/SEU Mitigation Middleware (SMM) provides a path to enabling these types of missions by allowing high-performance COTS processors to operate with a high degree of fault tolerance without the need for rad-hard electronics, and thus simultaneously meet advanced mission criticality and performance requirements. Troxel Aerospace has demonstrated operate-through capability through extensive radiation testing on multicore processors and GPUs, most recently for several critical missions including astronaut displays for NASA Johnson and a few DoD missions.  This presentation will highlight SMMs history, features, recent radiation test results, and upcoming missions.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 4th Augmented, Virtual, and Mixed Realities
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Applications for In-Space Assembly and Servicing
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SCC: Computing Architectures
+</span>
+<ul>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">11:45</td>
+<td class="cell-dabney text-center" colspan="6">LUNCH<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">13:30</td>
+<td class="cell-white">
+<span style="font-weight:bold">
+SpaceVPX Interoperability Working Group Meeting
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Fielding dependable autonomous systems for space science missions
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Components, Radiation, Packaging
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 4th Augmented, Virtual, and Mixed Realities
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Applications for In-Space Assembly and Servicing
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SCC: Computing Architectures
+</span>
+<ul>
+<li>
+Performance Evaluation of the Radiation-Tolerant NVIDIA Tegra K1 System-on-Chip
+ (<a href="#abstract-9164" data-toggle="collapse">abstract</a>)
+<div id="abstract-9164" class="collapse">
+<p>Radiation-hardened (rad-hard) processors are designed to be reliable in extreme radiation environments, but they typically have lower performance than commercial-off-theshelf (COTS) processors. For space missions that require more computational performance than rad-hard processors can provide, alternative solutions such as COTS-based systems-on-chips (SoCs) may be considered. One such SoC, the NVIDIA Tegra K1 (TK1), has achieved adequate radiation tolerance for some classes of space missions. Several vendors have developed radiationtolerant single-board computer solutions targeted primarily for low Earth orbit (LEO) space missions that can utilize COTSbased hardware due to shorter planned lifetimes with lower radiation requirements. With an increased interest in spacebased computing using advanced SoCs such as the TK1, a need exists for an improved understanding of its computational capabilities. This research study characterizes the performance of each computational element of the TK1, including the ARM Cortex-A15 MPCore CPU, the NVIDIA Kepler GK20A GPU, and their constituent computational units. Hardware measurements are generated using the SpaceBench benchmarking library on a TK1 development board. Software optimizations are studied for improved parallel performance using OpenMP for CPU multithreading, ARM NEON for single-instruction multiple-data (SIMD) operations, Compute Unified Device Architecture (CUDA) for GPU parallelization, and optimized Basic Linear Algebra Subprograms (BLAS) software libraries. By characterizing the computational performance of the TK1 and demonstrating how to optimize software effectively for each computational unit within the architecture, future designers can better understand how to successfully port their applications to COTS-based SoCs to enable improved capabilities in space systems. Experimental outcomes show that both the CPU and GPU achieved high levels of parallel efficiency with the optimizations employed and that the GPU outperformed the CPU for nearly every benchmark, with single-precision floating-point (SPFP) operations achieving the highest performance.</p>
+</li>
+<li>
+Performance modeling of a heterogeneous computing system based on the UCIe Interconnect Architecture
+ (<a href="#abstract-8702" data-toggle="collapse">abstract</a>)
+<div id="abstract-8702" class="collapse">
+<p>In a heterogeneous computing environment, there exist a variety of computational units such as multicore CPUs, GPUs, DSPs, FPGAs, Analog modules, and ASICs. IP Vendors, Engineers, and Scientists working with heterogeneous computing systems face numerous challenges, including integration of IP Cores and components from different vendors, system reliability, hardware-software partitioning, task mapping, the interaction between compute and Memory, and reliable communication.
+For advanced designs, the industry typically develops a system-on-a-chip (SoC), where different functions are shrunk at each node and pack them onto a monolithic die. But this approach is becoming more complex and expensive at each node. Another way to develop a system-level design is to assemble complex dies in an advanced package. Chiplets are a way of modularizing that approach. Chiplets can be combined with other chiplets on an interposer in a single package. This provides several advantages over a traditional system on chip (SoC) or integrated board, in terms of reusable IP, heterogeneous integration, and verifying die functional behavior. 
+In our work, a system-level model composed of chiplets- IO Chiplet, Low Power Core Chiplet, High-Performance Core Chiplet, audio video Chiplet, and Analog chiplet, are interconnected using Universal Chiplet Interconnect Express (UCIe) standard. We looked at different scenarios and configurations including advanced and standard packages, different traffic profiles, sizing of resources, and Retimer to extend the reach and evaluate events on timeout. We were able to identify the strengths and weaknesses of UCIe interconnect in the scope of mission applications and obtain the optimal configuration for each of the subsystems to meet the performance, power, and functional requirements.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:00</td>
+<td class="cell-baxterlh text-center" colspan="6">SCC: Extreme Environments<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:15</td>
+<td class="cell-white text-center" colspan="6">SpaceVPX Interoperability Working Group Meeting<br>
+<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:30</td>
+<td class="cell-dabney text-center" colspan="6">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:45</td>
+<td class="cell-white">
+</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Fielding dependable autonomous systems for space science missions
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+CHIPS Act Panel
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 4th Augmented, Virtual, and Mixed Realities
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Applications for In-Space Assembly and Servicing
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+</td>
+</tr>
+<tr>
+<td class="time-row">17:00</td>
+<td class="cell-baxterlh text-center" colspan="6">Sponsored Talk: Microchip<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">17:45</td>
+<td class="cell-dabney text-center" colspan="6">Reception/Poster Session<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+<li>
+Supporting On-Demand Communications for NASA's Deep Space Network
+ (<a href="#abstract-6731" data-toggle="collapse">abstract</a>)
+<div id="abstract-6731" class="collapse">
+<p>Current scheduling of NASA’s Deep Space Network is laborious and static. The DSN is fully pre-scheduled where many users rely on a stable schedule to plan their own spacecraft activities, weeks and months in advance of execution. However, new classes of missions are emerging that may not need to be scheduled as far in advance, and may be event-driven in coming across science targets at unpredictable times. As such, a static DSN schedule may not be the best option for these types of missions. As part of an investigation into how these more autonomous missions could efficiently utilize DSN resources, we have been exploring and prototyping the infusion of a ”demand access” model into the DSN scheduling process. These users could take advantage of an on-demand mechanism to download data. In this paper, we describe a prototype of the demand access process which consists of reserving blocks of shared antenna time (demand access tracks) and utilizing special ”beacon” tracks to request access to those blocks. Furthermore, we dive into a proposed solution for how to best schedule the beacon tracks using an aggregated value function in order to minimize data latency and track starvation.</p>
+</div>
+</li>
+<li>
+Voice Control System for Human Spaceflight
+ (<a href="#abstract-6205" data-toggle="collapse">abstract</a>)
+<div id="abstract-6205" class="collapse">
+<p>Voice Control has been identified as a potential human-computer interface (HCI) candidate for Human Spaceflight. It may be a viable HCI solution to address the risk that the Human Research Program has identified for future space missions-small crews, complex systems to control, and long communication delays with mission control. At NASA, voice control is being investigated to aid crew members in extravehicular activity (EVA) procedures, automate command/control environments, interface with RFID chips to query for misplaced items, space-to-ground communication, speech-to-text transcription, and substitution for ground support. While speech recognizers are becoming more common in Earth-bound environments, space flight can present a unique and challenging physical &amp; acoustical environment. Due to the time delays to/from the moon and more so Mars, terrestrial-type server farm solutions in space are not possible. Rather, every artificially intelligent system must be 100% offline in a cloudless solution - where 100% offline is defined as not dependent on a server farm such as used for Siri, Alexa, or Google.</p><p>Not only is a lack of a cloud-based speech control infrastructure a challenge to overcome in space flight, but current and future spaceflight missions do not have the luxury of extensive network bandwidth as we do on Earth. Network constraints requiring minimum bandwidth consumption often result in lower quality voice communications. Voice communication is deemed a critical component in every human spaceflight mission, yet crew member speech that has been compressed and coupled with various acoustic background noise can be difficult to understand. If compressed and noisy audio is processed by a speech recognition system, it may be prone to errors.</p><p>When building voice control for human spaceflight, a system needs to denoise crew member speech that includes high background noise, stationary and non-stationary acoustic noise, and adapts for reverberation within different environments. Reverberation varies between space suits with helmet bubbles, tight spaces inside rovers, or crew member habitat construction on different planets making common speech recognition difficult to adapt to the diverse acoustical environments. Current commercially available speech recognition engines are not tuned to spacecraft acoustic environments. To make matters more difficult, there is typically limited training data available which is necessary to improve performance within spacecraft and spacesuit systems. For extra-vehicular activities, a helmet creates a challenging reverberant  acoustical environment that can smear spoken words-making it problematic for the speech recognition system to understand what was said. Therefore, commands, acronyms, background noise, and other acoustical factors make voice control in human spaceflight a unique problem to overcome.</p><p>Finally, another key challenge to overcome is radiation hardness. Any on premise solution for speech recognition that is offline and works in Earth doesn’t necessarily mean it will work in space due to radiation effects on the computer processing unit (CPU). Current radiation tolerant CPUs pose a challenge for voice control due to lack of processing power and speed for a query to be processed.</p><p>This presentation will cover key challenges when developing voice control applications for human spaceflight. Next, the efforts that various teams at the Johnson Space Center are undergoing to find viable solutions for voice control in deep space missions are given. Finally, an explanation on why voice control is imperative to human spaceflight if mankind wants to engage in deep space missions. For instance, a spaceflight specific voice control system could be most useful when ground communication has a long latency or is nonexistent and crew members need artificially intelligent aid or ground support substitution to perform long duration missions.</p>
+</div>
+</li>
+<li>
+AI and Data-Driven In-situ Sensing for Space Digital Twin
+ (<a href="#abstract-1627" data-toggle="collapse">abstract</a>)
+<div id="abstract-1627" class="collapse">
+<p>The formation and evolution of giant planets define the dominant characteristics of our planetary system. The giant-planet exploration can improve the understanding of heat flow, radiation balance, chemistry and can work as ground truth for exoplanets. Atmospheres of giant planets are larger and, in many respects, but simpler than that of Earth. Studying giant planets’ atmospheres and environments can serve as laboratories for the Earth atmosphere's fundamental physical and dynamical processes. On the other hand, exploring the relevant environments that affect the Earth's atmosphere can help us develop a sound technical and scientific basis in giant planets. Particularly, climate change on Earth is central to the question of understanding the roles of physics, geology, and dynamics in driving atmospheres and climates on Jupiter.</p><p>While Juno Mission has significantly enhanced our understanding of the Jovian atmosphere in every orbit through remote sensing, in-situ observations are essential for validating the models, studying the composition, and capturing the dynamic processes of gas giants. The singular in-situ observation made by the Galileo Probe in 1995 has a major disagreement with standard Jovian atmospheric models, making scientists believe the entry site may happen to be one of the least cloudy areas on Jupiter. This suspicion exhibits a strong limitation of free-fall probing. A logical next step, then, would be a mission with actively controllable probes that stay in the atmosphere of a gas giant for an extended duration. The 2016 NIAC Phase I study on ``WindBots'' by Stoica et al. found that an adaptive wing glider and a lightweight, quasi-buoyant vehicle would be a viable option by obtaining a lift from updrafts, however, autonomously navigating in the highly uncertain and turbulent flow field remains a major challenge. </p><p>The closest terrestrial analog to Jupiter's atmosphere would be the tropical cyclones (TCs) on the Earth. Although the formation mechanism of a TC is very different from GRS on Jupiter, the resulting phenomenon, represented by highly turbulent and strong wind field as well as its localized and dynamic nature, are similar, hence providing a suitable test ground for future missions to Jupiter's atmosphere. This paper develops an autonomous small unmanned aircraft system (sUAS) in-situ TC sensing, through the simulated environment of cooperative control of distributed autonomous multiagent systems deployed into the eye of TC. The main objective is to test various observing systems from single and multiple sUAS platforms close to the eyewall of the storm to capture essential measurements to be used in explaining the Jovian environment. Preliminary results demonstrated successful sUAS flight optimization for maximizing improvement of the quality of key measurements (e.g., 3-dimensional wind velocity, pressure, temperature, and humidity). Simulated sUAS flight toward the inner core of the TC boundary layer made high-resolution meteorological observations and supplemented existing partial knowledge for a better estimate of the TC intensity. This was a great addition to the task of testing sUAS technology, but a few methods have focused on the critical region of the storm environment and no data-driven optimal system design was developed to gain more information through exploring target locations. Anticipatory sUAS routing lowered the overall energy usage and maximized the reduction of forecasting error by exploring and sampling unobserved cells along the path to a target location. </p><p>This paper analyzes how online updating from sUAS collected meteorological data would benefit hurricane intensity forecasting considering the temporal variation of the uncertainty. Unobserved heterogeneity and randomness of the data have shown multiple modes in probability distribution in each location. A huge collection of multiple sources of granular microscopic data in each location may result in the loss of multivariate information if not retrieved properly. It is important to quantify the uncertainty of prior belief and update posterior when critical observations are obtained. However, traditional entropy theory cannot handle i) sequential learning multimodal multivariate information; ii) dynamic spatiotemporal correlation; iii) importance of observation for posterior approximation. In this paper, we advance autonomous in-situ sensing under highly uncertain and turbulent flow through a multi-variate multi-modal learning by analyzing the similarities between the different types of mixture distributions of multiple variables and allocating a cluster to each group across high dimensional time and space. Specifically, this paper can track structural information flow of temporal multi-variate multi-modal correlation data and automatically update the posterior, with the weights to the new observations through an iterative process. Extensive experiments on hurricane ensemble forecasting data demonstrate the superior performance of our method over the state-of-the-art baselines across various settings.</p>
+</div>
+</li>
+<li>
+Sequential Deep Learning for Mars Autonomous Navigation
+ (<a href="#abstract-3433" data-toggle="collapse">abstract</a>)
+<div id="abstract-3433" class="collapse">
+<p>Recent advances in computer vision for space exploration have handled prediction uncertainties well by approximating multimodal output distribution rather than averaging the distribution. While those advanced multimodal deep learning models could enhance the scientific and engineering value of autonomous systems by making the optimal decisions in uncertain environments, sequential learning of those approximated information has depended on unimodal or bimodal probability distribution. In a sequence of information learning and transfer decisions, the traditional reinforcement learning cannot accommodate the noise in the data that could be useful for gaining information from other locations, thus cannot handle multimodal and multivariate gains in their transition function. Still, there is a lack of interest in learning and transferring multimodal space information effectively to maximally remove the uncertainty. In this study, a new information theory overcomes the traditional entropy approach by actively sensing and learning information in a sequence. Particularly, the autonomous navigation of a team of heterogeneous unmanned ground and aerial vehicle systems in Mars outperforms benchmarks through indirect learning.</p><p>Formulating a cost function with an appropriate valuation of information is necessary when knowledge of the information in one time and/or space gives conditional attributes of information in another time and/or space. This model, Sequential Multimodal Multivariate Learning (SMML) outputs informed decisions, conditioned on the cost of exploration and benefit of uncertainty removal. For instance, given an observable input, SMML is trained to infer posterior from samples taken from the same multimodal and multivariate distribution, approximate gains, and make optimal decisions. The utility is the usual metric to be optimized based on the difference between prior and posterior tasks, and it tells us how well the model is improving the data distribution after observation. Recall that, in general, it does not suffice to learn from average values like in the standard reinforcement learning problem to solve this kind of task, for this reason, SMML extends the capabilities of deep learning models for reinforcement learning whose reward for each action is restricted to unimodal or univariate distributions. In highly uncertain conditions, this reduction of entropy is vital to any optimization platform employed in the robust, efficient, autonomous exploration of the search space. To overcome  Shannon's limitation in multimodal learning, we consider both standard deviation and entropy. We target cells with the highest importance of information distinguishing two cells with identical entropy, but different values of information. </p><p>Predictive routing  is effective in knowledge transfer, however, ignore information gained from probability distributions with more than one peak. Consider a network with a grid laid on top, where each cell represents a small geographical region. To find an optimal route from an origin cell to a destination, forecasting the condition of intermediate cells is critical. Routing literature did not use a location's observed data to forecast conditions at distant non-contiguous locations' unobserved data. We aggregate the data from all the grid cells and cluster cells that have similar combinations of probability distributions. When one cell of a cluster is explored, the information gained from the explored cell can partially remove uncertainty about the conditions in distant non-contiguous unexplored cells of the same cluster. With this new framework, we explore the best options to travel with partial, sequential, and mixture of information gain.</p><p>We use observations obtained en route to infer the most likely conditions in unobserved locations. While distant unobserved locations may not share any inherent correlation with locally observed locations, classification errors by the image classifier may be correlated with certain image features found in different locations on the Martian surface. By clustering pixels with similar classifications, we gather evidence en-route that either supports or fails to support the hypothesis that the image classifier is making correct classification of the different terrain types. The two-step process (clustering - posterior) updates the state estimation of un-observed locations when navigating Jezero region of Mars environments in which prior belief is provided but contains high uncertainty. During 55 out of 100 runs in the Monte Carlo simulation the optimal expected travel time path based on the prior SPOC map resulted in the rover becoming stuck due to misclassification. Real-world misclassifications are expected to be lower compared with the ground truth map used in this research. Without considering runs in which the rover would have been stuck using the prior map, the median travel time was improved by 1 hour using the posterior. Travel time in the worst case outlier performance is improved by 2.32 hours and 75% quantile performance is improved by 1.61 hours. Over a mission spanning many months, this saving adds significant additional time for scientific experiments.</p>
+</div>
+</li>
+<li>
+Lot-to-Lot Variability and TID degradation of Bipolar Transistors Analyzed with ESA and PRECEDER Databases
+ (<a href="#abstract-3084" data-toggle="collapse">abstract</a>)
+<div id="abstract-3084" class="collapse">
+<p>The NewSpace era has drastically increased the use
+of COTS (Commercial-off-the-shelf Components) to cover the
+needs of the new requirements: lower costs, shorter lead times,
+and better performances. However, the radiation risks associated
+with non-radiation hardened components are especially relevant
+in this context. Therefore, new approaches must be considered
+necessary to address this challenge for the assurance of radiation
+hardness. This work presents standard and parameterized radiation
+databases and how they can be used to numerically assess the
+critical variability from lot to lot in response to gamma radiation
+based on the coefficient of variation.</p>
+</div>
+</li>
+<li>
+Development of a Nanosatellite System Modeling Architecture for EIRSAT-1
+ (<a href="#abstract-720" data-toggle="collapse">abstract</a>)
+<div id="abstract-720" class="collapse">
+<p>This paper discusses the adaptation of Model-Based Systems Engineering (MBSE) into CubeSat lifecycle development. This adaptation involves transitioning from traditional satellite design practices to a model-based design approach by developing system models required for analysis, trade-offs, verification and validation (V&amp;V). This approach has been applied to the launch-ready CubeSat, EIRSAT-1, which has been designed and developed by students and staff at University College Dublin (UCD), Ireland. The model contains several key features and components of EIRSAT-1. This poster presents the integration and verification of the communication link between the spacecraft and the Ground Segment (GS) within an MBSE framework.</p>
+</div>
+</li>
+<li>
+Benchmark Computer Performance for Wavefront Sensing and Control on Next Generation Space Telescopes
+ (<a href="#abstract-9067" data-toggle="collapse">abstract</a>)
+<div id="abstract-9067" class="collapse">
+<p>Future planned space telescopes, such as the HabEx and LUVOIR telescope concepts and the recently proposed Habitable Worlds Observatory, will use high contrast imaging and coronagraphy to directly image exoplanets for both detection and characterization. Such instruments will achieve the ~10^10 contrast level necessary for Earth-like exoplanet imaging by controlling thousands of actuators and sensing with thousands of pixels. Updates to the wavefront control actuators will need to be computed within seconds, placing unprecedented requirements on the real-time computational ability of radiation hardened processors. In this work we characterize the wavefront sensing and control algorithms to estimate the performance based on publicly available benchmark performance for currently available space-rated processors.</p>
+</div>
+</li>
+<li>
+Coverage-guided State Space Exploration of Autonomous Cyber-Physical Systems
+ (<a href="#abstract-9661" data-toggle="collapse">abstract</a>)
+<div id="abstract-9661" class="collapse">
+<p>Autonomous Cyber-Physical Systems (CPS) play a substantial role in many domains, such as aerospace, transportation, critical infrastructure, and industrial manufacturing. However, despite the popularity of autonomous CPS, their susceptibility to errant behavior is a considerable concern for safety-critical applications.</p><p>Testing and simulation is the most common method used in practice to ensure correctness of autonomous CPS. This is because of its ability to scale to complex systems. In many domains, CPS complexity and scalability have been exponentially growing and will continue to expand in the future due to rapid integration with machine learning components and growing autonomy level such as unmanned aerial vehicles or self-driving cars.</p><p>Traditional software test methodologies extensively depending on code coverage are expensive, difficult to manage, and ineffective in verifying CPS behavior. Moreover, these test methodologies suffer flexibility absence where dynamical CPS control requirements and plant parameters are evolving through continuous state space and time.</p><p>We investigate ways to improve automated test case generation for autonomous CPS by Coverage Guided State Space Exploration, which systematically generates trajectories to explore desired (or undesired) outcomes. For this, we introduce a novel coverage metric and integrate this metric with various techniques, such as fuzz testing or model predictive control (MPC) to generate test cases.</p>
+</div>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+							</tr>
+						</table>
+					</div>
+					<div class="tab-pane" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<table class="table table-striped table-bordered">
+							<tr>
+								<td class="time-row">TIME</td>
+								<td class="active text-center heading-bold" colspan="5">WEDNESDAY, JULY 19, 2023</td>
+							</tr>
+<tr>
+<td class="time-row">07:00</td>
+<td class="cell-dabney text-center" colspan="5">Registration Check-in and Continental Breakfast<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:00</td>
+<td class="cell-baxterlh text-center" colspan="5">Welcome and Logistics<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:30</td>
+<td class="cell-baxterlh text-center" colspan="5">Keynote: Bethany Ehlmann<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">09:15</td>
+<td class="cell-baxterlh text-center" colspan="5">Keynote: Rachel Klima<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:00</td>
+<td class="cell-dabney text-center" colspan="5">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:15</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Acknowledging and Alleviating Uncertainties in Autonomous Systems
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Flight Data Processing
+</span>
+<ul>
+<li>
+System model evaluation of RISC-V cores for improved performance and fault tolerance 
+ (<a href="#abstract-5813" data-toggle="collapse">abstract</a>)
+<div id="abstract-5813" class="collapse">
+<p>As aerospace and defense firms are working towards developing future air and space platforms, decisions involving which hardware and software elements to use in their design needs to be made. One significant design choice is the underlying instruction set architecture (ISA) that defines the          interface between the software and hardware for a processor. A relatively new ISA called RISC-V has emerged as an open source alternative to commercial ISAs. Verifiable security, frozen base specification for long-term stability, designed for extensibility and no license fee for modifications makes RISC-V particularly well suited for aerospace and defense applications. 
+It is important for the architect to evaluate not only the RISC-V core but the interaction of the core with other subsystems, data accesses, and interrupts, in the scope of target application at early design stages inorder to minimize design bugs, reduce cost and optimize design.  In this work, we developed the system models of not only the RISC-V core but also the entire SoC where the RISC-V cores were plugged in. Using the system model, we are able to run target applications/benchmarks on RISC-V core and evaluate the performance and power for different clock frequencies, custom instructions, topology, cache associativity degrees, cache replacement policies, cache sizes, write back policies, bus width, buffer sizes, bus speeds, memory types, memory width, and interconnect protocols like the TileLink. For each of the system model run, the simulation model generates various statistics including details on pipeline stalls, pipeline utilization, execution unit utilization, execution unit buffer occupancy, instruction and data cache accesses, cache hit ratio, number of evictions, write backs, memory throughput, cycles per instruction, memory access latency and network latency. 
+Using the system model, we were able to obtain debug logs from each SoC subsystems including the RISC-V cores. Using the pipeline traces for each instruction, we able to verify the behaviour of custom instructions which were introduced to improve our application performance. Performance and functional requirements were provided as input to the system model and faults were injected into the system model to determine the expected performance of the system under failure. Our SoC design was then updated to improve the fault tolerance and application performance by 30% under faults by adding redundant cores and error correction mechanisms, based on early results.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: Space Robotics Software Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+SMC-IT: XAI and Space Clouds Symposium
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SMC-IT: Security
+</span>
+<ul>
+<li>
+WannaFly: An Approach to Satellite Ransomware
+ (<a href="#abstract-4908" data-toggle="collapse">abstract</a>)
+<div id="abstract-4908" class="collapse">
+<p>Ransomware is a prevailing concern across sectors, wreaking havoc on operations and causing cascading failures - often cyber-physical in nature. The space sector has not been immune to ransomware attacks; however, there has yet to be a publicly disclosed ransomware built for a space vehicle itself. A ransomware attack against a space vehicle would need to be carefully crafted to mitigate the risk of destroying the underlying functionality of the spacecraft, while still achieving its purpose - denying access until a ransom is paid. Through static code analysis, this paper proposes an approach for deploying a ransom attack against a space vehicle that engages NASA's core Flight System (cFS).</p>
+</li>
+<li>
+Space Flight Software Security Concerns
+ (<a href="#abstract-5516" data-toggle="collapse">abstract</a>)
+<div id="abstract-5516" class="collapse">
+<p>Space flight software is no longer a closely guarded secret for space vehicle developers, owners and operators - it is open-sourced and available as a commercial-off-the-shelf module. Despite its wide availability, limited security research has been conducted on flight software in an unclassified environment. This paper proposes a research agenda that outlines critical challenges for space flight software and proposes a series of research and development efforts that could ultimately aid in developing inherently secure space vehicles.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">11:45</td>
+<td class="cell-dabney text-center" colspan="5">LUNCH<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">13:30</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Acknowledging and Alleviating Uncertainties in Autonomous Systems
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Flight Data Processing
+</span>
+<ul>
+<li>
+Challenges in FPGA Design for Complex, High Performance Space Applications
+ (<a href="#abstract-4795" data-toggle="collapse">abstract</a>)
+<div id="abstract-4795" class="collapse">
+<p>Field Programmable Gate Array (FPGA) technology has been used extensively in space applications where the natural radiation environment presents major challenges to electronic parts. Commercial FPGA technology is trending to deep nano-meter silicon processes, which impacts the availability of radiation resilience FPGA chips.  Space systems require long timeframes for development and launch, and often the electronics and code may become obsolete or require updating before the system can be launched. FPGA logic/fabric-size continues to grow dramatically which allows and practically requires more and more IP cores to be integrated within a chip.  New IP cores and tools will be needed to enable space designs with commercial FPGA technology to withstand radiation. This paper discusses the challenges in designing FPGA-based space systems and potential open-source and commercial technologies that will be useful to space application developers. It also references an ongoing FPGA based space telescope spectrometer design to discuss different aspects of complex FPGA design with mixed analog and digital circuits.</p>
+</li>
+<li>
+HPC in a Vacuum: Evaluating Future Space Microprocessors
+ (<a href="#abstract-194" data-toggle="collapse">abstract</a>)
+<div id="abstract-194" class="collapse">
+<p>Advanced algorithms dictated by future mission needs are pushing space-borne computing requirements. Current platforms used in manned and unmanned spaceflight are limited by the intersection of radiation tolerance, power consumption, computing performance and safety critical features. Until recently, advanced instruction set architectures (ISAs), algorithm specific instructions, high speed external interfaces and high performance on-chip networks were eschewed from processor designs and current production spacecraft processors are based on past computing paradigms.</p><p>Advances in processor manufacturing, emerging ISAs and machine learning techniques will significantly impact future system-on-chip (SoC) designs, enabling true high-performance space computing. To better understand the computational requirements of modern spacecraft, a comprehensive set of benchmarks that include basic system characterization, high performance computing, navigation and landing, image recognition, route finding, data mining and machine learning are necessary to characterize candidate architectures. The analysis of these space flight focused algorithms will drive the design of next generation space computing SoCs.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: Space Robotics Software Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SMC-IT: Security
+</span>
+<ul>
+<li>
+How to Scrub a Launch: Spaceport Cybersecurity
+ (<a href="#abstract-8570" data-toggle="collapse">abstract</a>)
+<div id="abstract-8570" class="collapse">
+<p>Access to space is increasingly fundamental to our modern world. Launch volume is rapidly increasing annually, requiring increasing spaceport and ground support capabilities. The design, ownership, and operation of spaceports are bespoke, where their cybersecurity considerations are always an afterthought. This paper focuses on the critical role spaceports play in the access to space and their vulnerabilities to cyber attacks.  Further, it demonstrates that without strong cybersecurity, adversaries can easily deny access to space.</p>
+</li>
+<li>
+Web-based 3D Visualization for Flight Mission Network Cybersecurity Analysis
+ (<a href="#abstract-3470" data-toggle="collapse">abstract</a>)
+<div id="abstract-3470" class="collapse">
+<p>The Cyber Analysis Visualization Environment (CAVE) software system is a collaboration between the Systems Engineering and Mission Systems and Operations Divisions at JPL. CAVE is an easy to use, model-based cyber threat visualization, analysis, and assessment platform designed to respond to the growing threat of cyber attacks targeting space missions. CAVE was originally designed and developed as a Python-based desktop application with integrated 3D visualization, user interface, and a cyber analysis engine, before a recent redesign to the current client/server web-based application architecture. This new client/server web application architecture allows users to use CAVE on multiple platforms, requiring minimal or no software installation on their local systems while still allowing for a level of customizability at the user level. CAVE’s client/server architecture ensures that sensitive or proprietary data always resides securely on the CAVE analysis server, thereby avoiding the storage of any sensitive data on the end user‘s local machine. At the high level, the CAVE web server exposes a REST API to allow the web GUI to communicate with the analysis engine. The web server has user authentication capabilities, and restricts access to model data based on the assigned group of the authenticated user. The server is architected with a plugin structure in mind for analyses, so that anyone opting to deploy the CAVE server can easily write and deploy additional model analyses. Model data is stored in a Mongo database and delivered to the client via authenticated HTTPS request. The client handles all interactions with the web server and provides feedback to the user on the status of server requests. CAVE’s web-browser user interface provides an intuitive, 3D presentation of complex network models, containing both physical and virtual network assets, which allows mission cybersecurity engineers to easily swap between a selection of visual layouts and execute a variety of cybersecurity analyses algorithms designed to help users better understand possible network vulnerabilities and defenses. This web-based user interface model allows for ease of expansion and potential future additions to the user experience, including real-time collaboration and sharing capabilities, and the interactive exploration of large cybersecurity datasets. In this paper we present CAVE's software architecture and use cases, and discuss CAVE's value as an intuitive tool for cyber threat identification and assessment.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:00</td>
+<td class="cell-dabney text-center" colspan="5">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:15</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Acknowledging and Alleviating Uncertainties in Autonomous Systems
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Flight Data Processing
+</span>
+<ul>
+<li>
+A System to Provide Deterministic Flight Software Operation and Maximize Multicore Processing Performance: The Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) Datapath
+ (<a href="#abstract-8266" data-toggle="collapse">abstract</a>)
+<div id="abstract-8266" class="collapse">
+<p>A method and design are described for a system that
+processes multiple data streams, utilizing a multicore asymmetric
+processing architecture, that eliminates data interrupts to the
+application processors. The design supports a deterministic
+environment for flight software in NASA’s Safe and Precise
+Landing – Integrated Capabilities Evolution (SPLICE) project.
+The SPLICE project develops sensor, algorithm, and compute
+technologies for Precision Landing and Hazard Avoidance
+(PL&amp;HA) capabilities. The compute technology for SPLICE is the
+Descent and Landing Computer (DLC). The DLC hosts several
+SPLICE algorithms with high computational resource
+requirements that must be executed in a real-time and
+deterministic manner. The software runs on a custom Single
+Board Computer (SBC), with a Xilinx Ultrascale+ Multiprocessor
+System-on-a-Chip (MPSoC). Input data for the flight software is
+from a variety of sensors, unique with respect to data rate and
+packet size. A data path between the SPLICE sensors and
+algorithms is designed to efficiently deliver this data to the flight
+software using the MPSoC asymmetric processing cores and Field
+Programmable Gate Array (FPGA) fabric. This is implemented
+in a manner that isolates the application processors running the
+flight software from interrupts associated with the input data. By
+leveraging real-time processors on the MPSoC, and a structure
+with the appropriate interfaces in the shared memory on the SBC,
+the flight software can use the full set of application processors.
+The available utilization for each processor in this set is also
+maximized for the SPLICE applications, providing a sufficiently
+deterministic execution environment without the cost and
+overhead of a real-time operating system.</p>
+</li>
+<li>
+The ring-buffer ROS2 executor: a novel approach for real-time ROS2 Space applications.
+ (<a href="#abstract-7317" data-toggle="collapse">abstract</a>)
+<div id="abstract-7317" class="collapse">
+<p>ROS2 (Robot Operating System Version 2) is an open-source software framework and suite of libraries that facilitates robotics application development and multi-core processing. ROS2 is becoming the de-facto standard for autonomous robotics application and recently, with the sponsorship of NASA and Blue Origin, space-ros -a pre-qualified implementation of ROS2- it is also started to be used for Space autonomous applications, like landers and space robotics. </p><p>ROS2 data workflow design has been thought out to provide a robust and uniform access to sensor data via different supported middleware including DDS and memory sharing solutions. While this design has largely simplified the development effort required to write applications based on ROS2, the processing performance has been compromised and it is not uncommon to face long latencies in receiving sensor data or even non-negligible data losses.</p><p>The ROS2 community -and specifically the Real-Time Working Group (RTWG)- has made a big effort in trying to improve this situation that resulted in the creation of the Static Single Thread and the Multi-thread Executors. These executors have yielded substantial performance improvements for some specific scenarios respectively. However, the community has been unable to find a general approach to solve the performance bottlenecks in ROS2 and has left to the developer to find the optimal combination of executors for the use case at hand.</p><p>Other industries like the financial industry have reached ground-breaking speed by parallelization of data processing algorithms that enable real-time applications based on the so-called lock-free programming technique. This technique, although very complex to program efficiently, can yield performance results when used appropriately.
+The authors of this paper have implemented a lock-free ring-buffer and validated it in different onboard computers with outstanding performance results for sensor data aggregation, processing, and even artificial intelligence.</p><p>The research presented here shows a ROS2 executor implemented of our lock-free ring-buffer that can not only increase by several times the data processing rate with respect to the above-mentioned executors, but also reduce the processing consumption substantially. Moreover, a ROS2 multi-node approach of this executor has been implemented combined with offline optimization based in genetic algorithms, that can improve the performance of virtually any scenario for ROS2 applications.</p><p>Successful performance results of this novel ring-buffer ROS2 executor and the multi-node variation are presented using the so-called reference system and validated in several Space computers including Unibap's iX5, Teledyne e2v's LS1046 and Xilinx Ultrascale+.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: Space Robotics Software Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SMC-IT: Autonomy and Learning
+</span>
+<ul>
+<li>
+Ablation Study of How Run Time Assurance Impacts the Training and Performance of Reinforcement Learning Agents
+ (<a href="#abstract-3799" data-toggle="collapse">abstract</a>)
+<div id="abstract-3799" class="collapse">
+<p>Reinforcement Learning (RL) has become an increasingly important research area as the success of machine learning algorithms and methods grows. To combat the safety concerns surrounding the freedom given to RL agents while training, there has been an increase in work concerning Safe Reinforcement Learning (SRL). However, these new and safe methods have been held to less scrutiny than their unsafe counterparts. For instance, comparisons among safe methods often lack fair evaluation across similar initial condition bounds and hyperparameter settings, use poor evaluation metrics, and cherry-pick the best training runs rather than averaging over multiple random seeds. In this work, we conduct an ablation study using evaluation best practices to investigate the impact of Run Time Assurance (RTA), which monitors the system state and intervenes to assure safety, on effective learning. By studying multiple RTA approaches in both on-policy and off-policy RL algorithms, we seek to understand which RTA methods are most effective, whether the agents become dependent on the RTA, and the importance of reward shaping versus safe exploration in RL agent training. Our conclusions shed light on the most promising directions of SRL, and our evaluation methodology lays the groundwork for creating better comparisons in future SRL work.</p>
+</li>
+<li>
+The DART Autonomy System  
+ (<a href="#abstract-5214" data-toggle="collapse">abstract</a>)
+<div id="abstract-5214" class="collapse">
+<p>This paper describes the Autonomy System that flew on the Double Asteroid Redirection Test (DART) mission. A detailed description of the rules-based logic is provided, including the heritage of the system, how it was tailored to meet DART’s fault management philosophy, build process, testing, and necessary in-flight updates. The purpose of the Autonomy software was to implement fault protection against components’ off-nominal behaviors and to implement a safing strategy designed to place the spacecraft in a known, safe configuration in response to critical faults while Mission Operations worked on a resolution. Aside from maintenance and fault protection tasks, the onboard Autonomy software was key to guaranteeing the execution of time-critical sequences during the mission. The resulting system was also instrumental in being the tool of choice to address anomalies in other subsystems that were discovered as early as a month into flight and as late as a month before impact.</p>
+</li>
+<li>
+Intelligent requirement-to-test-case traceability system via Natural Language Processing and Machine Learning
+ (<a href="#abstract-8449" data-toggle="collapse">abstract</a>)
+<div id="abstract-8449" class="collapse">
+<p>Accurate mapping of software requirements-to-tests can assure high software reliability as a result of robust traceability, test coverage, and improved transparency. Software requirements change frequently across mission phases. A testable and measurable requirement maintenance and tracing are essential in all phases of mission life cycle. In a development phase, a predictable and controlled software system deployment, test, and integration can firmly support mission’s rapid innovations. In an operation phase, patches need to be applied periodically and prompt evaluation and verification turnaround are critical. By integrating and exercising Natural Language Processing (NLP) and Machine Learning (ML) assisted model-based test engineering (MBTE) many of these challenges can be overcome. This paper will present a new and novel method and lesson learned from formalizing and automating the software requirement-to-test mapping, which allows engineers to review the recommendations generated by the automated system.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">16:15</td>
+<td class="cell-baxterlh text-center" colspan="5">SCC: Distributed Computing<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+<li>
+ScOSA on the Way to Orbit: Reconfigurable High-Performance Computing for Spacecraft
+ (<a href="#abstract-2874" data-toggle="collapse">abstract</a>)
+<div id="abstract-2874" class="collapse">
+<p>The German Aerospace Center (DLR) is developing ScOSA (Scalable On-board Computing for Space Avionics) as a distributed on-board computing architecture for future space missions. The ScOSA architecture consists of commercial off-the-shelf (COTS) and radiation-tolerant nodes interconnected by a SpaceWire network.
+The system software provides services to enable parallel computing and system reconfiguration. This allows ScOSA to adapt to node errors and failures that COTS hardware is susceptible to in the space environment. In the ongoing ScOSA Flight Experiment project, a ScOSA system consisting of eight Xilinx Zynq systems-on-chip with dual-core ARM-based processors and a LEON3 radiation-tolerant processor is being built for launch on DLR's next CubeSat in late 2024. In this flight experiment, not only all 18 cores but also the programmable logic will be used for high performance on-board data processing. This paper presents the current hardware and software architecture of ScOSA. The scalability of ScOSA is highlighted from both hardware and software perspectives. We present benchmark results of the ScOSA system and experiments of the ScOSA system software on ESA's OPS-SAT in orbit in combination with a machine learning application for image classification.</p>
+</div>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">17:30</td>
+<td class="cell-white text-center" colspan="5">Reception and Dinner<br>
+Athenaeum<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">19:00</td>
+<td class="cell-white text-center" colspan="5">Dessert Talk: Matt Greenhouse<br>
+Athenaeum<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+						</table>
+					</div>
+					<div class="tab-pane" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						<table class="table table-striped table-bordered">
+							<tr>
+								<td class="time-row">TIME</td>
+								<td class="active text-center heading-bold" colspan="5">THURSDAY, JULY 20, 2023</td>
+							</tr>
+<tr>
+<td class="time-row">07:00</td>
+<td class="cell-dabney text-center" colspan="5">Registration Check-in and Continental Breakfast<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:00</td>
+<td class="cell-baxterlh text-center" colspan="5">Welcome and Logistics<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">08:30</td>
+<td class="cell-baxterlh text-center" colspan="5">Keynote: Richard "Scott" Erwin<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">09:15</td>
+<td class="cell-baxterlh text-center" colspan="5">Panel: Caroline Mercer, Victoria DaPoian, Lukas Mandrake, Florence Tan<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:00</td>
+<td class="cell-dabney text-center" colspan="5">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">10:15</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Fielding dependable autonomous systems for space science missions
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Avionics Systems
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 2nd Open Source for Space Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Space Trusted Autonomy Readiness Levels
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SMC-IT: Onboard Operations
+</span>
+<ul>
+<li>
+Modeling Data of Planetary Instrument for X-ray Lithochemistry (PIXL) for Mars 2020
+ (<a href="#abstract-5612" data-toggle="collapse">abstract</a>)
+<div id="abstract-5612" class="collapse">
+<p>NASA's Mars 2020 Mission is to study Mars' habitability and seek signs of past microbial life. The mission uses an X-ray fluorescence spectrometer to identify chemical elements at sub-millimeter scales of the Mars surface. The instrument captures high spatial resolution observations comprised of several thousand individual measured points by raster-scanning an area of the rock surface. This paper will show how different methods, including linear regression, k-means clustering, image segmentation, similarity functions, and euclidean distances, perform when analyzing datasets provided by the X-ray fluorescence spectrometer to assist scientists in understanding the distribution and abundance variations of chemical elements making up the scanned surface. We also created an interactive map to correlate the x-ray spectrum data with a visual image acquired by an RBG camera.</p>
+</li>
+<li>
+MUSTANG: A Workhorse for NASA Spaceflight Avionics
+ (<a href="#abstract-7939" data-toggle="collapse">abstract</a>)
+<div id="abstract-7939" class="collapse">
+<p>The Modular Unified Space Technology Avionics for Next Generation (MUSTANG) is a small integrated Avionics system including Command and Data Handling (C&amp;DH), Power System Electronics (PSE), Attitude Control System Interfaces (ACS), and Propulsion Electronics. The MUSTANG Avionics Architecture is built upon many years of knowledge capture and lessons learned at the Goddard Space Flight Center.  With a motivation towards modularity and keeping board redesign costs to a minimum, MUSTANG offers flexibility in features with a backplane-less design and allows the user to choose the options (cards) needed for their system. It incorporates a distributed power system that provides secondary power to all its subcomponents reducing the number of primary services needed for an Avionics. MUSTANG can be integrated into one system or divided into several smaller components. MUSTANG supports redundancy and cross-strap ability for a more robust and reliable Avionics system. A variation of MUSTANG exists for Instrument Electronics called iMUSTANG and allows the user to select functionality applicable to the instrument electronics. MUSTANG is not meant to replace Avionics for all spacecraft. There are limitations due to its relatively compact size, but the MUSTANG design has proven broadly applicable on many spacecraft and instrument bus avionics architectures.</p>
+</li>
+<li>
+A data pre-processing module for improved-accuracy Machine-Learning-based micro-Single-Event-Latchup detection
+ (<a href="#abstract-8924" data-toggle="collapse">abstract</a>)
+<div id="abstract-8924" class="collapse">
+<p>Single-event-latchup (SEL) in a semiconductor device is an undesirably induced high current state, typically rendering the affected device to be non-functional and compromising its operating lifetime.  The lower-current SEL phenomenon – the micro-SEL – is often difficult to detect, particularly when the normal operating current of the protected device is variable and the magnitude of micro-SEL currents is different under different operating conditions.  In Machine-Learning (ML), the said variable current inadvertently affects the multiple features of the input current profile required for micro-SEL detection, thereby severely reducing the detection accuracy.  
+In this paper, we propose a data pre-processing module to improve the accuracy of the ML-based micro-SEL detection under the aforesaid current conditions.  The proposed pre-processing module encompasses the following.  Prior to classification by ML, the input current profile is processed by a data pre-processing module employing a proposed background subtraction algorithm and proposed adaptive normalization algorithm.  By filtering the irrelevant base current and normalizing the micro-SEL current based on the base current value, the data pre-processing module provides improved accurate features of the input current profile and widens the difference between normal samples and micro-SEL samples in the feature space.  Ultimately, the proposed module facilitates ML algorithms to generate a more accurate decision boundary.  The outcome is a worthy ~13% accuracy improvement (from ~79% to ~92%) in the micro-SEL detection in a device operating with variable currents.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">11:45</td>
+<td class="cell-dabney text-center" colspan="5">LUNCH<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">13:00</td>
+<td class="cell-baxter">
+<span style="font-weight:bold">
+Workshop: Fielding dependable autonomous systems for space science missions
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Avionics Systems
+</span>
+<ul>
+<li>
+Trustworthy Autonomy for Gateway Vehicle System Manager
+ (<a href="#abstract-6155" data-toggle="collapse">abstract</a>)
+<div id="abstract-6155" class="collapse">
+<p>The Vehicle System Manager (VSM) is the highest-level software control system in the Gateway hierarchical Autonomous System Management Architecture (ASMA). A key objective in ASMA design is to focus on infrastructure and systems to allow autonomous operations aboard Gateway. VSM will integrate modules and visiting vehicles to assist ground controllers and onboard crew in operation of Gateway as the head of a distributed and hierarchical system.
+    The VSM provides four function categories: Mission Management and Timeline Execution, Resource Management, Fault Management, Vehicle Control and Operation. VSM provides various levels of automation ranging from fully autonomous operations with no flight crew and minimal ground monitoring to advisory automation when Gateway is crewed and has full ground monitoring. Trustworthiness is achieved via verified specification, comprehensive development verification, and real-time verification using assume-guarantee contracts (AGCs).
+   VSM is heavily data-driven. Development verification includes semantic verification of the data model via peer review and testing. Development AGCs are implemented using the PlusCal/TLA+ environment to model key state machines with the AGCs implemented as assertions and linear temporal logic formulas, checked using the TLC model checker.
+    VSM uses runtime AGCs, implemented in R2U2 using assertions in propositional logic and guarantees in mission-time linear temporal logic (MLTL).  R2U2 was selected because it permits formulas to be written in a mathematically concise, unambiguous notation. Additionally R2U2 is optimized for speed and size and the inferencing engine has been proven correct with respect to the operator space. R2U2 is integrated in VSM via a runtime monitor that feeds the  necessary telemetry data to R2U2 and which receives and responds to the R2U2 verdict stream.
+     The full lifecycle verification approach and use of AGCs provides increased trustworthiness to VSM. Preliminary results provide encouragement that VSM can be both autonomous and trustworthy.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 2nd Open Source for Space Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Space Trusted Autonomy Readiness Levels
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SMC-IT: Verification and Reliability
+</span>
+<ul>
+<li>
+Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contracts
+ (<a href="#abstract-421" data-toggle="collapse">abstract</a>)
+<div id="abstract-421" class="collapse">
+<p>We present a compositional approach to modeling and analyzing space mission operation sequences with steps across multiple viewpoints. We consider different tasks such as communication, science observation, trajectory correction, and battery charging; and separate their interactions across discipline viewpoints. In each sequence step, these tasks are modeled as assume-guarantee contracts. They make assumptions on the initial state of a step, and if these assumptions are satisfied, they guarantee desirable properties of the state at the end of the step. These models are then used in Pacti, a tool for reasoning about contracts. We demonstrate a design methodology leveraging Pacti's operations: contract composition for computing the contract for the end-to-end sequence of steps and contract merging for combining them across viewpoints. We also demonstrate applying Pacti's optimization techniques to analyze the figures of merit of admissible sequences satisfying operational requirements for a CubeSat-sized spacecraft performing a small-body asteroid rendez-vous mission. We show that analyzing tens of thousands of combinations of sequences and operational requirements takes just over one minute, confirming the scalability of the approach. The methodology presented in this paper supports the early design phases, including requirement engineering and task modeling.</p>
+</li>
+<li>
+A Hybrid Space Architecture for Robust and Resilient Satellite Services
+ (<a href="#abstract-1162" data-toggle="collapse">abstract</a>)
+<div id="abstract-1162" class="collapse">
+<p>A `hybrid space architecture' has been proposed to facilitate robust and resilient satellite data downlink, integration and analysis; however, the technical details for what may comprise a hybrid space architecture are severely lacking. Thus far, `hybrid' principally entails the diversity of commercial providers. While diverse suppliers can contribute to hybrid space architectures, we argue that robustness and resilience will only be achieved through heterogeneous network and asset architectures.  A connected satellite services ecosystem composed of the union of different networks with different characteristics would limit single points of failure, thereby generating high levels of redundancy, resilience and scalability. This research outlines parameters of a hybrid space architecture, documents satellite service reference architectures and provides a comparative analysis of the features for each architecture.  Further, through a case study of existing satellite service providers, we propose how a hybrid space architecture could be piloted in Northern Europe and the High North.</p>
+</li>
+<li>
+Availability Vs. Lifetime Trade-Space In Spacecraft Computers
+ (<a href="#abstract-1361" data-toggle="collapse">abstract</a>)
+<div id="abstract-1361" class="collapse">
+<p>This paper presents a trade space comparing forty-eight different configurations for redundant computer systems in spacecraft, in terms of their availability versus lifetime metrics.  Each of these configurations uses a different redundancy scheme.  Failure modes include transient failures due to radiation effects in space, such as Single Event Upsets (SEUs) and Single Event Functional Interrupts (SEFIs) and permanent failures due to degradation.  Configurations include various combinations of up to four total processors, with at least one of them being a prime, and the others, hot or cold spares.  Dual, Triple, and Quad Modular Redundancy are covered, along with some deployed spacecraft configurations, e.g. the Parker Solar Probe, and the Curiosity rover during its Entry, Descent, Landing (EDL) phase.  Some hypothetical designs lie outside the convex hull of previously-known configurations.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="time-row">14:30</td>
+<td class="cell-baxterlh text-center" colspan="5">SCC: Crew Interfaces<br>
+Baxter Lecture Hall<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:00</td>
+<td class="cell-dabney text-center" colspan="5">BREAK<br>
+Dabney<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">15:15</td>
+<td class="cell-baxter">
+</td>
+<td class="cell-baxterlh">
+<span style="font-weight:bold">
+SCC: Crew Interfaces
+</span>
+<ul>
+<li>
+Establishing Trust in NASA’s Artemis Campaign Computer-Human Interface (CHI) Implementation
+ (<a href="#abstract-4089" data-toggle="collapse">abstract</a>)
+<div id="abstract-4089" class="collapse">
+<p>The NASA Artemis campaign will return humans to the Moon. This time, with the help of commercial and international partners, the campaign's objective is a permanent Moon base. The Moon base infrastructure, including an orbiting station and surface assets, will be developed for astronauts to stay for the long haul to learn to live and work on another planet in preparation for an eventual Humans-to-Mars mission. As the roundtrip communication delays increase in deep space exploration, the crew will need more onboard systems autonomy and functionality to maintain and control the vehicle or habitat. These mission constraints will change the current Earth-based spacecraft to ground control support approach that will demand safer, more efficient, and more effective Computer-Human Interface (CHI) control. For Artemis, CHI is defined as the elements that the crew interfaces with: audio, imagery, lighting, displays, and crew controls subsystems. Understanding how CHI will need to evolve to support deep space missions will be critical for the Artemis campaign --especially crew controls, which is the focus of this paper. How does NASA ensure crew controls are reliable enough to control complex systems and prevent a catastrophic event due to human error--especially when the astronauts could be physiologically and/or psychologically impaired? NASA's approach to mitigating catastrophic hazards in human spaceflight system development such as crew controls is through a holistic system engineering and Human System Integration (HSI) methodology.  This approach focuses on incorporating NASA's Human-Rating Requirements to ensure consideration of human performance characteristics to control and safely recover the crew from hazardous situations. This paper discusses, at a high level, CHI for the Artemis campaign. Next, a discussion of what it means to human-rate a space system crew controls and how trust in CHI begins with the NASA human rating requirements. Finally, a discussion on how systems engineering and the HSI process ensure that crew control implementation incorporates the NASA human-rating requirements.</p>
+</li>
+</ul>
+</td>
+<td class="cell-gatesannex">
+<span style="font-weight:bold">
+Workshop: 2nd Open Source for Space Workshop
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-noyessmall">
+<span style="font-weight:bold">
+Workshop: Space Trusted Autonomy Readiness Levels
+</span>
+<ul>
+</ul>
+</td>
+<td class="cell-spalding">
+<span style="font-weight:bold">
+SCC: Machine Learning
+</span>
+<ul>
+<li>
+Battery Management System for On-Board Data-Driven State of Health Estimation for Aviation and Space Applications
+ (<a href="#abstract-7957" data-toggle="collapse">abstract</a>)
+<div id="abstract-7957" class="collapse">
+<p>To ensure a safe and economically valuable operation of a battery system over the whole lifetime, a battery management system is used for measuring and monitoring battery parameters and controlling the battery system. Since the battery performance decreases over its lifetime, a precise on-board aging estimation is needed to identify significant capacity degradation endangering the functionality and safety of a battery system. Especially for aviation and space applications, this can result in catastrophic scenarios. Therefore, in this work, a generic battery management system approach is presented considering aerospace application requirements. The modular hardware and software architecture and its components are described. Moreover, it is shown that the developed battery management system supports the execution of data-driven state of health estimation algorithms. For this purpose, aging estimation models are developed that only receive eight high-level parameters of partial charging profiles as input without executing further feature extraction steps and can thus be easily provided by a battery management system. Three different neural network architectures are implemented and evaluated: a fully connected neural network, a 1D convolutional neural network and a long short-term memory network. It is shown that all three aging models provide a precise state of health estimation by only using the obtained high-level parameters. The achieved fully connected neural network provides the best tradeoff between required memory resources and accuracy with an overall mean absolute percentage error of 0.41%.</p>
+</li>
+<li>
+A High Performance Software Approach to enabling Artificial Intelligence On-Board for Image processing applications
+ (<a href="#abstract-6989" data-toggle="collapse">abstract</a>)
+<div id="abstract-6989" class="collapse">
+<p>New generations of spacecrafts are required to perform tasks with an increased level of autonomy. Space exploration, Earth Observation, space robotics, etc. are all growing fields in Space that require more sensors and more computational power to perform these missions. Furthermore, new sensors in the market produce better quality data at higher rates while new processors can increase substantially the computational power. Therefore, near-future spacecrafts will be equipped with large number of sensors that will produce data at rates that has not been seen before in space, while at the same time, data processing power will be significantly increased.</p><p>Use cases like guidance navigation and control applications, vision-based navigation has become increasingly important in a variety of space applications for enhancing autonomy and dependability. Future missions such as Active Debris Removal will rely on novel high-performance avionics to support image processing and Artificial Intelligence algorithms with large workloads. Similar requirements come from Earth Observation applications, where data processing on-board can be critical in order to provide real-time reliable information to Earth.</p><p>This new scenario of advanced Space applications and increase in data amount and processing power, has brought new challenges with it: low determinism, excessive power needs, data losses and large response latency.</p><p>In this article, a novel approach to on-board artificial intelligence (AI) is presented that is based on state-of-the-art academic research of the well known technique of data pipeline. Algorithm pipelining has seen a resurgence in the high performance computing work due its low power use and high throughput capabilities. The approach presented here provides a very sophisticated threading model combination of pipeline and parallelization techniques applied to deep neural networks (DNN), making these type of AI applications much more efficient and reliable. This new approach has been validated with several DNN models developed for Space application (including asteroid landing, cloud detection and coronal mass ejection detection) and two different computer architectures. The results show that the data processing rate and power saving of the applications increase substantially with respect to standard AI solutions, enabling real AI on space.</p>
+</li>
+</ul>
+</td>
+</tr>
+						</table>
+					</div>
+					<div class="tab-pane" id="nav-day4" role="tabpanel" aria-labelledby="nav-day4-tab">
+						<table class="table table-striped table-bordered">
+							<tr>
+								<td class="time-row">TIME</td>
+								<td class="active text-center heading-bold" colspan="5">FRIDAY, JULY 21, 2023</td>
+							</tr>
+<tr>
+<td class="time-row">07:00</td>
+<td class="cell-dabney text-center" colspan="5">Closed Session @ Aerospace Corporation<br>
+The Aerospace Corporation<br>
+El Segundo, CA<br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<td class="time-row">17:00</td>
+<td class="cell-dabney text-center" colspan="5"><br>
+<div class="text-left">
+<ul>
+</ul>
+</div>
+</td>
+</tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="sponsors"></a>
+    <h1>Supporters</h1>
+    <table class="supporters">
+      <tr>
+        <td>
+          <img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png">
+          <br>
+          IEEE
+        </td>
+      </tr>
+      <tr>
+        <td><h1>Platinum</h1></td>
+    </tr>
+    <tr>
+        <td id="platinum-sponsor-list">
+            <img src="resources/images/logos/platinum-microchip.png">
+            <br>
+            Microchip
+        </td>
+    </tr>
+    <tr>
+        <td><h2>Gold</h2></td>
+    </tr>
+    <tr>
+      <td id="gold-sponsor-list">
+      <ul>
+        <li>
+            <img src="resources/images/logos/gold-aril_inc.png" style="max-width: 400px">
+            <br>
+            Aril Inc
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-avalanche_technology.png" style="max-width: 400px">
+            <br>
+            Avalanche Technology
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-mirabilis.png" style="max-width: 400px">
+            <br>
+            Mirabilis Design
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-siFive.svg" style="max-width: 400px">
+            <br>
+            SiFive
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-star_dundee.png" style="max-width: 400px">
+            <br>
+            STAR-Dundee
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-synopsys.svg" style="max-width: 400px">
+            <br>
+            Synopsys
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-teledyne.png" style="max-width: 400px">
+            <br>
+            Teledyne Technologies
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-amd.png" style="max-width: 400px">
+            <br>
+            AMD
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+        <td><h2>Silver</h2></td>
+    </tr>
+    <tr>
+      <td id="silver-sponsor-list">
+      <ul>
+        <li>
+            <img src="resources/images/logos/silver-kbr.jpg" style="max-width: 300px">
+            <br>
+            KBR Inc
+        </li>
+      </ul>
+      </td>
+    </tr>
+    </table>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <h1>Contact</h1>
+    <p>If you have any questions, feel free to contact us at:</p>
+    <ul>
+      <li>Email: smcit-scc_chairs@jpl.nasa.gov</li>
+      <li>Twitter: @smcit_conf</li>
+    </ul>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2022-2023 - <a href="https://www.ieee.org/security-privacy.html">Privacy Policy</a></p>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy; IEEE SMC-IT/SCC 2022-2023
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+</body>
+</html>
