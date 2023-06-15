@@ -256,6 +256,27 @@ footer {
   .speakers tr {
     display: inline-grid;
   }
+
+  .supporters img {
+    max-width: calc(70vw) !important;
+  }
+
+  #gold-sponsor-list ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #silver-sponsor-list ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #gold-sponsor-list li {
+    padding-bottom: 25px !important;
+  }
+  #silver-sponsor-list li {
+    padding-bottom: 25px !important;
+  }
 }
 
 @media all and (min-width: 43.75em) {
