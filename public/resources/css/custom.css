@@ -168,6 +168,13 @@ footer {
   list-style: none;
 }
 
+/* Google map */
+.map {
+  margin-top: 20px;
+  max-width:  80vw;
+  max-height: 80vh;
+}
+
 /* 600 */
 @media all and (max-width: 37.5em) {
 .content-text {
