@@ -305,7 +305,7 @@
 SEFI Mitigation Middleware Radiation Test Results for NASA and Other GPU Applications
  (<a href="#abstract-2425" data-toggle="collapse">abstract</a>)
 <div id="abstract-2425" class="collapse">
- - 
+ -
 <p>Emerging space mission requirements for complex autonomous operations, high-end sensor processing, swarm/constellation management, planetary/lunar landing, and autonomous exploration missions, etc. require processing requirements that rad-hard processors cannot achieve and fault tolerance requirements that COTS processors alone cannot meet. Troxel Aerospace’s SEFI/SEU Mitigation Middleware (SMM) provides a path to enabling these types of missions by allowing high-performance COTS processors to operate with a high degree of fault tolerance without the need for rad-hard electronics, and thus simultaneously meet advanced mission criticality and performance requirements. Troxel Aerospace has demonstrated operate-through capability through extensive radiation testing on multicore processors and GPUs, most recently for several critical missions including astronaut displays for NASA Johnson and a few DoD missions.  This presentation will highlight SMMs history, features, recent radiation test results, and upcoming missions.</p>
 </div>
 </li>
@@ -313,7 +313,7 @@ SEFI Mitigation Middleware Radiation Test Results for NASA and Other GPU Applica
 Microcircuit Standards for Space Missions
  (<a href="#abstract-5151" data-toggle="collapse">abstract</a>)
 <div id="abstract-5151" class="collapse">
- - 
+ -
 <p>NASA Electronic Parts Assurance Group (NEPAG) operates under the Mission Assurance Standards and Capabilities (MASC) division of NASA Office of Safety and Mission Assurance (OSMA). All NASA missions, large or small, are important to mission assurance. The success of each mission counts. 
 This presentation will describe the efforts underway where NEPAG has worked with DLA (Defense Logistics Agency), JC-13 (the manufacturers of government products), and CE-12 (the users of active devices) committees to ensure current military/aerospace standards address many challenges, one example being the insertion of new technology, the Class Y initiative, Class Y represents advancements in packaging technology, increasing functional density, and increasing operating frequency. The front runner Class Y suppliers are offering functions such as processors, application specific integrated circuits, and very high-speed analog to digital converters.</p>
 </div>
@@ -329,7 +329,7 @@ This presentation will describe the efforts underway where NEPAG has worked with
 NASA's High Performance Spaceflight Computer (HPSC) - Navigating Complex Trade Spaces to Radically Advance Space-based Computing
  (<a href="#abstract-5839" data-toggle="collapse">abstract</a>)
 <div id="abstract-5839" class="collapse">
- - 
+ -
 <p>The space compute solution NASA/JPL flies today has architectural origins dating all the way back to the mid 1990’s.  With NASA/JPL missions on a trajectory to employ higher and higher levels of autonomy in the coming years to meet our science and exploration objectives, the current space compute solution does not have the capability to well-serve that trajectory.  The High-Performance Spaceflight Computer (HPSC) processor SoC represents a very disruptive advance not only in compute capability, but simultaneously offers significant advances in fault tolerance, determinism, performance per watt, heterogenous compute scalability, and security.  HPSC brings space compute into the 21st century – with a modern multi-core processor architecture, scalable heterogenous computing, as well as embracing modern standards-based high-speed interfaces, all within a highly fault-tolerant framework suitable for operating in the harsh environments of space.  Additionally, processors intended for harsh radiation environments such as space have largely targeted a fixed level of radiation tolerance.  Given that inflexibility, current processors typically target radiation tolerance levels that will encompass the largest number of use-case environments that can be accommodated to enable the processor to be viable from a business perspective.  However, that inflexibility comes at a cost, in terms of operating clock frequency and power consumption, which have a direct impact on the performance and utility of the processor.  NASA’s HPSC takes a different approach.  Critical health monitoring and system control functions are contained within the System Controller - a substantially hardened island within the processor.  Application processing cores and virtually all other functions are located within the “baseline” radiation hardness region.  This “baseline” region is less radiation tolerant than the System Controller, but more than sufficient for the bulk of NASA/JPL missions that will take place in the coming decades.  Additionally, the Application Cluster, which contains all eight application processing cores, can be operated in a range of different modes that enable missions to dynamically select between maximum performance and maximum fault isolation and recovery, and a number of additional modes within that spectrum.  This dynamic modal capability enables HPSC to offer optimized performance and fault tolerance/fault recovery profiles for different missions and mission phases, all with one highly flexible space compute SoC.  Creating a processor such as HPSC requires successfully navigating a delicate balance of numerous competing trades – radiation tolerance, compute performance, power consumption, fault tolerance, and scalability, while also embracing modern multi-core programming methods, libraries, and standards.</p>
 </div>
 </li>
@@ -337,30 +337,30 @@ NASA's High Performance Spaceflight Computer (HPSC) - Navigating Complex Trade S
 High-Performance Embedded Space Computing System-on-Chip for space imaging spectrometer
  (<a href="#abstract-1403" data-toggle="collapse">abstract</a>)
 <div id="abstract-1403" class="collapse">
- - 
-<p>System-on-a-chip (SoC) devices promise lighter, smaller, cheaper, more capable and more reliable space electronic systems. 
-This paper describes the focal plane interface electronics – digital (FPIE-D) Xilinx Zynq-based data acquisition, 
-cloud-screening, compression, storage and downlink computing system developed by the Jet Propulsion Laboratory (JPL), 
-Alpha Data, Correct Designs and Mercury Systems for imaging sprectometers such as the NASA Earth Surface Mineral Dust Source Investigation (EMIT). 
-EMIT is an imaging spectrometer that acquires 1280 cross-track by 328 band images at 216 images/sec. 
-Following launch (14 July 2022), EMIT has been installed outside the International Space Station (ISS) and is collecting data 
-from science targets in arid dust source regions of the Earth. EMIT will be used to study the mineral dust cycle which 
-has multiple impacts on the Earth System. The science objective of EMIT is to close the gap in our understanding of mineral 
+ -
+<p>System-on-a-chip (SoC) devices promise lighter, smaller, cheaper, more capable and more reliable space electronic systems.
+This paper describes the focal plane interface electronics – digital (FPIE-D) Xilinx Zynq-based data acquisition,
+cloud-screening, compression, storage and downlink computing system developed by the Jet Propulsion Laboratory (JPL),
+Alpha Data, Correct Designs and Mercury Systems for imaging sprectometers such as the NASA Earth Surface Mineral Dust Source Investigation (EMIT).
+EMIT is an imaging spectrometer that acquires 1280 cross-track by 328 band images at 216 images/sec.
+Following launch (14 July 2022), EMIT has been installed outside the International Space Station (ISS) and is collecting data
+from science targets in arid dust source regions of the Earth. EMIT will be used to study the mineral dust cycle which
+has multiple impacts on the Earth System. The science objective of EMIT is to close the gap in our understanding of mineral
 dust heating and cooling impact on the Earth now and in the future by determining the surface mineralogy of mineral dust sources.
-The FPIE-D board design is based on a standard Alpha Data COTS Zynq7100 board in an XMC form factor. The FPIE-D Alpha Data 
-hardware and components, including a Mercury Systems 440 GByte RH3440 Solid-State Data Recorder (SSDR), fit into a 280mm×170mm×40mm assembly. 
-The FPIE-D peak power usage is 40 W. The computing element is a Xilinx Zynq Z7100 which includes a Kintex-7 FPGA and dual-core ARM 
-Cortex-A9 Processor. The COTS board was re-spun to make it suitable for space (replacing components with space grade equivalents) 
-and to add features needed for the mission. The FPIE-D board is designed to be very flexible, and not specific to EMIT mission. 
-The FPIE-D assembly with its Zynq SoC controls the other assemblies on the EMIT instrument. The FPIE-D Zynq Processing System is 
-responsible for running the flight software, which includes command &amp; data handling, command &amp; telemetry with ISS over 1553 
-and science data downlink over a 7.4 Mbps Ethernet interface to the ISS. The Zynq Programmable Logic (PL) of the FPIE-D interfaces 
-with the SSDR through a 3.125 Gbps Serial RapidIO interface. The SSDR alleviates the effect of two data rate bottlenecks in the FPIE-D System: 
-data compression implemented on Zynq PL with a data compression (input) rate of 370 Mbps, and the data transfer to the ISS at 7.4 Mbps. 
-The FPIE-D includes three processing elements implemented in the Zynq PL: (1) the Fast Lossless extended (FLEX) data compression block 
-(a modified implementation of the CCSDS-123.0-B-2 recommended standard), which is providing 3.4:1 lossless compression 
-(compared to 16 bit samples obtained after co-adding) and 21 MSamples/sec throughput; (2) co-adding capability of two successive 
-images so that shorter exposures can be used, helping to avoid saturation of the Focal Plane Array during acquisition; and 
+The FPIE-D board design is based on a standard Alpha Data COTS Zynq7100 board in an XMC form factor. The FPIE-D Alpha Data
+hardware and components, including a Mercury Systems 440 GByte RH3440 Solid-State Data Recorder (SSDR), fit into a 280mm×170mm×40mm assembly.
+The FPIE-D peak power usage is 40 W. The computing element is a Xilinx Zynq Z7100 which includes a Kintex-7 FPGA and dual-core ARM
+Cortex-A9 Processor. The COTS board was re-spun to make it suitable for space (replacing components with space grade equivalents)
+and to add features needed for the mission. The FPIE-D board is designed to be very flexible, and not specific to EMIT mission.
+The FPIE-D assembly with its Zynq SoC controls the other assemblies on the EMIT instrument. The FPIE-D Zynq Processing System is
+responsible for running the flight software, which includes command &amp; data handling, command &amp; telemetry with ISS over 1553
+and science data downlink over a 7.4 Mbps Ethernet interface to the ISS. The Zynq Programmable Logic (PL) of the FPIE-D interfaces
+with the SSDR through a 3.125 Gbps Serial RapidIO interface. The SSDR alleviates the effect of two data rate bottlenecks in the FPIE-D System:
+data compression implemented on Zynq PL with a data compression (input) rate of 370 Mbps, and the data transfer to the ISS at 7.4 Mbps.
+The FPIE-D includes three processing elements implemented in the Zynq PL: (1) the Fast Lossless extended (FLEX) data compression block
+(a modified implementation of the CCSDS-123.0-B-2 recommended standard), which is providing 3.4:1 lossless compression
+(compared to 16 bit samples obtained after co-adding) and 21 MSamples/sec throughput; (2) co-adding capability of two successive
+images so that shorter exposures can be used, helping to avoid saturation of the Focal Plane Array during acquisition; and
 (3) cloud detection and screening so that cloudy images can be dropped prior to compression, saving SSDR space and downlink time.</p>
 </div>
 </li>
@@ -449,7 +449,7 @@ images so that shorter exposures can be used, helping to avoid saturation of the
 Modernization of FPGA Risk Analysis for Critical Space Applications
  (<a href="#abstract-5435" data-toggle="collapse">abstract</a>)
 <div id="abstract-5435" class="collapse">
- - 
+ -
 <p>New methods for characterizing FPGA performance and risk in space-radiation environments are presented. Application of the new methods are illustrated via walking through a NASA Mission use case. A requirement for the mission is to “work-through” a worst-week radiation environment with minimal ground intervention. Mitigation insertion becomes a necessity but is limited due to device capacity. This presentation shows that old test and evaluation methods are insufficient while new methods provide better characterization and assistance for determining suitable design/mitigation strategies.</p>
 </div>
 </li>
@@ -457,7 +457,7 @@ Modernization of FPGA Risk Analysis for Critical Space Applications
 GR765 SPARC and RISC-V Multiprocessor System-on-Chip
  (<a href="#abstract-9618" data-toggle="collapse">abstract</a>)
 <div id="abstract-9618" class="collapse">
- - 
+ -
 <p>The GR765 is a radiation-tolerant and fault-tolerant octa-core system-on-chip that is currently in development. During SCC 2021 we described the status of the architecture definition and the development of GR765 engineering samples. Since then, development has progressed, and several extensions have been made to the architecture. Most notably the GR765 is now a design that implements both the SPARC instruction set architecture and the RISC-V instruction set architecture. The selection between the two different processor core architectures is done through a bootstrap signal.</p>
 </div>
 </li>
@@ -465,7 +465,7 @@ GR765 SPARC and RISC-V Multiprocessor System-on-Chip
 Computer Human Interface Challenges in Space Exploration
  (<a href="#abstract-2279" data-toggle="collapse">abstract</a>)
 <div id="abstract-2279" class="collapse">
- - 
+ -
 <p>NASA’s plans to return humans to the Lunar surface require overcoming a variety of challenging technical and operational obstacles. In 2022, NASA formed the Extravehicular Activity (EVA) and Human Surface Mobility (HSM) Program (EHP) at the Johnson Space Center with responsibilities including development of space suits and surface mobility systems for Lunar missions. This program includes a Technology Development and Partnerships office chartered to identify high priority gaps in capabilities for Lunar surface mobility and to coordinate resources to close those gaps. This presentation details the EHP technology roadmap for “Informatics and Decision Support,” a subset of spacecraft avionics focused on effective and autonomous crew interaction with spaceflight systems. The gaps, grouped into displays, audio systems, and information technology infrastructure, are largely driven by the unique interaction requirements for human spacecraft and the severe radiation environments beyond low earth orbit. The roadmap identifies ongoing activities and paths to technology infusion into Lunar spacecraft. NASA is seeking input on the content and ideas for alternative paths to gap closure. Closing these gaps is important to successful human operations on the Lunar surface and vital to NASA’s long-term goal of human missions to Mars.</p>
 </div>
 </li>
@@ -480,7 +480,7 @@ Computer Human Interface Challenges in Space Exploration
 Performance Evaluation of the Radiation-Tolerant NVIDIA Tegra K1 System-on-Chip
  (<a href="#abstract-9164" data-toggle="collapse">abstract</a>)
 <div id="abstract-9164" class="collapse">
- - 
+ -
 <p>Radiation-hardened (rad-hard) processors are designed to be reliable in extreme radiation environments, but they typically have lower performance than commercial-off-theshelf (COTS) processors. For space missions that require more computational performance than rad-hard processors can provide, alternative solutions such as COTS-based systems-on-chips (SoCs) may be considered. One such SoC, the NVIDIA Tegra K1 (TK1), has achieved adequate radiation tolerance for some classes of space missions. Several vendors have developed radiationtolerant single-board computer solutions targeted primarily for low Earth orbit (LEO) space missions that can utilize COTSbased hardware due to shorter planned lifetimes with lower radiation requirements. With an increased interest in spacebased computing using advanced SoCs such as the TK1, a need exists for an improved understanding of its computational capabilities. This research study characterizes the performance of each computational element of the TK1, including the ARM Cortex-A15 MPCore CPU, the NVIDIA Kepler GK20A GPU, and their constituent computational units. Hardware measurements are generated using the SpaceBench benchmarking library on a TK1 development board. Software optimizations are studied for improved parallel performance using OpenMP for CPU multithreading, ARM NEON for single-instruction multiple-data (SIMD) operations, Compute Unified Device Architecture (CUDA) for GPU parallelization, and optimized Basic Linear Algebra Subprograms (BLAS) software libraries. By characterizing the computational performance of the TK1 and demonstrating how to optimize software effectively for each computational unit within the architecture, future designers can better understand how to successfully port their applications to COTS-based SoCs to enable improved capabilities in space systems. Experimental outcomes show that both the CPU and GPU achieved high levels of parallel efficiency with the optimizations employed and that the GPU outperformed the CPU for nearly every benchmark, with single-precision floating-point (SPFP) operations achieving the highest performance.</p>
 </div>
 </li>
@@ -488,7 +488,7 @@ Performance Evaluation of the Radiation-Tolerant NVIDIA Tegra K1 System-on-Chip
 Performance modeling of a heterogeneous computing system based on the UCIe Interconnect Architecture
  (<a href="#abstract-8702" data-toggle="collapse">abstract</a>)
 <div id="abstract-8702" class="collapse">
- - 
+ -
 <p>In a heterogeneous computing environment, there exist a variety of computational units such as multicore CPUs, GPUs, DSPs, FPGAs, Analog modules, and ASICs. IP Vendors, Engineers, and Scientists working with heterogeneous computing systems face numerous challenges, including integration of IP Cores and components from different vendors, system reliability, hardware-software partitioning, task mapping, the interaction between compute and Memory, and reliable communication.
 For advanced designs, the industry typically develops a system-on-a-chip (SoC), where different functions are shrunk at each node and pack them onto a monolithic die. But this approach is becoming more complex and expensive at each node. Another way to develop a system-level design is to assemble complex dies in an advanced package. Chiplets are a way of modularizing that approach. Chiplets can be combined with other chiplets on an interposer in a single package. This provides several advantages over a traditional system on chip (SoC) or integrated board, in terms of reusable IP, heterogeneous integration, and verifying die functional behavior. 
 In our work, a system-level model composed of chiplets- IO Chiplet, Low Power Core Chiplet, High-Performance Core Chiplet, audio video Chiplet, and Analog chiplet, are interconnected using Universal Chiplet Interconnect Express (UCIe) standard. We looked at different scenarios and configurations including advanced and standard packages, different traffic profiles, sizing of resources, and Retimer to extend the reach and evaluate events on timeout. We were able to identify the strengths and weaknesses of UCIe interconnect in the scope of mission applications and obtain the optimal configuration for each of the subsystems to meet the performance, power, and functional requirements.</p>
@@ -523,7 +523,7 @@ In our work, a system-level model composed of chiplets- IO Chiplet, Low Power Co
 Silicon-Carbide Hybrid One-Bit Microcontroller in a Transport-Triggered Architecture
  (<a href="#abstract-9648" data-toggle="collapse">abstract</a>)
 <div id="abstract-9648" class="collapse">
- - 
+ -
 <p>Silicon (Si)-based semiconductor microcomputing has been core to manned and unmanned exploration of the solar system. However, Si-based are limited in operation given that they cannot adequately function in extreme high temperature and radiation environments. In contrast, Silicon Carbide (SiC) semiconductor electronic devices have the potential of bringing electronics functionality to extreme radiation and temperature environments physically beyond the reach of Si semiconductor devices. 
 In particular, SiC integrated circuits based on Junction Field Effect Transistor (JFET) technology have produced the world’s first microcircuits of moderate complexity that have demonstrated sustained operation at 500˚C [1]. A major distinguishing aspect of this NASA Glenn Research Center (GRC) JFET Integrated Circuit (IC) work is the long-term durability (greater than a year) of these circuits and packaging at 500°C [2] and for 60 days in simulated Venus surface conditions [3]. Other NASA GRC work has shown operation of circuits across a total temperature range from low (-190°C) to high temperatures (961°C), a span more than 1000˚C [4]. Further, TID radiation testing to 7 Mrad(Si) without failure was conducted on earlier-generation of legacy SiC JFET logic chips [5]. No other IC approaches have accomplished this level of high temperature durability even for less-complicated circuits. These properties enable the potential for improved capability for exploration across the solar system, from Ocean Worlds to the interior of gas giants to surface of Venus or Mercury. 
 Although these SiC electronics are presently comparable to that of standard-environment commercial electronics in the ~1970s, such electronics nevertheless enabled historic breakthroughs during the Viking and Voyager missions. The maturity of SiC electronics has now advanced to where a SiC microprocessor with unprecedented extreme environment durability can be built. NASA GRC is presently prototype fabricating a next generation family of SiC microcircuits. Specifically, this fabrication run, denoted as “Gen. 12”, aims to produce the first ever practical digital processing chipset hardened for durable operation in broad temperature range, high radiation environments. 
@@ -629,7 +629,7 @@ An overview of the design, fabrication, and testing of this microprocessor will 
 Supporting On-Demand Communications for NASA's Deep Space Network
  (<a href="#abstract-6731" data-toggle="collapse">abstract</a>)
 <div id="abstract-6731" class="collapse">
- - 
+ -
 <p>Current scheduling of NASA’s Deep Space Network is laborious and static. The DSN is fully pre-scheduled where many users rely on a stable schedule to plan their own spacecraft activities, weeks and months in advance of execution. However, new classes of missions are emerging that may not need to be scheduled as far in advance, and may be event-driven in coming across science targets at unpredictable times. As such, a static DSN schedule may not be the best option for these types of missions. As part of an investigation into how these more autonomous missions could efficiently utilize DSN resources, we have been exploring and prototyping the infusion of a ”demand access” model into the DSN scheduling process. These users could take advantage of an on-demand mechanism to download data. In this paper, we describe a prototype of the demand access process which consists of reserving blocks of shared antenna time (demand access tracks) and utilizing special ”beacon” tracks to request access to those blocks. Furthermore, we dive into a proposed solution for how to best schedule the beacon tracks using an aggregated value function in order to minimize data latency and track starvation.</p>
 </div>
 </li>
@@ -637,7 +637,7 @@ Supporting On-Demand Communications for NASA's Deep Space Network
 Voice Control System for Human Spaceflight
  (<a href="#abstract-6205" data-toggle="collapse">abstract</a>)
 <div id="abstract-6205" class="collapse">
- - 
+ -
 <p>Voice Control has been identified as a potential human-computer interface (HCI) candidate for Human Spaceflight. It may be a viable HCI solution to address the risk that the Human Research Program has identified for future space missions-small crews, complex systems to control, and long communication delays with mission control. At NASA, voice control is being investigated to aid crew members in extravehicular activity (EVA) procedures, automate command/control environments, interface with RFID chips to query for misplaced items, space-to-ground communication, speech-to-text transcription, and substitution for ground support. While speech recognizers are becoming more common in Earth-bound environments, space flight can present a unique and challenging physical &amp; acoustical environment. Due to the time delays to/from the moon and more so Mars, terrestrial-type server farm solutions in space are not possible. Rather, every artificially intelligent system must be 100% offline in a cloudless solution - where 100% offline is defined as not dependent on a server farm such as used for Siri, Alexa, or Google.</p><p>Not only is a lack of a cloud-based speech control infrastructure a challenge to overcome in space flight, but current and future spaceflight missions do not have the luxury of extensive network bandwidth as we do on Earth. Network constraints requiring minimum bandwidth consumption often result in lower quality voice communications. Voice communication is deemed a critical component in every human spaceflight mission, yet crew member speech that has been compressed and coupled with various acoustic background noise can be difficult to understand. If compressed and noisy audio is processed by a speech recognition system, it may be prone to errors.</p><p>When building voice control for human spaceflight, a system needs to denoise crew member speech that includes high background noise, stationary and non-stationary acoustic noise, and adapts for reverberation within different environments. Reverberation varies between space suits with helmet bubbles, tight spaces inside rovers, or crew member habitat construction on different planets making common speech recognition difficult to adapt to the diverse acoustical environments. Current commercially available speech recognition engines are not tuned to spacecraft acoustic environments. To make matters more difficult, there is typically limited training data available which is necessary to improve performance within spacecraft and spacesuit systems. For extra-vehicular activities, a helmet creates a challenging reverberant  acoustical environment that can smear spoken words-making it problematic for the speech recognition system to understand what was said. Therefore, commands, acronyms, background noise, and other acoustical factors make voice control in human spaceflight a unique problem to overcome.</p><p>Finally, another key challenge to overcome is radiation hardness. Any on premise solution for speech recognition that is offline and works in Earth doesn’t necessarily mean it will work in space due to radiation effects on the computer processing unit (CPU). Current radiation tolerant CPUs pose a challenge for voice control due to lack of processing power and speed for a query to be processed.</p><p>This presentation will cover key challenges when developing voice control applications for human spaceflight. Next, the efforts that various teams at the Johnson Space Center are undergoing to find viable solutions for voice control in deep space missions are given. Finally, an explanation on why voice control is imperative to human spaceflight if mankind wants to engage in deep space missions. For instance, a spaceflight specific voice control system could be most useful when ground communication has a long latency or is nonexistent and crew members need artificially intelligent aid or ground support substitution to perform long duration missions.</p>
 </div>
 </li>
@@ -645,7 +645,7 @@ Voice Control System for Human Spaceflight
 AI and Data-Driven In-situ Sensing for Space Digital Twin
  (<a href="#abstract-1627" data-toggle="collapse">abstract</a>)
 <div id="abstract-1627" class="collapse">
- - 
+ -
 <p>The formation and evolution of giant planets define the dominant characteristics of our planetary system. The giant-planet exploration can improve the understanding of heat flow, radiation balance, chemistry and can work as ground truth for exoplanets. Atmospheres of giant planets are larger and, in many respects, but simpler than that of Earth. Studying giant planets’ atmospheres and environments can serve as laboratories for the Earth atmosphere's fundamental physical and dynamical processes. On the other hand, exploring the relevant environments that affect the Earth's atmosphere can help us develop a sound technical and scientific basis in giant planets. Particularly, climate change on Earth is central to the question of understanding the roles of physics, geology, and dynamics in driving atmospheres and climates on Jupiter.</p><p>While Juno Mission has significantly enhanced our understanding of the Jovian atmosphere in every orbit through remote sensing, in-situ observations are essential for validating the models, studying the composition, and capturing the dynamic processes of gas giants. The singular in-situ observation made by the Galileo Probe in 1995 has a major disagreement with standard Jovian atmospheric models, making scientists believe the entry site may happen to be one of the least cloudy areas on Jupiter. This suspicion exhibits a strong limitation of free-fall probing. A logical next step, then, would be a mission with actively controllable probes that stay in the atmosphere of a gas giant for an extended duration. The 2016 NIAC Phase I study on ``WindBots'' by Stoica et al. found that an adaptive wing glider and a lightweight, quasi-buoyant vehicle would be a viable option by obtaining a lift from updrafts, however, autonomously navigating in the highly uncertain and turbulent flow field remains a major challenge. </p><p>The closest terrestrial analog to Jupiter's atmosphere would be the tropical cyclones (TCs) on the Earth. Although the formation mechanism of a TC is very different from GRS on Jupiter, the resulting phenomenon, represented by highly turbulent and strong wind field as well as its localized and dynamic nature, are similar, hence providing a suitable test ground for future missions to Jupiter's atmosphere. This paper develops an autonomous small unmanned aircraft system (sUAS) in-situ TC sensing, through the simulated environment of cooperative control of distributed autonomous multiagent systems deployed into the eye of TC. The main objective is to test various observing systems from single and multiple sUAS platforms close to the eyewall of the storm to capture essential measurements to be used in explaining the Jovian environment. Preliminary results demonstrated successful sUAS flight optimization for maximizing improvement of the quality of key measurements (e.g., 3-dimensional wind velocity, pressure, temperature, and humidity). Simulated sUAS flight toward the inner core of the TC boundary layer made high-resolution meteorological observations and supplemented existing partial knowledge for a better estimate of the TC intensity. This was a great addition to the task of testing sUAS technology, but a few methods have focused on the critical region of the storm environment and no data-driven optimal system design was developed to gain more information through exploring target locations. Anticipatory sUAS routing lowered the overall energy usage and maximized the reduction of forecasting error by exploring and sampling unobserved cells along the path to a target location. </p><p>This paper analyzes how online updating from sUAS collected meteorological data would benefit hurricane intensity forecasting considering the temporal variation of the uncertainty. Unobserved heterogeneity and randomness of the data have shown multiple modes in probability distribution in each location. A huge collection of multiple sources of granular microscopic data in each location may result in the loss of multivariate information if not retrieved properly. It is important to quantify the uncertainty of prior belief and update posterior when critical observations are obtained. However, traditional entropy theory cannot handle i) sequential learning multimodal multivariate information; ii) dynamic spatiotemporal correlation; iii) importance of observation for posterior approximation. In this paper, we advance autonomous in-situ sensing under highly uncertain and turbulent flow through a multi-variate multi-modal learning by analyzing the similarities between the different types of mixture distributions of multiple variables and allocating a cluster to each group across high dimensional time and space. Specifically, this paper can track structural information flow of temporal multi-variate multi-modal correlation data and automatically update the posterior, with the weights to the new observations through an iterative process. Extensive experiments on hurricane ensemble forecasting data demonstrate the superior performance of our method over the state-of-the-art baselines across various settings.</p>
 </div>
 </li>
@@ -653,7 +653,7 @@ AI and Data-Driven In-situ Sensing for Space Digital Twin
 Sequential Deep Learning for Mars Autonomous Navigation
  (<a href="#abstract-3433" data-toggle="collapse">abstract</a>)
 <div id="abstract-3433" class="collapse">
- - 
+ -
 <p>Recent advances in computer vision for space exploration have handled prediction uncertainties well by approximating multimodal output distribution rather than averaging the distribution. While those advanced multimodal deep learning models could enhance the scientific and engineering value of autonomous systems by making the optimal decisions in uncertain environments, sequential learning of those approximated information has depended on unimodal or bimodal probability distribution. In a sequence of information learning and transfer decisions, the traditional reinforcement learning cannot accommodate the noise in the data that could be useful for gaining information from other locations, thus cannot handle multimodal and multivariate gains in their transition function. Still, there is a lack of interest in learning and transferring multimodal space information effectively to maximally remove the uncertainty. In this study, a new information theory overcomes the traditional entropy approach by actively sensing and learning information in a sequence. Particularly, the autonomous navigation of a team of heterogeneous unmanned ground and aerial vehicle systems in Mars outperforms benchmarks through indirect learning.</p><p>Formulating a cost function with an appropriate valuation of information is necessary when knowledge of the information in one time and/or space gives conditional attributes of information in another time and/or space. This model, Sequential Multimodal Multivariate Learning (SMML) outputs informed decisions, conditioned on the cost of exploration and benefit of uncertainty removal. For instance, given an observable input, SMML is trained to infer posterior from samples taken from the same multimodal and multivariate distribution, approximate gains, and make optimal decisions. The utility is the usual metric to be optimized based on the difference between prior and posterior tasks, and it tells us how well the model is improving the data distribution after observation. Recall that, in general, it does not suffice to learn from average values like in the standard reinforcement learning problem to solve this kind of task, for this reason, SMML extends the capabilities of deep learning models for reinforcement learning whose reward for each action is restricted to unimodal or univariate distributions. In highly uncertain conditions, this reduction of entropy is vital to any optimization platform employed in the robust, efficient, autonomous exploration of the search space. To overcome  Shannon's limitation in multimodal learning, we consider both standard deviation and entropy. We target cells with the highest importance of information distinguishing two cells with identical entropy, but different values of information. </p><p>Predictive routing  is effective in knowledge transfer, however, ignore information gained from probability distributions with more than one peak. Consider a network with a grid laid on top, where each cell represents a small geographical region. To find an optimal route from an origin cell to a destination, forecasting the condition of intermediate cells is critical. Routing literature did not use a location's observed data to forecast conditions at distant non-contiguous locations' unobserved data. We aggregate the data from all the grid cells and cluster cells that have similar combinations of probability distributions. When one cell of a cluster is explored, the information gained from the explored cell can partially remove uncertainty about the conditions in distant non-contiguous unexplored cells of the same cluster. With this new framework, we explore the best options to travel with partial, sequential, and mixture of information gain.</p><p>We use observations obtained en route to infer the most likely conditions in unobserved locations. While distant unobserved locations may not share any inherent correlation with locally observed locations, classification errors by the image classifier may be correlated with certain image features found in different locations on the Martian surface. By clustering pixels with similar classifications, we gather evidence en-route that either supports or fails to support the hypothesis that the image classifier is making correct classification of the different terrain types. The two-step process (clustering - posterior) updates the state estimation of un-observed locations when navigating Jezero region of Mars environments in which prior belief is provided but contains high uncertainty. During 55 out of 100 runs in the Monte Carlo simulation the optimal expected travel time path based on the prior SPOC map resulted in the rover becoming stuck due to misclassification. Real-world misclassifications are expected to be lower compared with the ground truth map used in this research. Without considering runs in which the rover would have been stuck using the prior map, the median travel time was improved by 1 hour using the posterior. Travel time in the worst case outlier performance is improved by 2.32 hours and 75% quantile performance is improved by 1.61 hours. Over a mission spanning many months, this saving adds significant additional time for scientific experiments.</p>
 </div>
 </li>
@@ -661,7 +661,7 @@ Sequential Deep Learning for Mars Autonomous Navigation
 Lot-to-Lot Variability and TID degradation of Bipolar Transistors Analyzed with ESA and PRECEDER Databases
  (<a href="#abstract-3084" data-toggle="collapse">abstract</a>)
 <div id="abstract-3084" class="collapse">
- - 
+ -
 <p>The NewSpace era has drastically increased the use
 of COTS (Commercial-off-the-shelf Components) to cover the
 needs of the new requirements: lower costs, shorter lead times,
@@ -679,7 +679,7 @@ based on the coefficient of variation.</p>
 Development of a Nanosatellite System Modeling Architecture for EIRSAT-1
  (<a href="#abstract-720" data-toggle="collapse">abstract</a>)
 <div id="abstract-720" class="collapse">
- - 
+ -
 <p>This paper discusses the adaptation of Model-Based Systems Engineering (MBSE) into CubeSat lifecycle development. This adaptation involves transitioning from traditional satellite design practices to a model-based design approach by developing system models required for analysis, trade-offs, verification and validation (V&amp;V). This approach has been applied to the launch-ready CubeSat, EIRSAT-1, which has been designed and developed by students and staff at University College Dublin (UCD), Ireland. The model contains several key features and components of EIRSAT-1. This poster presents the integration and verification of the communication link between the spacecraft and the Ground Segment (GS) within an MBSE framework.</p>
 </div>
 </li>
@@ -687,7 +687,7 @@ Development of a Nanosatellite System Modeling Architecture for EIRSAT-1
 Benchmark Computer Performance for Wavefront Sensing and Control on Next Generation Space Telescopes
  (<a href="#abstract-9067" data-toggle="collapse">abstract</a>)
 <div id="abstract-9067" class="collapse">
- - 
+ -
 <p>Future planned space telescopes, such as the HabEx and LUVOIR telescope concepts and the recently proposed Habitable Worlds Observatory, will use high contrast imaging and coronagraphy to directly image exoplanets for both detection and characterization. Such instruments will achieve the ~10^10 contrast level necessary for Earth-like exoplanet imaging by controlling thousands of actuators and sensing with thousands of pixels. Updates to the wavefront control actuators will need to be computed within seconds, placing unprecedented requirements on the real-time computational ability of radiation hardened processors. In this work we characterize the wavefront sensing and control algorithms to estimate the performance based on publicly available benchmark performance for currently available space-rated processors.</p>
 </div>
 </li>
@@ -695,7 +695,7 @@ Benchmark Computer Performance for Wavefront Sensing and Control on Next Generat
 Coverage-guided State Space Exploration of Autonomous Cyber-Physical Systems
  (<a href="#abstract-9661" data-toggle="collapse">abstract</a>)
 <div id="abstract-9661" class="collapse">
- - 
+ -
 <p>Autonomous Cyber-Physical Systems (CPS) play a substantial role in many domains, such as aerospace, transportation, critical infrastructure, and industrial manufacturing. However, despite the popularity of autonomous CPS, their susceptibility to errant behavior is a considerable concern for safety-critical applications.</p><p>Testing and simulation is the most common method used in practice to ensure correctness of autonomous CPS. This is because of its ability to scale to complex systems. In many domains, CPS complexity and scalability have been exponentially growing and will continue to expand in the future due to rapid integration with machine learning components and growing autonomy level such as unmanned aerial vehicles or self-driving cars.</p><p>Traditional software test methodologies extensively depending on code coverage are expensive, difficult to manage, and ineffective in verifying CPS behavior. Moreover, these test methodologies suffer flexibility absence where dynamical CPS control requirements and plant parameters are evolving through continuous state space and time.</p><p>We investigate ways to improve automated test case generation for autonomous CPS by Coverage Guided State Space Exploration, which systematically generates trajectories to explore desired (or undesired) outcomes. For this, we introduce a novel coverage metric and integrate this metric with various techniques, such as fuzz testing or model predictive control (MPC) to generate test cases.</p>
 </div>
 </li>
@@ -831,7 +831,7 @@ Coverage-guided State Space Exploration of Autonomous Cyber-Physical Systems
 WannaFly: An Approach to Satellite Ransomware
  (<a href="#abstract-4908" data-toggle="collapse">abstract</a>)
 <div id="abstract-4908" class="collapse">
- - 
+ -
 <p>Ransomware is a prevailing concern across sectors, wreaking havoc on operations and causing cascading failures - often cyber-physical in nature. The space sector has not been immune to ransomware attacks; however, there has yet to be a publicly disclosed ransomware built for a space vehicle itself. A ransomware attack against a space vehicle would need to be carefully crafted to mitigate the risk of destroying the underlying functionality of the spacecraft, while still achieving its purpose - denying access until a ransom is paid. Through static code analysis, this paper proposes an approach for deploying a ransom attack against a space vehicle that engages NASA's core Flight System (cFS).</p>
 </div>
 </li>
@@ -839,7 +839,7 @@ WannaFly: An Approach to Satellite Ransomware
 Space Flight Software Security Concerns
  (<a href="#abstract-5516" data-toggle="collapse">abstract</a>)
 <div id="abstract-5516" class="collapse">
- - 
+ -
 <p>Space flight software is no longer a closely guarded secret for space vehicle developers, owners and operators - it is open-sourced and available as a commercial-off-the-shelf module. Despite its wide availability, limited security research has been conducted on flight software in an unclassified environment. This paper proposes a research agenda that outlines critical challenges for space flight software and proposes a series of research and development efforts that could ultimately aid in developing inherently secure space vehicles.</p>
 </div>
 </li>
@@ -851,10 +851,10 @@ Space Flight Software Security Concerns
   <span class="session-track ">Baxter Lecture Hall</span>
 <ul>
 <li>
-System model evaluation of RISC-V cores for improved performance and fault tolerance 
+System model evaluation of RISC-V cores for improved performance and fault tolerance
  (<a href="#abstract-5813" data-toggle="collapse">abstract</a>)
 <div id="abstract-5813" class="collapse">
- - 
+ -
 <p>As aerospace and defense firms are working towards developing future air and space platforms, decisions involving which hardware and software elements to use in their design needs to be made. One significant design choice is the underlying instruction set architecture (ISA) that defines the          interface between the software and hardware for a processor. A relatively new ISA called RISC-V has emerged as an open source alternative to commercial ISAs. Verifiable security, frozen base specification for long-term stability, designed for extensibility and no license fee for modifications makes RISC-V particularly well suited for aerospace and defense applications. 
 It is important for the architect to evaluate not only the RISC-V core but the interaction of the core with other subsystems, data accesses, and interrupts, in the scope of target application at early design stages inorder to minimize design bugs, reduce cost and optimize design.  In this work, we developed the system models of not only the RISC-V core but also the entire SoC where the RISC-V cores were plugged in. Using the system model, we are able to run target applications/benchmarks on RISC-V core and evaluate the performance and power for different clock frequencies, custom instructions, topology, cache associativity degrees, cache replacement policies, cache sizes, write back policies, bus width, buffer sizes, bus speeds, memory types, memory width, and interconnect protocols like the TileLink. For each of the system model run, the simulation model generates various statistics including details on pipeline stalls, pipeline utilization, execution unit utilization, execution unit buffer occupancy, instruction and data cache accesses, cache hit ratio, number of evictions, write backs, memory throughput, cycles per instruction, memory access latency and network latency. 
 Using the system model, we were able to obtain debug logs from each SoC subsystems including the RISC-V cores. Using the pipeline traces for each instruction, we able to verify the behaviour of custom instructions which were introduced to improve our application performance. Performance and functional requirements were provided as input to the system model and faults were injected into the system model to determine the expected performance of the system under failure. Our SoC design was then updated to improve the fault tolerance and application performance by 30% under faults by adding redundant cores and error correction mechanisms, based on early results.</p>
@@ -864,7 +864,7 @@ Using the system model, we were able to obtain debug logs from each SoC subsyste
 Beamforming Implementation for Space-Based RF Payloads using AMD Versal™ Adaptive Compute Acceleration Platforms
  (<a href="#abstract-5756" data-toggle="collapse">abstract</a>)
 <div id="abstract-5756" class="collapse">
- - 
+ -
 <p>The growing need to provide reliable high bandwidth, low latency communication services to remote and underserved locations is being addressed in both the commercial and defense space sectors. The result is the proliferation of low earth orbit (LEO) satellite constellations with complex radio frequency (RF) communications payloads. To fully realize the potential of networked communications satellites in LEO, satellite designers are creating electronically-steerable multi-beam antenna systems. These antenna systems rely on digital beamforming, a technique which enables an active electronic array antenna to efficiently direct RF energy to the intended recipient. Digital beamforming is a complex technique which requires significant parallel computing resources to operate in real-time at rates of hundreds of billions of complex multiply and accumulate operations per second. 
 Availability of highly integrated semiconductor devices with heterogeneous computing resources is enabling unprecedented flexibility for designers of satellite RF systems. With newly available products, designers can implement reconfigurable processing platforms which, under software control, can respond to evolving mission parameters with a variety of disparate compute resources which enable efficient digital beamforming as well as optimal real-time control of modulation techniques, in-flight updates of waveforms, and AI-based decision-making.
 AMD Versal ACAP (Adaptive Compute Acceleration Platform) devices combine application class processors, real-time processors with lock-step capabilities, AI acceleration vector processors, DSP blocks capable of 27 x 24 multiplication operations with 58-bit accumulation, and an infinitely reconfigurable programmable logic fabric in a single chip form-factor with sufficient radiation tolerance for LEO and GEO space missions. The density, variety, and performance of the various computing resources in the Versal ACAP devices enable a significant leap forward in the drive toward miniaturization of satellite payload processing systems, and allow designers to achieve autonomous decision making on orbit based on highly complex analysis of high bandwidth data from multiple sensors.
@@ -929,7 +929,7 @@ We will also provide the latest information on the radiation characterization of
 How to Scrub a Launch: Spaceport Cybersecurity
  (<a href="#abstract-8570" data-toggle="collapse">abstract</a>)
 <div id="abstract-8570" class="collapse">
- - 
+ -
 <p>Access to space is increasingly fundamental to our modern world. Launch volume is rapidly increasing annually, requiring increasing spaceport and ground support capabilities. The design, ownership, and operation of spaceports are bespoke, where their cybersecurity considerations are always an afterthought. This paper focuses on the critical role spaceports play in the access to space and their vulnerabilities to cyber attacks.  Further, it demonstrates that without strong cybersecurity, adversaries can easily deny access to space.</p>
 </div>
 </li>
@@ -937,7 +937,7 @@ How to Scrub a Launch: Spaceport Cybersecurity
 Web-based 3D Visualization for Flight Mission Network Cybersecurity Analysis
  (<a href="#abstract-3470" data-toggle="collapse">abstract</a>)
 <div id="abstract-3470" class="collapse">
- - 
+ -
 <p>The Cyber Analysis Visualization Environment (CAVE) software system is a collaboration between the Systems Engineering and Mission Systems and Operations Divisions at JPL. CAVE is an easy to use, model-based cyber threat visualization, analysis, and assessment platform designed to respond to the growing threat of cyber attacks targeting space missions. CAVE was originally designed and developed as a Python-based desktop application with integrated 3D visualization, user interface, and a cyber analysis engine, before a recent redesign to the current client/server web-based application architecture. This new client/server web application architecture allows users to use CAVE on multiple platforms, requiring minimal or no software installation on their local systems while still allowing for a level of customizability at the user level. CAVE’s client/server architecture ensures that sensitive or proprietary data always resides securely on the CAVE analysis server, thereby avoiding the storage of any sensitive data on the end user‘s local machine. At the high level, the CAVE web server exposes a REST API to allow the web GUI to communicate with the analysis engine. The web server has user authentication capabilities, and restricts access to model data based on the assigned group of the authenticated user. The server is architected with a plugin structure in mind for analyses, so that anyone opting to deploy the CAVE server can easily write and deploy additional model analyses. Model data is stored in a Mongo database and delivered to the client via authenticated HTTPS request. The client handles all interactions with the web server and provides feedback to the user on the status of server requests. CAVE’s web-browser user interface provides an intuitive, 3D presentation of complex network models, containing both physical and virtual network assets, which allows mission cybersecurity engineers to easily swap between a selection of visual layouts and execute a variety of cybersecurity analyses algorithms designed to help users better understand possible network vulnerabilities and defenses. This web-based user interface model allows for ease of expansion and potential future additions to the user experience, including real-time collaboration and sharing capabilities, and the interactive exploration of large cybersecurity datasets. In this paper we present CAVE's software architecture and use cases, and discuss CAVE's value as an intuitive tool for cyber threat identification and assessment.</p>
 </div>
 </li>
@@ -966,7 +966,7 @@ Web-based 3D Visualization for Flight Mission Network Cybersecurity Analysis
 Challenges in FPGA Design for Complex, High Performance Space Applications
  (<a href="#abstract-4795" data-toggle="collapse">abstract</a>)
 <div id="abstract-4795" class="collapse">
- - 
+ -
 <p>Field Programmable Gate Array (FPGA) technology has been used extensively in space applications where the natural radiation environment presents major challenges to electronic parts. Commercial FPGA technology is trending to deep nano-meter silicon processes, which impacts the availability of radiation resilience FPGA chips.  Space systems require long timeframes for development and launch, and often the electronics and code may become obsolete or require updating before the system can be launched. FPGA logic/fabric-size continues to grow dramatically which allows and practically requires more and more IP cores to be integrated within a chip.  New IP cores and tools will be needed to enable space designs with commercial FPGA technology to withstand radiation. This paper discusses the challenges in designing FPGA-based space systems and potential open-source and commercial technologies that will be useful to space application developers. It also references an ongoing FPGA based space telescope spectrometer design to discuss different aspects of complex FPGA design with mixed analog and digital circuits.</p>
 </div>
 </li>
@@ -974,7 +974,7 @@ Challenges in FPGA Design for Complex, High Performance Space Applications
 HPC in a Vacuum: Evaluating Future Space Microprocessors
  (<a href="#abstract-194" data-toggle="collapse">abstract</a>)
 <div id="abstract-194" class="collapse">
- - 
+ -
 <p>Advanced algorithms dictated by future mission needs are pushing space-borne computing requirements. Current platforms used in manned and unmanned spaceflight are limited by the intersection of radiation tolerance, power consumption, computing performance and safety critical features. Until recently, advanced instruction set architectures (ISAs), algorithm specific instructions, high speed external interfaces and high performance on-chip networks were eschewed from processor designs and current production spacecraft processors are based on past computing paradigms.</p><p>Advances in processor manufacturing, emerging ISAs and machine learning techniques will significantly impact future system-on-chip (SoC) designs, enabling true high-performance space computing. To better understand the computational requirements of modern spacecraft, a comprehensive set of benchmarks that include basic system characterization, high performance computing, navigation and landing, image recognition, route finding, data mining and machine learning are necessary to characterize candidate architectures. The analysis of these space flight focused algorithms will drive the design of next generation space computing SoCs.</p>
 </div>
 </li>
@@ -1038,15 +1038,15 @@ HPC in a Vacuum: Evaluating Future Space Microprocessors
 Ablation Study of How Run Time Assurance Impacts the Training and Performance of Reinforcement Learning Agents
  (<a href="#abstract-3799" data-toggle="collapse">abstract</a>)
 <div id="abstract-3799" class="collapse">
- - 
+ -
 <p>Reinforcement Learning (RL) has become an increasingly important research area as the success of machine learning algorithms and methods grows. To combat the safety concerns surrounding the freedom given to RL agents while training, there has been an increase in work concerning Safe Reinforcement Learning (SRL). However, these new and safe methods have been held to less scrutiny than their unsafe counterparts. For instance, comparisons among safe methods often lack fair evaluation across similar initial condition bounds and hyperparameter settings, use poor evaluation metrics, and cherry-pick the best training runs rather than averaging over multiple random seeds. In this work, we conduct an ablation study using evaluation best practices to investigate the impact of Run Time Assurance (RTA), which monitors the system state and intervenes to assure safety, on effective learning. By studying multiple RTA approaches in both on-policy and off-policy RL algorithms, we seek to understand which RTA methods are most effective, whether the agents become dependent on the RTA, and the importance of reward shaping versus safe exploration in RL agent training. Our conclusions shed light on the most promising directions of SRL, and our evaluation methodology lays the groundwork for creating better comparisons in future SRL work.</p>
 </div>
 </li>
 <li>
-The DART Autonomy System  
+The DART Autonomy System
  (<a href="#abstract-5214" data-toggle="collapse">abstract</a>)
 <div id="abstract-5214" class="collapse">
- - 
+ -
 <p>This paper describes the Autonomy System that flew on the Double Asteroid Redirection Test (DART) mission. A detailed description of the rules-based logic is provided, including the heritage of the system, how it was tailored to meet DART’s fault management philosophy, build process, testing, and necessary in-flight updates. The purpose of the Autonomy software was to implement fault protection against components’ off-nominal behaviors and to implement a safing strategy designed to place the spacecraft in a known, safe configuration in response to critical faults while Mission Operations worked on a resolution. Aside from maintenance and fault protection tasks, the onboard Autonomy software was key to guaranteeing the execution of time-critical sequences during the mission. The resulting system was also instrumental in being the tool of choice to address anomalies in other subsystems that were discovered as early as a month into flight and as late as a month before impact.</p>
 </div>
 </li>
@@ -1054,7 +1054,7 @@ The DART Autonomy System
 Intelligent requirement-to-test-case traceability system via Natural Language Processing and Machine Learning
  (<a href="#abstract-8449" data-toggle="collapse">abstract</a>)
 <div id="abstract-8449" class="collapse">
- - 
+ -
 <p>Accurate mapping of software requirements-to-tests can assure high software reliability as a result of robust traceability, test coverage, and improved transparency. Software requirements change frequently across mission phases. A testable and measurable requirement maintenance and tracing are essential in all phases of mission life cycle. In a development phase, a predictable and controlled software system deployment, test, and integration can firmly support mission’s rapid innovations. In an operation phase, patches need to be applied periodically and prompt evaluation and verification turnaround are critical. By integrating and exercising Natural Language Processing (NLP) and Machine Learning (ML) assisted model-based test engineering (MBTE) many of these challenges can be overcome. This paper will present a new and novel method and lesson learned from formalizing and automating the software requirement-to-test mapping, which allows engineers to review the recommendations generated by the automated system.</p>
 </div>
 </li>
@@ -1069,7 +1069,7 @@ Intelligent requirement-to-test-case traceability system via Natural Language Pr
 A System to Provide Deterministic Flight Software Operation and Maximize Multicore Processing Performance: The Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) Datapath
  (<a href="#abstract-8266" data-toggle="collapse">abstract</a>)
 <div id="abstract-8266" class="collapse">
- - 
+ -
 <p>A method and design are described for a system that
 processes multiple data streams, utilizing a multicore asymmetric
 processing architecture, that eliminates data interrupts to the
@@ -1105,7 +1105,7 @@ overhead of a real-time operating system.</p>
 The ring-buffer ROS2 executor: a novel approach for real-time ROS2 Space applications.
  (<a href="#abstract-7317" data-toggle="collapse">abstract</a>)
 <div id="abstract-7317" class="collapse">
- - 
+ -
 <p>ROS2 (Robot Operating System Version 2) is an open-source software framework and suite of libraries that facilitates robotics application development and multi-core processing. ROS2 is becoming the de-facto standard for autonomous robotics application and recently, with the sponsorship of NASA and Blue Origin, space-ros -a pre-qualified implementation of ROS2- it is also started to be used for Space autonomous applications, like landers and space robotics. </p><p>ROS2 data workflow design has been thought out to provide a robust and uniform access to sensor data via different supported middleware including DDS and memory sharing solutions. While this design has largely simplified the development effort required to write applications based on ROS2, the processing performance has been compromised and it is not uncommon to face long latencies in receiving sensor data or even non-negligible data losses.</p><p>The ROS2 community -and specifically the Real-Time Working Group (RTWG)- has made a big effort in trying to improve this situation that resulted in the creation of the Static Single Thread and the Multi-thread Executors. These executors have yielded substantial performance improvements for some specific scenarios respectively. However, the community has been unable to find a general approach to solve the performance bottlenecks in ROS2 and has left to the developer to find the optimal combination of executors for the use case at hand.</p><p>Other industries like the financial industry have reached ground-breaking speed by parallelization of data processing algorithms that enable real-time applications based on the so-called lock-free programming technique. This technique, although very complex to program efficiently, can yield performance results when used appropriately.
 The authors of this paper have implemented a lock-free ring-buffer and validated it in different onboard computers with outstanding performance results for sensor data aggregation, processing, and even artificial intelligence.</p><p>The research presented here shows a ROS2 executor implemented of our lock-free ring-buffer that can not only increase by several times the data processing rate with respect to the above-mentioned executors, but also reduce the processing consumption substantially. Moreover, a ROS2 multi-node approach of this executor has been implemented combined with offline optimization based in genetic algorithms, that can improve the performance of virtually any scenario for ROS2 applications.</p><p>Successful performance results of this novel ring-buffer ROS2 executor and the multi-node variation are presented using the so-called reference system and validated in several Space computers including Unibap's iX5, Teledyne e2v's LS1046 and Xilinx Ultrascale+.</p>
 </div>
@@ -1140,7 +1140,7 @@ The authors of this paper have implemented a lock-free ring-buffer and validated
 ScOSA on the Way to Orbit: Reconfigurable High-Performance Computing for Spacecraft
  (<a href="#abstract-2874" data-toggle="collapse">abstract</a>)
 <div id="abstract-2874" class="collapse">
- - 
+ -
 <p>The German Aerospace Center (DLR) is developing ScOSA (Scalable On-board Computing for Space Avionics) as a distributed on-board computing architecture for future space missions. The ScOSA architecture consists of commercial off-the-shelf (COTS) and radiation-tolerant nodes interconnected by a SpaceWire network.
 The system software provides services to enable parallel computing and system reconfiguration. This allows ScOSA to adapt to node errors and failures that COTS hardware is susceptible to in the space environment. In the ongoing ScOSA Flight Experiment project, a ScOSA system consisting of eight Xilinx Zynq systems-on-chip with dual-core ARM-based processors and a LEON3 radiation-tolerant processor is being built for launch on DLR's next CubeSat in late 2024. In this flight experiment, not only all 18 cores but also the programmable logic will be used for high performance on-board data processing. This paper presents the current hardware and software architecture of ScOSA. The scalability of ScOSA is highlighted from both hardware and software perspectives. We present benchmark results of the ScOSA system and experiments of the ScOSA system software on ESA's OPS-SAT in orbit in combination with a machine learning application for image classification.</p>
 </div>
@@ -1296,7 +1296,7 @@ The system software provides services to enable parallel computing and system re
 Modeling Data of Planetary Instrument for X-ray Lithochemistry (PIXL) for Mars 2020
  (<a href="#abstract-5612" data-toggle="collapse">abstract</a>)
 <div id="abstract-5612" class="collapse">
- - 
+ -
 <p>NASA's Mars 2020 Mission is to study Mars' habitability and seek signs of past microbial life. The mission uses an X-ray fluorescence spectrometer to identify chemical elements at sub-millimeter scales of the Mars surface. The instrument captures high spatial resolution observations comprised of several thousand individual measured points by raster-scanning an area of the rock surface. This paper will show how different methods, including linear regression, k-means clustering, image segmentation, similarity functions, and euclidean distances, perform when analyzing datasets provided by the X-ray fluorescence spectrometer to assist scientists in understanding the distribution and abundance variations of chemical elements making up the scanned surface. We also created an interactive map to correlate the x-ray spectrum data with a visual image acquired by an RBG camera.</p>
 </div>
 </li>
@@ -1304,7 +1304,7 @@ Modeling Data of Planetary Instrument for X-ray Lithochemistry (PIXL) for Mars 2
 MUSTANG: A Workhorse for NASA Spaceflight Avionics
  (<a href="#abstract-7939" data-toggle="collapse">abstract</a>)
 <div id="abstract-7939" class="collapse">
- - 
+ -
 <p>The Modular Unified Space Technology Avionics for Next Generation (MUSTANG) is a small integrated Avionics system including Command and Data Handling (C&amp;DH), Power System Electronics (PSE), Attitude Control System Interfaces (ACS), and Propulsion Electronics. The MUSTANG Avionics Architecture is built upon many years of knowledge capture and lessons learned at the Goddard Space Flight Center.  With a motivation towards modularity and keeping board redesign costs to a minimum, MUSTANG offers flexibility in features with a backplane-less design and allows the user to choose the options (cards) needed for their system. It incorporates a distributed power system that provides secondary power to all its subcomponents reducing the number of primary services needed for an Avionics. MUSTANG can be integrated into one system or divided into several smaller components. MUSTANG supports redundancy and cross-strap ability for a more robust and reliable Avionics system. A variation of MUSTANG exists for Instrument Electronics called iMUSTANG and allows the user to select functionality applicable to the instrument electronics. MUSTANG is not meant to replace Avionics for all spacecraft. There are limitations due to its relatively compact size, but the MUSTANG design has proven broadly applicable on many spacecraft and instrument bus avionics architectures.</p>
 </div>
 </li>
@@ -1312,8 +1312,8 @@ MUSTANG: A Workhorse for NASA Spaceflight Avionics
 A data pre-processing module for improved-accuracy Machine-Learning-based micro-Single-Event-Latchup detection
  (<a href="#abstract-8924" data-toggle="collapse">abstract</a>)
 <div id="abstract-8924" class="collapse">
- - 
-<p>Single-event-latchup (SEL) in a semiconductor device is an undesirably induced high current state, typically rendering the affected device to be non-functional and compromising its operating lifetime.  The lower-current SEL phenomenon – the micro-SEL – is often difficult to detect, particularly when the normal operating current of the protected device is variable and the magnitude of micro-SEL currents is different under different operating conditions.  In Machine-Learning (ML), the said variable current inadvertently affects the multiple features of the input current profile required for micro-SEL detection, thereby severely reducing the detection accuracy.  
+ -
+<p>Single-event-latchup (SEL) in a semiconductor device is an undesirably induced high current state, typically rendering the affected device to be non-functional and compromising its operating lifetime.  The lower-current SEL phenomenon – the micro-SEL – is often difficult to detect, particularly when the normal operating current of the protected device is variable and the magnitude of micro-SEL currents is different under different operating conditions.  In Machine-Learning (ML), the said variable current inadvertently affects the multiple features of the input current profile required for micro-SEL detection, thereby severely reducing the detection accuracy.
 In this paper, we propose a data pre-processing module to improve the accuracy of the ML-based micro-SEL detection under the aforesaid current conditions.  The proposed pre-processing module encompasses the following.  Prior to classification by ML, the input current profile is processed by a data pre-processing module employing a proposed background subtraction algorithm and proposed adaptive normalization algorithm.  By filtering the irrelevant base current and normalizing the micro-SEL current based on the base current value, the data pre-processing module provides improved accurate features of the input current profile and widens the difference between normal samples and micro-SEL samples in the feature space.  Ultimately, the proposed module facilitates ML algorithms to generate a more accurate decision boundary.  The outcome is a worthy ~13% accuracy improvement (from ~79% to ~92%) in the micro-SEL detection in a device operating with variable currents.</p>
 </div>
 </li>
@@ -1349,7 +1349,7 @@ In this paper, we propose a data pre-processing module to improve the accuracy o
 SpaceVPX Interoperability
  (<a href="#abstract-2446" data-toggle="collapse">abstract</a>)
 <div id="abstract-2446" class="collapse">
- - 
+ -
 <p>As NASA exploration moves beyond low-Earth-orbit (LEO), the need for interoperable avionics systems becomes more important due to the cost, complexity, and the need to maintain distant systems for long periods.</p><p>The existing SpaceVPX industry standard addresses some of the needs of the space avionics community, but falls short of an interoperability standard that would enable reuse and common sparing on long duration missions and reduce NRE for missions in general.</p><p>A NASA Engineering &amp; Safety Center (NESC) study was conducted to address the deficiencies in the SpaceVPX standard for NASA missions and define the recommended use of the SpaceVPX standard within NASA.  Subsequently, the broader spaceflight avionics community has been engaged to work towards a more interoperable variant of the SpaceVPX standard.  This presentation will provide a background on SpaceVPX interoperability, proposed solutions, and an update on efforts to develop a variant of the standard.</p>
 </div>
 </li>
@@ -1357,7 +1357,7 @@ SpaceVPX Interoperability
 Time Sensitive Networking (TSN) Brings Resilient and Low Latency Ethernet to Space
  (<a href="#abstract-3217" data-toggle="collapse">abstract</a>)
 <div id="abstract-3217" class="collapse">
- - 
+ -
 <p>TSN is a set of IEEE 802.1 standards and technologies that bring bounded latency, low packet delay variation and guaranteed packet delivery to conventional Ethernet networks. While TSN has been deployed in residential, automotive and telecommunication Ethernet networks, its applicability to space applications is now being studied by the IEEE P802.1DP (TSN for Aerospace Onboard Ethernet Communications) Task Group.  </p><p>This presentation provides an overview of how TSN can bring fault tolerance, resiliency, latency reduction and determinism to space, and how TSN Ethernet can change the economics and ecosystem for space. The author will also give a status update on the work at P802.1DP.</p>
 </div>
 </li>
@@ -1412,7 +1412,7 @@ Time Sensitive Networking (TSN) Brings Resilient and Low Latency Ethernet to Spa
 Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contracts
  (<a href="#abstract-421" data-toggle="collapse">abstract</a>)
 <div id="abstract-421" class="collapse">
- - 
+ -
 <p>We present a compositional approach to modeling and analyzing space mission operation sequences with steps across multiple viewpoints. We consider different tasks such as communication, science observation, trajectory correction, and battery charging; and separate their interactions across discipline viewpoints. In each sequence step, these tasks are modeled as assume-guarantee contracts. They make assumptions on the initial state of a step, and if these assumptions are satisfied, they guarantee desirable properties of the state at the end of the step. These models are then used in Pacti, a tool for reasoning about contracts. We demonstrate a design methodology leveraging Pacti's operations: contract composition for computing the contract for the end-to-end sequence of steps and contract merging for combining them across viewpoints. We also demonstrate applying Pacti's optimization techniques to analyze the figures of merit of admissible sequences satisfying operational requirements for a CubeSat-sized spacecraft performing a small-body asteroid rendez-vous mission. We show that analyzing tens of thousands of combinations of sequences and operational requirements takes just over one minute, confirming the scalability of the approach. The methodology presented in this paper supports the early design phases, including requirement engineering and task modeling.</p>
 </div>
 </li>
@@ -1420,7 +1420,7 @@ Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contra
 A Hybrid Space Architecture for Robust and Resilient Satellite Services
  (<a href="#abstract-1162" data-toggle="collapse">abstract</a>)
 <div id="abstract-1162" class="collapse">
- - 
+ -
 <p>A `hybrid space architecture' has been proposed to facilitate robust and resilient satellite data downlink, integration and analysis; however, the technical details for what may comprise a hybrid space architecture are severely lacking. Thus far, `hybrid' principally entails the diversity of commercial providers. While diverse suppliers can contribute to hybrid space architectures, we argue that robustness and resilience will only be achieved through heterogeneous network and asset architectures.  A connected satellite services ecosystem composed of the union of different networks with different characteristics would limit single points of failure, thereby generating high levels of redundancy, resilience and scalability. This research outlines parameters of a hybrid space architecture, documents satellite service reference architectures and provides a comparative analysis of the features for each architecture.  Further, through a case study of existing satellite service providers, we propose how a hybrid space architecture could be piloted in Northern Europe and the High North.</p>
 </div>
 </li>
@@ -1428,7 +1428,7 @@ A Hybrid Space Architecture for Robust and Resilient Satellite Services
 Availability Vs. Lifetime Trade-Space In Spacecraft Computers
  (<a href="#abstract-1361" data-toggle="collapse">abstract</a>)
 <div id="abstract-1361" class="collapse">
- - 
+ -
 <p>This paper presents a trade space comparing forty-eight different configurations for redundant computer systems in spacecraft, in terms of their availability versus lifetime metrics.  Each of these configurations uses a different redundancy scheme.  Failure modes include transient failures due to radiation effects in space, such as Single Event Upsets (SEUs) and Single Event Functional Interrupts (SEFIs) and permanent failures due to degradation.  Configurations include various combinations of up to four total processors, with at least one of them being a prime, and the others, hot or cold spares.  Dual, Triple, and Quad Modular Redundancy are covered, along with some deployed spacecraft configurations, e.g. the Parker Solar Probe, and the Curiosity rover during its Entry, Descent, Landing (EDL) phase.  Some hypothetical designs lie outside the convex hull of previously-known configurations.</p>
 </div>
 </li>
@@ -1464,7 +1464,7 @@ Availability Vs. Lifetime Trade-Space In Spacecraft Computers
 Trustworthy Autonomy for Gateway Vehicle System Manager
  (<a href="#abstract-6155" data-toggle="collapse">abstract</a>)
 <div id="abstract-6155" class="collapse">
- - 
+ -
 <p>The Vehicle System Manager (VSM) is the highest-level software control system in the Gateway hierarchical Autonomous System Management Architecture (ASMA). A key objective in ASMA design is to focus on infrastructure and systems to allow autonomous operations aboard Gateway. VSM will integrate modules and visiting vehicles to assist ground controllers and onboard crew in operation of Gateway as the head of a distributed and hierarchical system.
     The VSM provides four function categories: Mission Management and Timeline Execution, Resource Management, Fault Management, Vehicle Control and Operation. VSM provides various levels of automation ranging from fully autonomous operations with no flight crew and minimal ground monitoring to advisory automation when Gateway is crewed and has full ground monitoring. Trustworthiness is achieved via verified specification, comprehensive development verification, and real-time verification using assume-guarantee contracts (AGCs).
    VSM is heavily data-driven. Development verification includes semantic verification of the data model via peer review and testing. Development AGCs are implemented using the PlusCal/TLA+ environment to model key state machines with the AGCs implemented as assertions and linear temporal logic formulas, checked using the TLC model checker.
@@ -1476,7 +1476,7 @@ Trustworthy Autonomy for Gateway Vehicle System Manager
 Robots capable of human-level manipulation are key to industrial space viability and the commercial space economy
  (<a href="#abstract-9341" data-toggle="collapse">abstract</a>)
 <div id="abstract-9341" class="collapse">
- - 
+ -
 <p>Robots capable of human-level manipulation are key to industrial space viability and the commercial space economy. Beyond building space-rated robot hardware, advanced software capabilities including artificial intelligence are critical to enabling practical, everyday robotics usage. In this talk Dr. Coleman will propose an approach for mostly autonomous control software, with minimum human supervision. A key to this approach is designing multi-purpose robots that can adapt to a variety of IVA, EVA, and lunar manipulation needs for dynamically changing environments.</p><p>Dr. Dave Coleman is CEO of PickNik Robotics and an industry thought leader in robotics. PickNik has been successfully delivering robotics innovation on and off earth over the past 7 years to over 60 customers. Before founding PickNik, Dave worked at Google Robotics, Open Robotics, and Willow Garage. Dave is an international advocate of open source software, robotic interoperability, and an expert in autonomous motion control. He has been collaborating with NASA on various robotic programs and SBIRs since 2014.</p>
 </div>
 </li>
@@ -1509,7 +1509,7 @@ Robots capable of human-level manipulation are key to industrial space viability
 An Examination of the Radiation Tolerance of Electronic Displays For Future Crewed Missions
  (<a href="#abstract-2081" data-toggle="collapse">abstract</a>)
 <div id="abstract-2081" class="collapse">
- - 
+ -
 <p>Recent commitments to return humans to the lunar surface and long duration crewed missions beyond the protection of the Earth’s atmosphere and magnetosphere require examination of technologies and challenges that are unique to human inhabitants. Electronic displays serve as a critical, real time informational interchange between crew and the plethora of support technologies that contribute to a successful crewed mission (e.g. scientific instrumentation, safety and health monitors, computer interface, etc.). Critical components utilized in space-based applications must reliably operate through a variety of hostile environments such as the particle radiation environment comprised of galactic cosmic rays, trapped particle belts, and solar particle emissions. These highly energetic particles interact with materials at the atomic level, temporarily distorting free charge carrier populations and modifying intrinsic material parameters that in-turn impact the performance of devices built upon that material. Present-day utilization of electronic displays on the International Space Station and space tourism are confined to well-shielded spacecraft in low earth orbit altitudes with non-polar orbits which results in significantly attenuated energetic particle populations and radiation dose seen by on-board components. In contrast, crewed missions to the lunar surface will subject electronic displays to a particle radiation environment without geomagnetic shielding and in some cases with little to no shielding at all, (e.g. displays on an unpressurized lunar rover, surface-based instrumentation, etc.). Given the realities of the small quantities required for space-based applications compared to the broader market, it is critical to evaluate potential design sensitivities while also understanding the tunable parameters (if any) within the electronic display fabrication and assembly process. In anticipation of extensive usage in future crewed missions, preemptive examination of radiation tolerance of commercially available electronic displays serves to reduces the risk volatility posed by the inclusion of electronic displays in upcoming crewed mission (NASA HEOMD-405 Integrated Exploration Capability Gaps List Tier 1 Gap 02-02).</p><p>Notionally, an electronic display can be decomposed into 1) the pixel screen responsible for manipulation of light and 2) support electronics required to drive pixels on the screen to portray an image. Based on existing physics-of-failure understanding of radiation effects, the constituent components of an electronic display can be interrogated for its most susceptible degradation mechanisms. In the case of the screen, the primary degradation mechanisms are cumulative over the lifetime of the screen with the light emission layers (e.g. light emitting diodes) being sensitive to atomic displacements (displacement damage) and the thin-film transistor backplane and plastic/glass overlayers being susceptible to excess charge accumulation in oxides and passivation of charge centers (total ionizing dose). While the support electronics will still be susceptible to cumulative dose effects as well, the primary concern is the potential disruption caused by instantaneous charge injection from an individual high energy particle (single event effect). At a system level, this radiation-induced degradation in the screen presents as reduced output luminosity and potential color shift of display images while single event effects in the support circuitry can result in temporary and persistent visual distortions as well as unrecoverable electrical failure.</p><p>To further develop the foundation of radiation effects in electronic displays, a multi-institution collaboration has conducted initial heavy ion (single event effect) and 64 MeV proton irradiation (cumulative dose) test campaigns to 1) develop the characterization and analysis techniques for electronic displays and 2) collect test data for broadly assessing the susceptibility of display technologies. In accordance with the shift towards utilization of commercial-off-the shelf components and systems, it is pragmatic to evaluate a range of commercially available pixel technologies that could be selected by designers or original equipment manufacturers based on the trade-space of performance, cost, and resource requirements. From these test results, radiation-induced degradation in the pixel technology of organic light emitting diodes (OLEDs), backlight thin-film transistor liquid crystal displays (TFT-LCDs), and light emitting diode (LED) dot arrays was demonstrated and used to examine the significance of the red, green, and blue pixels degrading at distinct rates (non-uniform). Additionally, heavy ion tests allowed for cataloguing of non-destructive visual single event error signatures to better categorize error signatures as acceptable/unacceptable and preemptively develop and identify the software mitigation approaches for the computer systems that ultimately drive the electronic displays. The intent of this presentation is to socialize the necessity of radiation tolerant electronic displays for future crewed missions to the broader space computing community, outline characterization and analysis techniques utilized for characterizing radiation-induced degradation in human-interface applications, and summarize radiation test results from a cross-section of commercially available display technologies to grow the body-of-knowledge in anticipation of the need for reliable electronic displays for crewed missions.</p>
 </div>
 </li>
@@ -1554,7 +1554,7 @@ An Examination of the Radiation Tolerance of Electronic Displays For Future Crew
 Establishing Trust in NASA’s Artemis Campaign Computer-Human Interface (CHI) Implementation
  (<a href="#abstract-4089" data-toggle="collapse">abstract</a>)
 <div id="abstract-4089" class="collapse">
- - 
+ -
 <p>The NASA Artemis campaign will return humans to the Moon. This time, with the help of commercial and international partners, the campaign's objective is a permanent Moon base. The Moon base infrastructure, including an orbiting station and surface assets, will be developed for astronauts to stay for the long haul to learn to live and work on another planet in preparation for an eventual Humans-to-Mars mission. As the roundtrip communication delays increase in deep space exploration, the crew will need more onboard systems autonomy and functionality to maintain and control the vehicle or habitat. These mission constraints will change the current Earth-based spacecraft to ground control support approach that will demand safer, more efficient, and more effective Computer-Human Interface (CHI) control. For Artemis, CHI is defined as the elements that the crew interfaces with: audio, imagery, lighting, displays, and crew controls subsystems. Understanding how CHI will need to evolve to support deep space missions will be critical for the Artemis campaign --especially crew controls, which is the focus of this paper. How does NASA ensure crew controls are reliable enough to control complex systems and prevent a catastrophic event due to human error--especially when the astronauts could be physiologically and/or psychologically impaired? NASA's approach to mitigating catastrophic hazards in human spaceflight system development such as crew controls is through a holistic system engineering and Human System Integration (HSI) methodology.  This approach focuses on incorporating NASA's Human-Rating Requirements to ensure consideration of human performance characteristics to control and safely recover the crew from hazardous situations. This paper discusses, at a high level, CHI for the Artemis campaign. Next, a discussion of what it means to human-rate a space system crew controls and how trust in CHI begins with the NASA human rating requirements. Finally, a discussion on how systems engineering and the HSI process ensure that crew control implementation incorporates the NASA human-rating requirements.</p>
 </div>
 </li>
@@ -1569,7 +1569,7 @@ Establishing Trust in NASA’s Artemis Campaign Computer-Human Interface (CHI) I
 Battery Management System for On-Board Data-Driven State of Health Estimation for Aviation and Space Applications
  (<a href="#abstract-7957" data-toggle="collapse">abstract</a>)
 <div id="abstract-7957" class="collapse">
- - 
+ -
 <p>To ensure a safe and economically valuable operation of a battery system over the whole lifetime, a battery management system is used for measuring and monitoring battery parameters and controlling the battery system. Since the battery performance decreases over its lifetime, a precise on-board aging estimation is needed to identify significant capacity degradation endangering the functionality and safety of a battery system. Especially for aviation and space applications, this can result in catastrophic scenarios. Therefore, in this work, a generic battery management system approach is presented considering aerospace application requirements. The modular hardware and software architecture and its components are described. Moreover, it is shown that the developed battery management system supports the execution of data-driven state of health estimation algorithms. For this purpose, aging estimation models are developed that only receive eight high-level parameters of partial charging profiles as input without executing further feature extraction steps and can thus be easily provided by a battery management system. Three different neural network architectures are implemented and evaluated: a fully connected neural network, a 1D convolutional neural network and a long short-term memory network. It is shown that all three aging models provide a precise state of health estimation by only using the obtained high-level parameters. The achieved fully connected neural network provides the best tradeoff between required memory resources and accuracy with an overall mean absolute percentage error of 0.41%.</p>
 </div>
 </li>
@@ -1577,7 +1577,7 @@ Battery Management System for On-Board Data-Driven State of Health Estimation fo
 A High Performance Software Approach to enabling Artificial Intelligence On-Board for Image processing applications
  (<a href="#abstract-6989" data-toggle="collapse">abstract</a>)
 <div id="abstract-6989" class="collapse">
- - 
+ -
 <p>New generations of spacecrafts are required to perform tasks with an increased level of autonomy. Space exploration, Earth Observation, space robotics, etc. are all growing fields in Space that require more sensors and more computational power to perform these missions. Furthermore, new sensors in the market produce better quality data at higher rates while new processors can increase substantially the computational power. Therefore, near-future spacecrafts will be equipped with large number of sensors that will produce data at rates that has not been seen before in space, while at the same time, data processing power will be significantly increased.</p><p>Use cases like guidance navigation and control applications, vision-based navigation has become increasingly important in a variety of space applications for enhancing autonomy and dependability. Future missions such as Active Debris Removal will rely on novel high-performance avionics to support image processing and Artificial Intelligence algorithms with large workloads. Similar requirements come from Earth Observation applications, where data processing on-board can be critical in order to provide real-time reliable information to Earth.</p><p>This new scenario of advanced Space applications and increase in data amount and processing power, has brought new challenges with it: low determinism, excessive power needs, data losses and large response latency.</p><p>In this article, a novel approach to on-board artificial intelligence (AI) is presented that is based on state-of-the-art academic research of the well known technique of data pipeline. Algorithm pipelining has seen a resurgence in the high performance computing work due its low power use and high throughput capabilities. The approach presented here provides a very sophisticated threading model combination of pipeline and parallelization techniques applied to deep neural networks (DNN), making these type of AI applications much more efficient and reliable. This new approach has been validated with several DNN models developed for Space application (including asteroid landing, cloud detection and coronal mass ejection detection) and two different computer architectures. The results show that the data processing rate and power saving of the applications increase substantially with respect to standard AI solutions, enabling real AI on space.</p>
 </div>
 </li>
@@ -1757,6 +1757,10 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
   <div class="content-text">
     <a id="sponsors"></a>
     <h1>Supporters</h1>
+    <!-- Some logos are very wide, some are very narrow. Without any
+      adjustments, some logos dwarf others. We do our best to give them equal
+      space, but it is very hard.
+    -->
     <table class="supporters">
       <tr>
         <td>
@@ -1782,6 +1786,11 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
       <td id="gold-sponsor-list">
       <ul>
         <li>
+            <img src="resources/images/logos/gold-alphadata.png" style="max-width: 400px">
+            <br>
+            Alpha Data
+        </li>
+        <li>
             <img src="resources/images/logos/gold-aril_inc.png" style="max-width: 400px">
             <br>
             Aril Inc
@@ -1790,6 +1799,11 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
             <img src="resources/images/logos/gold-avalanche_technology.png" style="max-width: 400px">
             <br>
             Avalanche Technology
+        </li>
+        <li>
+            <img src="resources/images/logos/gold-lewiz.jpg" style="max-width: 300px">
+            <br>
+            LeWiz Communications
         </li>
         <li>
             <img src="resources/images/logos/gold-mirabilis.png" style="max-width: 400px">
@@ -1830,6 +1844,11 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
     <tr>
       <td id="silver-sponsor-list">
       <ul>
+        <li>
+            <img src="resources/images/logos/silver-frontgrade.png" style="max-width: 300px">
+            <br>
+            Frontgrade
+        </li>
         <li>
             <img src="resources/images/logos/silver-kbr.jpg" style="max-width: 300px">
             <br>
