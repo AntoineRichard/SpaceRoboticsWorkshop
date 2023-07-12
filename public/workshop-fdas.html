@@ -170,7 +170,7 @@
     </tr>
     <tr>
       <th scope="row" style="min-width: 120px;">2:30 PM</th>
-      <td><a href="#sandeep">TBA</a></td>
+      <td><a href="#sandeep">Assurance of Learning-enabled Autonomous Systems</a></td>
       <td>Sandeep Neema</td>
     </tr>
     <tr>
@@ -185,7 +185,7 @@
     </tr>
     <tr>
       <th scope="row" style="min-width: 120px;">3:45 PM</th>
-      <td><a href="#rohan">TBA</a></td>
+      <td><a href="#rohan">Towards reliable learning-enabled autonomy throughout its operational lifecycle</a></td>
       <td>Rohan Sinha</td>
     </tr>
     <tr>
@@ -259,6 +259,10 @@
     <a href="https://www-robotics.jpl.nasa.gov/who-we-are/people/issa_nesnas/"> Issa Nesnas</a>, Robotic Technologist, NASA Jet Propulsion Laboratory <br>
     <a href="https://www.linkedin.com/in/michel-ingham-0a98871b7/"> Michel Ingham</a>, Chief Technologist, Systems Engineering Division at NASA Jet Propulsion Laboratory<br>
     <br>
+    <b>Abstract</b>. Over the past two decades, several autonomous functions and system-level capabilities have been demonstrated and used in deep-space operations. In spite of that, spacecraft today remain largely reliant on ground in the loop to assess situations and plan next actions, using pre-scripted command sequences. Advances have been made across mission phases including spacecraft navigation; proximity operations; entry, descent, and landing; surface mobility and manipulation; and data handling. But past successful practices may not be sustainable for future exploration. The ability of ground operators to predict the outcome of their plans seriously diminishes when platforms physically interact with planetary bodies, as has been experienced in two decades of Mars surface operations. This results from uncertainties that arise due to limited knowledge, complex physical interaction with the environment, and limitations of associated models.  In this talk, we will reflect on past, current, and future drivers for autonomy, highlighting the recent advances and impact of some autonomous capabilities in planetary missions. We will also share a summary of the projected autonomy needs in the recommended mission concepts of the Planetary Science and Astrobiology Decadal Survey and highlight some of the anticipated challenges.
+    <br>
+    <b>Bio</b>. Dr. Issa Nesnas is a principal technologist in the Autonomous Systems Division at the Jet Propulsion Laboratory, where he worked for over 25 years after several years in the robotics industry. At JPL, he led the Robotics Mobility and the Robotics Software Systems Groups across a span of thirteen years. His research included architectures for autonomous systems, perception-based navigation and manipulation, and extreme-terrain and microgravity mobility. He has served in multiple roles on three JPL rover missions. He is currently the associate director of Caltech’s CAST (Center for Autonomous Systems and Technologies and JPL’s lead on NASA’s Capability Leadership Team for Autonomous Systems.  He is the recipient of the Magellan Award, JPL’s highest award for an individual scientific or technical accomplishment.
+    <br>
     <br>
     <a id="danette"></a>
     <h3>TBA</h3>
@@ -331,11 +335,15 @@
     <br>
 
     <a id="sandeep"></a>
-    <h3>TBA</h3>
+    <h3>Assurance of Learning-enabled Autonomous Systems</h3>
     <a href="https://engineering.vanderbilt.edu/bio/sandeep-neema">Sandeep Neema</a><br>
     Professor of Computer Science, <br>
     Professor of Electrical and Computer Engineering <br>
     Chair, Executive Council, Institute of Software Integrated Systems <br>
+    <br>
+    <b>Abstract</b>. Significant advances have been made in the last decade in constructing autonomous systems, as evidenced by the proliferation of a variety of unmanned vehicles. These advances have been driven by innovations in several areas, including sensing and actuation, computing, modeling and simulation, but most importantly deep machine learning, which is increasingly being adopted for real-world autonomy. In spite of these advances, deployment and broader adoption of learning techniques in safety-critical applications remain challenging. This talk will present some of the challenges posed by the use of these techniques towards assurance of system behavior, and summarize advances made in DARPA’s Assured Autonomy towards establishing trustworthiness at the design stage and providing resilience to the unforeseeable yet inevitable variations encountered during the operation stage. The talk will also discuss related work in creating frameworks for assurance driven software development.
+    <br>
+    <b>Bio</b>. Dr. Sandeep Neema is a Professor of Computer Science at Vanderbilt University since August 2020. He also holds courtesy appointment as Professor of Electrical and Computer Engineering at Vanderbilt University. He was a Program manager at DARPA’s Information Innovation Office (I2O) from July 2016 till September 2022. In his tenure at DARPA he conceived, developed, and managed influential programs at the intersection of Artificial Intelligence and Cyber Physical Systems, that included programs such as Assured Autonomy, Symbiotic Design of Cyber Physical Systems, and Assured Neurosymbolic Learning and Reasoning. His research interests include Cyber Physical Systems, Model-based Design Methodologies, Artificial Intelligence and Machine Learning, and Distributed Real-time Systems. Dr. Neema has authored and co-authored more than 100 peer-reviewed conference, journal publications, and book chapters. Dr. Neema holds a Doctorate in Electrical Engineering and Computer Science from Vanderbilt University, and a Master’s in Electrical Engineering from Utah State University. He earned a Bachelor of Technology degree in Electrical Engineering from the Indian Institute of Technology, New Delhi, India.
     <br>
     <br>
 
@@ -355,8 +363,47 @@
     <br>
 
     <a id="rohan"></a>
-    <h3>TBA</h3>
+    <h3>Towards reliable learning-enabled autonomy throughout its operational lifecycle</h3>
     <a href="https://stanfordasl.github.io/people/rohan-sinha/">Rohan Sinha</a>, Graduate Student in the Department of Aeronautics and Astronautics, Stanford University <br>
+    <br>
+    <b>Abstract</b>. Machine learning (ML) systems for perception, prediction, 
+    and decision-making have enabled tremendous advances in autonomy. 
+    However, ML models can behave unreliably on so-called out-of-distribution (OOD) inputs 
+    – data that is dissimilar from the training data. 
+    We must acknowledge these inevitable shortcomings to build reliable 
+    autonomous robots for the real world, where distributions subtly shift 
+    from training data, and where we will always discover corner cases and 
+    failure scenarios not represented at design time. We will present our work 
+    towards addressing the negative consequences of OOD data in robotics at 
+    three timescales crucial to deploying reliable open-world autonomy: 
+    (1) Real-time decision-making, where we aim to develop runtime 
+    monitors that detect when a learning-enabled system is unreliable. 
+    (2) Episodic interactions, where our goal is to avoid system failures 
+    when ML components degrade during a deployment. 
+    (3) The data lifecycle as learning-enabled robots are deployed, 
+    evaluated, and retrained, where the core challenge is how to 
+    improve performance over repeated deployment most efficiently. 
+    Taking a system-level view to address these challenges, 
+    we will first present the use of large language models to detect semantic 
+    failures that defy component-level blame assignments. 
+    Second, we will cover contingency planning strategies 
+    to enact safety-preserving interventions, thereby closing 
+    the loop on the runtime monitor. Finally, we will show the 
+    utility of the runtime monitor to inform model retraining 
+    to address observed failure modes over time.
+    <br>
+    <b>Bio</b>. Rohan is a PhD candidate in the department of Aeronautics and Astronautics 
+    at Stanford University, where he is a member of the Autonomous Systems Lab advised by Prof. Marco Pavone. 
+    His research focuses on developing methodologies that improve the reliability of ML-enabled robotic systems, 
+    particularly when these systems encounter out-of-distribution conditions with respect to their training data. 
+    Broadly, his research interests lie at the intersection of control theory, machine learning, and applied robotics. 
+    Previously, he received bachelor’s degrees in Mechanical Engineering and Computer Science from the University of California, 
+    Berkeley with honors and a distinction in general scholarship. 
+    As an undergraduate, Rohan worked on data-driven predictive control under 
+    Prof. Francesco Borrelli in the Model Predictive Control Lab and on 
+    learning control algorithms that rely on vision systems under 
+    Prof. Benjamin Recht in the Berkeley Artificial Intelligence Lab. 
+    He has also interned as an autonomous driving engineer at Delphi (now Motional) and as a software engineer at Amazon.
     <br>
     <br>
 
