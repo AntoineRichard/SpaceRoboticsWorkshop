@@ -737,25 +737,15 @@ Silicon-Carbide Hybrid One-Bit Microcontroller in a Transport-Triggered Architec
  (<a href="#abstract-9648" data-toggle="collapse">abstract</a>)
 <div id="abstract-9648" class="collapse">
  -
-<p>Silicon (Si)-based semiconductor microcomputing has been core to manned and unmanned exploration of the solar system. However, Si-based are limited in operation given that they cannot adequately function in extreme high temperature and radiation environments. In contrast, Silicon Carbide (SiC) semiconductor electronic devices have the potential of bringing electronics functionality to extreme radiation and temperature environments physically beyond the reach of Si semiconductor devices.
-
-In particular, SiC integrated circuits based on Junction Field Effect Transistor (JFET) technology have produced the world’s first microcircuits of moderate complexity that have demonstrated sustained operation at 500˚C [1]. A major distinguishing aspect of this NASA Glenn Research Center (GRC) JFET Integrated Circuit (IC) work is the long-term durability (greater than a year) of these circuits and packaging at 500°C [2] and for 60 days in simulated Venus surface conditions [3]. Other NASA GRC work has shown operation of circuits across a total temperature range from low (-190°C) to high temperatures (961°C), a span more than 1000˚C [4]. Further, TID radiation testing to 7 Mrad(Si) without failure was conducted on earlier-generation of legacy SiC JFET logic chips [5]. No other IC approaches have accomplished this level of high temperature durability even for less-complicated circuits. These properties enable the potential for improved capability for exploration across the solar system, from Ocean Worlds to the interior of gas giants to surface of Venus or Mercury.
-
-Although these SiC electronics are presently comparable to that of standard-environment commercial electronics in the ~1970s, such electronics nevertheless enabled historic breakthroughs during the Viking and Voyager missions. The maturity of SiC electronics has now advanced to where a SiC microprocessor with unprecedented extreme environment durability can be built. NASA GRC is presently prototype fabricating a next generation family of SiC microcircuits. Specifically, this fabrication run, denoted as “Gen. 12”, aims to produce the first ever practical digital processing chipset hardened for durable operation in broad temperature range, high radiation environments.
-
-This paper describes that microprocessor. The limited component availability and complexity from this prototype chipset mandates an ultra-simple, augmentable computing topography. The approach is to use design methods implemented in earlier electronics. The result is a hybrid programmable logic controllers (PLC)-like logic core operating inside of a transport triggered architecture. Programmable logic controllers (PLC) from the 1960-1970s were configurable devices used in industry to replace the hardwired relationships between sensors and actuators with software-based reading of those sensors and software-based commanding of actuation. In particular, this SiC microprocessor design implements an efficient foundational 8-bit Transport-Triggered Architecture (TTA) processor core with 1-level stack that is designed to be packaged/interfaced with SiC Read-Only Memory (ROM) and Random-Access Memory (RAM), and other supporting peripheral SiC ICs also being prototyped in the Gen. 12 processing run. The physical IC layout of the microprocessor uses “Gen. 12” process rules [6] is spread across two separate chip designs that will be interconnected into a microprocessor unit at the package/board level.
-
-An overview of the design, fabrication, and testing of this microprocessor will be provided. It is concluded that while this microprocessor provides unique and game changing capabilities, future generations of this technology will enable even more capable tools for planetary exploration with significant terrestrial applications.
-</p><p> 1. 	https://www1.grc.nasa.gov/research-and-engineering/silicon-carbide-electronics-and-sensors/technical-publications/
-
- 2. 	D. J. Spry, P. G. Neudeck, L. Chen, D. Lukco, C. W. Chang, G. M. Beheim, M. J. Krasowski, and N. F. Prokop (2016) “Processing and Characterization of Thousand-Hour 500 °C Durable 4H-SiC JFET Integrated Circuits”. Additional Conferences (Device Packaging, HiTEC, HiTEN, &amp; CICMT): May 2016, Vol. 2016, No. HiTEC, pp. 000249-000256. http://dx.doi.org/10.4071/2016-HITEC-249.
-
+<p>Silicon (Si)-based semiconductor microcomputing has been core to manned and unmanned exploration of the solar system. However, Si-based are limited in operation given that they cannot adequately function in extreme high temperature and radiation environments. In contrast, Silicon Carbide (SiC) semiconductor electronic devices have the potential of bringing electronics functionality to extreme radiation and temperature environments physically beyond the reach of Si semiconductor devices. 
+In particular, SiC integrated circuits based on Junction Field Effect Transistor (JFET) technology have produced the world’s first microcircuits of moderate complexity that have demonstrated sustained operation at 500˚C [1]. A major distinguishing aspect of this NASA Glenn Research Center (GRC) JFET Integrated Circuit (IC) work is the long-term durability (greater than a year) of these circuits and packaging at 500°C [2] and for 60 days in simulated Venus surface conditions [3]. Other NASA GRC work has shown operation of circuits across a total temperature range from low (-190°C) to high temperatures (961°C), a span more than 1000˚C [4]. Further, TID radiation testing to 7 Mrad(Si) without failure was conducted on earlier-generation of legacy SiC JFET logic chips [5]. No other IC approaches have accomplished this level of high temperature durability even for less-complicated circuits. These properties enable the potential for improved capability for exploration across the solar system, from Ocean Worlds to the interior of gas giants to surface of Venus or Mercury. 
+Although these SiC electronics are presently comparable to that of standard-environment commercial electronics in the ~1970s, such electronics nevertheless enabled historic breakthroughs during the Viking and Voyager missions. The maturity of SiC electronics has now advanced to where a SiC microprocessor with unprecedented extreme environment durability can be built. NASA GRC is presently prototype fabricating a next generation family of SiC microcircuits. Specifically, this fabrication run, denoted as “Gen. 12”, aims to produce the first ever practical digital processing chipset hardened for durable operation in broad temperature range, high radiation environments. 
+This paper describes that microprocessor. The limited component availability and complexity from this prototype chipset mandates an ultra-simple, augmentable computing topography. The approach is to use design methods implemented in earlier electronics. The result is a hybrid programmable logic controllers (PLC)-like logic core operating inside of a transport triggered architecture. Programmable logic controllers (PLC) from the 1960-1970s were configurable devices used in industry to replace the hardwired relationships between sensors and actuators with software-based reading of those sensors and software-based commanding of actuation. In particular, this SiC microprocessor design implements an efficient foundational 8-bit Transport-Triggered Architecture (TTA) processor core with 1-level stack that is designed to be packaged/interfaced with SiC Read-Only Memory (ROM) and Random-Access Memory (RAM), and other supporting peripheral SiC ICs also being prototyped in the Gen. 12 processing run. The physical IC layout of the microprocessor uses “Gen. 12” process rules [6] is spread across two separate chip designs that will be interconnected into a microprocessor unit at the package/board level. 
+An overview of the design, fabrication, and testing of this microprocessor will be provided. It is concluded that while this microprocessor provides unique and game changing capabilities, future generations of this technology will enable even more capable tools for planetary exploration with significant terrestrial applications.</p><p> 1. 	https://www1.grc.nasa.gov/research-and-engineering/silicon-carbide-electronics-and-sensors/technical-publications/
+ 2. 	D. J. Spry, P. G. Neudeck, L. Chen, D. Lukco, C. W. Chang, G. M. Beheim, M. J. Krasowski, and N. F. Prokop (2016) “Processing and Characterization of Thousand-Hour 500 °C Durable 4H-SiC JFET Integrated Circuits”. Additional Conferences (Device Packaging, HiTEC, HiTEN, &amp; CICMT): May 2016, Vol. 2016, No. HiTEC, pp. 000249-000256. http://dx.doi.org/10.4071/2016-HITEC-249. 
  3.  	P. Neudeck, L. Chen, R. D. Meredith, D. Lukco, D. J. Spry, L. M. Nakley, and G. W. Hunter, “Operational Testing of 4H-SiC JFET ICs for 60 Days Directly Exposed to Venus Surface Atmospheric Conditions”, IEEE Journal of the Electron Devices Society, vol. 7, pp. 100-110, (2018).
-
  4.	P. G. Neudeck, D. J. Spry, M. J. Krasowski, N, F. Prokop, and L. Chen, “Demonstration of 4H-SiC JFET Digital ICs Across 1000 °C Temperature Range Without Change to Input Voltages”, Materials Science Forum, vol. 963, pp. 813-817, 2019
-
- 5. 	J. M. Lauenstein, P. G. Neudeck, K. L. Ryder, E. P. Wilcox, L. Y. Chen, M. A. Carts, S. Y. Wrbanek, and J. D. Wrbanek, “Room Temperature Radiation Testing of a 500 °C Durable 4H-SiC JFET Integrated Circuit Technology”, Proceeding of the 2019 Nuclear and Space Radiation Effects Conference Data Workshop, San Antonio, TX, 2019. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8906528
-
+ 5. 	J. M. Lauenstein, P. G. Neudeck, K. L. Ryder, E. P. Wilcox, L. Y. Chen, M. A. Carts, S. Y. Wrbanek, and J. D. Wrbanek, “Room Temperature Radiation Testing of a 500 °C Durable 4H-SiC JFET Integrated Circuit Technology”, Proceeding of the 2019 Nuclear and Space Radiation Effects Conference Data Workshop, San Antonio, TX, 2019. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8906528 
  6.	P. Neudeck and D. Spry, “Graphical Primer of NASA Glenn SiC JFET Integrated Circuit (IC) Version 12 Layout”, 2019. https://ntrs.nasa.gov/citations/20190025716</p>
 </div>
 </li>
@@ -2312,7 +2302,7 @@ Towards a common robotics simulator for lunar environments?
 </div>
 </li>
 <li>
-Hiro Ono - TBD
+TBD
  (<a href="#abstract-6232" data-toggle="collapse">abstract</a>)
 <div id="abstract-6232" class="collapse">
  -
@@ -2493,7 +2483,7 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
 <h2 class="time-slot"></h2>
 <h2 class="time-slot" style="grid-row: time-07:00;">07:00</h2>
 
-<div class="session session-1 track-6" style="grid-column: track-2; grid-row: time-0700 / time-1130;">
+<div class="session session-1 track-6" style="grid-column: track-6; grid-row: time-0700 / time-1130;">
   <h3 class="session-title ">Closed Session @ The Aerospace Corporation (El Segundo, CA)</h3>
   <span class="session-time ">07:00 - 11:30</span>
   <span class="session-track "></span>
@@ -2512,7 +2502,7 @@ A High Performance Software Approach to enabling Artificial Intelligence On-Boar
 
 <h2 class="time-slot" style="grid-row: time-08:00;">08:00</h2>
 
-<div class="session session-1 track-6" style="grid-column: track-1; grid-row: time-0800 / time-1300;">
+<div class="session session-1 track-6" style="grid-column: track-6; grid-row: time-0800 / time-1300;">
   <h3 class="session-title ">JPL Tour</h3>
   <span class="session-time ">08:00 - 13:00</span>
   <span class="session-track "></span>
