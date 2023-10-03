@@ -142,7 +142,7 @@ SUBMISSIONS
 
 The SMC-IT/SCC 2023 Technical Committee is seeking four kinds of
 submissions at this time: full papers, presentations, posters, and
-mini-workshop proposals.
+workshop proposals.
 
 FULL PAPERS WITH PRESENTATION (BOTH SMC-IT AND SCC)
 
@@ -187,14 +187,14 @@ All accepted presentations will be distributed to the conference
 attendees, with the consent of the author and their organization, but
 will not be published in the IEEE Xplore database.
 
-MINI-WORKSHOP SUBMISSIONS (ONLY SMC-IT)
+WORKSHOP SUBMISSIONS (ONLY SMC-IT)
 
-SMC-IT 2023 will continue the highly successful mini-workshop session
+SMC-IT 2023 will continue the highly successful workshop session
 format to explore specific emerging technology themes in greater depth.
-Each mini-workshop typically runs as one track for one day, or one or
+Each workshop typically runs as one track for one day, or one or
 two half days, and may incorporate invited and/or contributed papers.
 
-To propose a mini-workshop topic, please submit a 1-2 page abstract
+To propose a workshop topic, please submit a 1-2 page abstract
 including the theme, scope, and goals of your workshop, as well as
 any potential speakers already identified. Please also indicate whether
 you prefer a full-day, or one or two half-day time-slots.
