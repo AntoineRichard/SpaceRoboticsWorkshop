@@ -81,7 +81,7 @@ https://smcit-scc.space/submissions.html.
 
 All accepted papers will be published in the IEEE conference
 proceedings, indexed with the IEEE Xplore database. Note that IEEE has
-a �Podium and Publish� policy for conferences, which means that no
+a "Podium and Publish" policy for conferences, which means that no
 manuscript will be published in IEEE Xplore without first being
 presented at the conference.
 
