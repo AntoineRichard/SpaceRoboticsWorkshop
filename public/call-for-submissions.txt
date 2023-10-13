@@ -1,7 +1,7 @@
-CALL FOR SMC-IT/SCC 2024 SUBMISSIONS
-10th International Conference on Space Mission Challenges
+CALL FOR IEEE SMC-IT/SCC 2024 SUBMISSIONS
+10th IEEE International Conference on Space Mission Challenges
 for Information Technology (SMC-IT)
-15th International Conference on Space Computing (SCC)
+15th IEEE International Conference on Space Computing (SCC)
 
 Computer History Museum, Mountain View, California
 
@@ -25,15 +25,15 @@ an abstract.
 Sponsored by: IEEE Computer Society - Technical Committee on Software
 Engineering and Technical Committee on Computer Architecture.
 
-We invite submissions for the International Conference on Space Mission
-Challenges for Information Technology (SMC-IT) and the Space Computing
-Conference (SCC). These conferences gather professionals, such as
-system designers, engineers, computer architects, scientists,
-practitioners, and space explorers, who are committed to advancing
-information technology and improving the computational capabilities and
-dependability of space missions. These forums provide a valuable
-opportunity for in-depth technical dialogues covering various aspects
-of space mission hardware and software.
+We invite submissions for the IEEE International Conference on Space
+Mission Challenges for Information Technology (SMC-IT) and the IEEE
+Space Computing Conference (SCC). These conferences gather
+professionals, such as system designers, engineers, computer architects,
+scientists, practitioners, and space explorers, who are committed to
+advancing information technology and improving the computational
+capabilities and dependability of space missions. These forums provide a
+valuable opportunity for in-depth technical dialogues covering various
+aspects of space mission hardware and software.
 
 Systems in all aspects of the space mission will be explored, including
 flight systems, ground systems, science data processing, engineering
@@ -113,7 +113,7 @@ Program Co-chair (SMC-IT): Alessandro Pinto (NASA JPL)
 Program Co-chair (SMC-IT): Victoria Da Poian (Microtel LLC @ NASA GSFC)
 Program Chair (SCC): David Rutishauser (NASA JSC)
 Program Co-chair (SCC): Christopher Green (NASA GSFC)
-Workshop Chair (SMC-IT/SCC): Sanaz Sheikhi (Stony Brook University)
-Workshop Co-chair (SCC): Wesley Powell (NASA)
+Workshop Chair: Sanaz Sheikhi (Stony Brook University)
+Workshop Co-chair: Wesley Powell (NASA)
 SMC-IT/SCC Program Committee Members:
 https://smcit-scc.space/#organization
