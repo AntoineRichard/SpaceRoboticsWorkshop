@@ -1,0 +1,86 @@
+CALL FOR IEEE SMC-IT/SCC 2024 WORKSHOP PROPOSALS
+
+
+10th IEEE International Conference on Space Mission Challenges for
+Information Technology (SMC-IT)
+
+15th IEEE International Conference on Space Computing (SCC)
+
+
+https://smcit-scc.space/
+
+
+Mountain View, California, USA
+
+
+Important Dates:
+
+• Workshop Proposal Submission Deadline: Oct 31st, 2023 
+• Workshop Acceptance Notification: Nov 30th, 2023 
+• Conference: Jul 15th-19th, 2024
+
+
+Sponsored by: IEEE Computer Society - Technical Committee on Software
+Engineering and Technical Committee on Computer Architecture
+
+
+We invite workshop proposal submissions for the IEEE International
+Conference on Space Mission Challenges for Information Technology
+(SMC-IT) and the IEEE Space Computing Conference (SCC). These events
+seek to gather professionals, such as system designers, engineers,
+computer architects, scientists, practitioners, and space explorers, who
+are committed to advancing information technology and improving the
+computational capabilities and dependability of space missions. This
+forum provides a valuable opportunity for in-depth technical dialogues
+covering various aspects of space mission hardware and software.
+
+
+Topics of interest include (but are not limited to) space applications
+of the following:
+
+SMC-IT: Robotics; Cybersecurity; Networking; Memory and Storage;
+Advanced Ground Control; Data Analytics and Big Data; Fault-Tolerant
+Processing; Intelligent and Autonomous Systems; Augmented
+Reality/Virtual Reality and HCI; Manufacturing and Assembly of Large
+Structures; Advanced Computing for Novel Instruments and Improved
+Operations; Software Reliability for Mission-Critical Applications and
+Safety of Life.
+
+SCC: Computing Architectures; Flight Data Processing; Avionics Systems;
+Machine Learning/Neural Computing; Crew Interfaces; Extreme Environments
+Computing; Distributed Computing Infusion and Adoption of Industry
+Standards for Space Applications; Components, Radiation, and Packaging.
+
+
+To submit a workshop proposal, kindly provide a 1-2 page abstract
+outlining the theme, scope, and objectives of your workshop, along with
+any prospective speakers you’ve already identified. Also, please ensure
+that your proposal clearly defines the intended format of the proposed
+workshop.  You should specify whether the workshop format includes
+presentations only, papers, posters, working sessions or a combination
+of them. Additionally, please specify your preference for a full-day
+workshop or one/two half-day time slots. You can access a workshop
+proposal template at
+(https://smcit-scc.space/templates/WorkshopProposalTemplate.docx), and
+proposals can be submitted through
+Easychair(https://easychair.org/conferences/?conf=smcitscc2024).
+
+
+
+CONFERENCE CHAIRS:
+
+- General Chair: Ivan Perez (KBR @ NASA ARC)
+- General Co-chair: Rory Lipkis (NASA ARC)
+- Workshop Chair: Sanaz Sheikhi (Stony Brook University)
+- Workshop Co-chair: Wesley Powell (NASA)
+- Program Chair (SMC-IT): Marie Farrell (University of Manchester)
+- Program Co-chair (SMC-IT): Alessandro Pinto (NASA JPL)
+- Program Co-chair (SMC-IT): Victoria Da Poian (Microtel LLC @ NASA
+  GSFC)
+- Program Chair (SCC): David Rutishauser (NASA JSC)
+- Program Co-chair (SCC): Christopher Green (NASA GSFC)
+
+
+Version 1.0 - Published on: October 12, 2023
+
+

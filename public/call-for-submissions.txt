@@ -1,263 +1,119 @@
-CALL FOR PAPERS (EXTENDED)
-SMC-IT / SCC 2023
+CALL FOR SMC-IT/SCC 2024 SUBMISSIONS
+10th International Conference on Space Mission Challenges 
+for Information Technology (SMC-IT)
+15th International Conference on Space Computing (SCC)
 
-9th International Conference on Space Mission Challenges for Information Technology (SMC-IT)
-14th International Conference on Space Computing (SCC)
+Computer History Museum, Mountain View, California
 
-** Submission deadline: Mar 3, 2023 **
-Conference Date: 18-21 July, 2023
-Venue: Caltech, Pasadena, CA, USA
+Important Dates:
 
-Sponsored by: IEEE Computer Society and the Technical Committee on Software
-Engineering
+Abstract submission deadline for feedback: Nov 30, 2023 [optional]*
+Abstract feedback response: Dec 15, 2023
+Deadline for full papers: Feb 9, 2024
+Author acceptance notification: March 22, 2024
+Workshop papers deadline: Apr 3, 2024
+Registration site open: Apr 14, 2024
+Final versions deadline (papers, workshop papers, 
+SCC presentations): May 31, 2024
+Conference: Jul 15-19, 2024
 
-The International Conference on Space Mission Challenges for Information
-Technology (SMC-IT) and the Space Computing Conference (SCC) gather
-system designers, engineers, computer architects, scientists,
-practitioners, and space explorers with the objective of advancing
-information technology, and the computational capability and reliability
-of space missions. The forums will provide an excellent opportunity for
-fostering technical interchange on all hardware and software aspects of
-space missions. The joint conferences will focus on current systems
-practice and challenges as well as emerging hardware and software
-technologies with applicability for future space missions.
+*To help authors prepare their papers for submission, we offer to 
+provide feedback on abstracts submitted in advance. This step is not
+compulsory, and authors may submit papers without previously submitting
+an abstract.
 
-Systems in all aspects of the space mission will be explored, including
-flight systems, ground systems, science data processing, engineering and
-development tools, operations, telecommunications, radiation-tolerant
-computing devices, reliable electronics, space-qualifiable packaging
-technologies. The entire information systems lifecycle of the mission
-development will also be covered, such as conceptual design, engineering
-tools development, integration and test, operations, science analysis,
-quality control.
+Sponsored by: IEEE Computer Society - Technical Committee on Software 
+Engineering and Technical Committee on Computer Architecture.
 
-TECHNICAL TOPICS
-Topics of interest for SMC-IT include, but are not limited to, the
-following:
+We invite submissions for the International Conference on Space Mission
+Challenges for Information Technology (SMC-IT) and the Space Computing 
+Conference (SCC). These conferences gather professionals, such as 
+system designers, engineers, computer architects, scientists, 
+practitioners, and space explorers, who are committed to advancing 
+information technology and improving the computational capabilities and
+dependability of space missions. These forums provide a valuable 
+opportunity for in-depth technical dialogues covering various aspects 
+of space mission hardware and software.
 
-* Data Analytics and Big Data: knowledge extraction and management; data
-  mining and analysis; data science life cycle; cloud computing in
-  space.
+Systems in all aspects of the space mission will be explored, including 
+flight systems, ground systems, science data processing, engineering 
+and development tools, operations, telecommunications, 
+radiation-tolerant computing devices, reliable electronics, and 
+space-qualifiable packaging technologies. The entire information 
+systems lifecycle of the mission development will also be covered, such
+as conceptual design, engineering tools development, integration and 
+test, operations, science analysis, and quality control.
 
-* Advanced Computing for Novel Instruments and Improved Operations:
-  novel exploitation techniques and algorithms; sensor networks; quantum
-  computing.
+Topics of interest include (but are not limited to) space applications 
+of the following:
 
-* Intelligent and Autonomous Space Systems: intelligent systems;
-  computational intelligence; machine learning and artificial
-  intelligence; explainable AI; autonomy and autonomous systems; UAV/UAS
-  in space; cooperative systems / swarming; neuromorphic computing.
+SMC-IT
+Robotics, Cybersecurity, Networking, Memory and Storage, Advanced 
+Ground Control, Data Analytics and Big Data, Fault-Tolerant Processing,
+Intelligent and Autonomous Systems, Augmented Reality/Virtual Reality 
+and HCI, Manufacturing and Assembly of Large Structures, Advanced 
+Computing for Novel Instruments and Improved Operations, Software 
+Reliability for Mission-Critical Applications and Safety of Life.
 
-* Robotics for Exotic Mission Destinations: novel space exploration
-  concepts enabled by robotic advancements; humans working with robots
-  in space.
+SCC
+Components, Radiation, and Packaging, Computing Architectures, Flight 
+Data Processing, Avionics Systems, Machine Learning/Neural Computing, 
+Crew Interfaces, Extreme Environments Computing, Distributed Computing, 
+Infusion and adoption of industry standards for space applications. 
+(The organization committee is considering to have a closed door 
+session. If you might be interested in submitting work for that 
+session, please contact the chairs at: smcit-scc_chairs@jpl.nasa.gov.)
 
-* Robotic Manufacturing and Assembly of Large Space Structures: 3D
-  printing in space; in-space manufacturing; robotics cooperation and
-  interaction; telerobotics; construction of structures on other
-  planets/moons using in situ materials; CAD tools for in-space
-  assembly.
+Process and Format:
 
-* Space Networking: resilient communications; space-terrestrial
-  internetworking and interoperability; standardization.
+The SMC-IT/SCC 2024 Technical Committee is seeking two kinds of 
+submissions at this time: full papers (BOTH SMC-IT AND SCC) and 
+presentations (ONLY SCC).
 
-* Cybersecurity: securing federal networks; protecting critical
-  infrastructure; cyber policies; international law; multi-level
-  security; defensive cyber operations.
+SMC-IT/SCC 2024 will use a single-pass, full-paper review process.
 
-* Fault-Tolerant Space Processing, Memory, and Storage: innovative
-  resilient architectures; fault and power management approaches;
-  architectures for embedded artificial intelligence, big data, robotic
-  vision, intelligent systems applications, and resource-constrained
-  environments.
+The full paper is required and peer reviewed prior to deciding on 
+acceptance for the conference, even if an abstract has been submitted.
 
-* Software Reliability for Mission-Critical Applications and Safety of
-  Life: verification and validation approaches; design for test;
-  re-usable software architectures; verification of complex systems;
-  DevSecOps.
+Full papers can be up to 10 pages, not including references. The paper
+template can be found on the SMC-IT/SCC 2024 website 
+https://smcit-scc.space/submissions.html.
 
-* Advanced Ground Control: mission planning and scheduling; distributed
-  and collaborative mission planning; human-machine interactions; design
-  for change; the impact of agile development and continuous integration
-  / continuous deployment; the increasing velocity of ground system
-  development.
+All accepted papers will be published in the IEEE conference 
+proceedings, indexed with the IEEE Xplore database. Note that IEEE has
+a �Podium and Publish� policy for conferences, which means that no 
+manuscript will be published in IEEE Xplore without first being 
+presented at the conference.
 
-* Augmented Reality/Virtual Reality and HCI: AR/VR applications to
-  telerobotics, data processing, mission operations, space science
-  analysis; video game technology advancing space capabilities; training
-  astronaut; user interfaces, human-computer interaction.
-
-Topics of interest for SCC include, but are not limited to, the
-following:
-
-* Components, Radiation, and Packaging: emerging component, module,
-  and packaging technologies that will advance space computing
-  capabilities; radiation test methods for and results on complex
-  components; use of COTS parts in high-reliability applications.
-
-* Computing Architectures: reconfigurable computing systems, high
-  performance space computing, fault-tolerant design, system on a chip
-  and embedded memories, GPU-based computing, effective use of many-core
-  processor platforms; heterogenous computing, in-memory computing,
-  performance analysis, benchmarking.
-
-* Flight Data Processing: advances in flight data processing techniques
-  including high-speed data processing, real-time data processing, and
-  fault tolerance; complex data processing applications that require
-  software and FPGA co-processing solutions.
-
-* Avionics Systems: current and future avionics systems and
-  architectures; new concepts for implementing reliable space networks
-  and interoperability.
-
-* Machine Learning/Neural Computing: machine learning/Neural computing
-  techniques; deep learning and machine learning algorithms,
-  neuromorphic hardware and other edge devices, neural-inspired sensors,
-  and analysis ready datasets.
-
-* Crew Interfaces: novel crew interface devices (e.g., handheld devices,
-  voice activated commands, radiation tolerant displays), networks and
-  protocols (e.g., network connectivity of crew tools and systems),
-  especially in the context of the return to the Moon and Mars missions.
-
-* Extreme Environments Computing: New generations of missions are
-  targeting computational operation in extreme environments, including
-  operation on and around Titan, Venus, Europa, and more. These present
-  challenges for thermal control and radiation effects.
-
-* Distributed Computing: Increasing availability and affordability of
-  commercial small-satellite platforms presents new opportunities for
-  space mission concepts and computing architectures. Distributed
-  systems missions and constellation architectures offer capability
-  advancements for science observations, but introduce new challenges
-  for space computing, scheduling, and coordination.
-
-* Infusion and adoption of industry standards for space applications.
-
-The organization committee is considering to have a closed-door session. If you
-might be interested in submitting work for that session, please contact the
-chairs at: smcit-scc_chairs@jpl.nasa.gov.
-
-SUBMISSIONS
-
-The SMC-IT/SCC 2023 Technical Committee is seeking four kinds of
-submissions at this time: full papers, presentations, posters, and
-workshop proposals.
-
-FULL PAPERS WITH PRESENTATION (BOTH SMC-IT AND SCC)
-
-SMC-IT/SCC 2023 will again use a single-pass, full-paper review process.
-Full papers can be up to 10 pages in length and require a verbal
-presentation.
-
-**SMC-IT: Note that it is _not_ required to submit an abstract to SMC-IT prior
-to the paper submission.**
-
-Authors of full papers must submit a final version of their paper of up to 10
-pages at the outset, plus references.
-
-All papers accepted for SMC-IT/SCC 2023 will be published in the IEEE
-conference proceedings, indexed in the IEEE Xplore database. Note that
-IEEE has a "Podium and Publish" policy for conferences, which means that
-no manuscript will be published in IEEE Xplore without first being
-presented at the conference. Some selected papers may be invited to
-appear in a special issue of a reputable journal in the field.
-
-POSTER SUBMISSIONS (BOTH SMC-IT AND SCC)
-
-Proposals for posters can be up to 2 pages in length. Poster authors or
-teams will be given multiple opportunities to discuss their work with
-interested attendees in poster sessions. Successful poster proposals
-will receive further guidance on the exact size and format for their
-posters. We particularly encourage college students to participate and
-submit original paper and poster contributions.
-
-PRESENTATIONS WITHOUT ACCOMPANYING PAPERS (ONLY SCC)
-
-Authors of presentations which will not have a corresponding paper need
-to submit a 1-page abstract, which will allow the conference organizers
-to determine if the proposed presentation is germane for the conference,
-determine which track/session the proposed presentation belongs and
-ensure the author is in contact with the track/session chair for
+Authors of SCC presentations without a corresponding paper need to 
+submit a 1-page abstract, which will allow the conference organizers to
+determine if the proposed presentation is germane for the conference, 
+determine which track/session the proposed presentation belongs,and 
+ensure the author is in contact with the track/session chair for 
 feedback prior to the final submission. All presentation-only abstract
-submissions must be submitted by the initial abstract submission
-deadline.
+submissions must be submitted by the full paper deadline.
 
-All accepted presentations will be distributed to the conference
-attendees, with the consent of the author and their organization, but
-will not be published in the IEEE Xplore database.
+All submissions are uploaded via EasyChair 
+https://easychair.org/conferences/?conf=smcitscc2024.
 
-WORKSHOP SUBMISSIONS (ONLY SMC-IT)
+Selected papers may be invited to appear in a special issue of a 
+reputable journal. More details will be made available in the future.
 
-SMC-IT 2023 will continue the highly successful workshop session
-format to explore specific emerging technology themes in greater depth.
-Each workshop typically runs as one track for one day, or one or
-two half days, and may incorporate invited and/or contributed papers.
+Note: It is not required to submit an abstract prior to the paper 
+submission.
 
-To propose a workshop topic, please submit a 1-2 page abstract
-including the theme, scope, and goals of your workshop, as well as
-any potential speakers already identified. Please also indicate whether
-you prefer a full-day, or one or two half-day time-slots.
-
-OTHER SESSIONS (BOTH SMC-IT AND SCC)
-
-The SMC-IT/SCC committee is also planning on holding an "Unclassified,
-US Persons Only” session and a “Classified Session” hosted by the
-Aerospace Corporation. If you are interested in submitting a presentation
-for either of these sessions, please contact the chairs at:
-smcit-scc_chairs@jpl.nasa.gov.
-
-FORMAT
-Templates can be found on the SMC-IT/SCC 2023 web site:
-http://smcit-scc.space
-
-SCHEDULE
-* CFP: Call for Abstracts (including papers, posters and presentations):
-    Jul 15, 2022
-* CFP: Call for Miniworkshops: Jul 15, 2022
-* Submission Site Open: Sep 1, 2022
-* Abstract Submission Deadline (SCC ONLY): Nov 18, 2022
-* Abstract Acceptance Notification (SCC ONLY): Dec 15, 2022
-* Miniworkshop Proposal Submission Deadline: Jan 13, 2023 (extended)
-* Miniworkshop Acceptance Notification: Jan 31, 2023 (extended)
-* Deadline Papers (for SMC-IT and SCC; no prior abstract submission required): Mar 3, 2023
-* Authors Acceptance Notification (full papers): Apr 7, 2023
-* Deadline Final Versions (papers, posters, presentations): May 15, 2023
+Note: The SMC-IT/SCC program committee can be found on the conference
+website https://smcit-scc.space/#organization.
 
 CONFERENCE CHAIRS:
-General Chair (SMC-IT): Alessandro Pinto (NASA JPL)
-General Chair (SCC): Jim Butler (NASA JPL)
-General Co-chair (SMC-IT) Yogita Shah (NASA JPL)
-Finance Chair: James Oyama (NASA JPL)
-Finance Co-Chair: Brian Duncan (Johns Hopkins University / APL)
-Program Chair (SMC-IT): Ivan Perez (KBR / NASA Ames Research Center)
-Program Chair (SCC): Christopher Green (NASA Goddard)
-Program Co-chair (SMC-IT): Marie Farrell (The University of Manchester, UK)
-Program Co-chair (SCC): David Henriquez (NASA JPL)
-Workshop Chair (SMC-IT): Sanaz Sheikhi (Stony Brook University)
-Diversity Chair: Divya Gopinath (KBR / NASA Ames Research Center)
-Social Media Chair: Dara MacConville (Maynooth University, Ireland)
-Faculty Advisor: Prof. George Djorgovski (Caltech)
-Advisors to the Chairs:
-- Larry Bergman (NASA JPL, Ret.)
-- Michael Campbell (The Aerospace Corporation, Ret.)
-- Michelle Carter (The Aerospace Corporation)
-- Amalaye Oyake (Past Chairperson - SMC-IT 2019)
-
-ORGANIZING COMMITTEE:
-- David Rutishauser (NASA JSC)
-- Mariam Malek (NASA JPL)
-- Maria Dolores Rodriguez Moreno (Universidad de Alcala de Henares)
-- Keith Schubert (Baylor University)
-- Michela Munoz Fernandez (NASA)
-- Brian Duncan (Johns Hopkins University / APL)
-- Wes Powell (NASA Goddard)
-
-STEERING COMMITTEE:
-- Richard Doyle (NASA JPL)
-- Rupak Biswas (NASA)
-- Jana Roche (The Aerospace Corporation)
-- Chris Mattman (NASA JPL)
-- Yisong Yue (Caltech)
-
-Last change: Mar 28, 2023 v11-for-website
+General Chair: Ivan Perez (KBR @ NASA ARC)
+General Co-chair: Rory Lipkis (NASA ARC)
+Program Chair (SMC-IT): Marie Farrell (University of Manchester)
+Program Co-chair (SMC-IT): Alessandro Pinto (NASA JPL)
+Program Co-chair (SMC-IT): Victoria Da Poian (Microtel LLC @ NASA GSFC)
+Program Chair (SCC): David Rutishauser (NASA JSC)
+Program Co-chair (SCC): Christopher Green (NASA GSFC)
+Workshop Chair (SMC-IT/SCC): Sanaz Sheikhi (Stony Brook University)
+Workshop Co-chair (SCC): Wesley Powell (NASA)
+SMC-IT/SCC Program Committee Members: 
+https://smcit-scc.space/#organization
