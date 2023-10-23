@@ -4,34 +4,6 @@ Adds dark transparent background to navbar for better visibility
 
 @media only screen and (min-width:768px){
     .navbar-custom{
-        background-color:rgba(0,0,0,.8);
-        border-bottom:1px solid transparent
-    }
-    .navbar-custom body{
-        font-size:20px
-    }
-    .navbar-custom .navbar-brand{
-        color:#fff;
-        padding:20px;
-        line-height:20px
-    }
-    .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{
-        color:rgba(255,255,255,.8)
-    }
-    .navbar-custom .nav li a{
-        color:#fff;
-        padding:20px
-    }
-    .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
-        color:rgba(255,255,255,.8)
-    }
-    .navbar-custom .nav li a:active{
-        background:0 0
-    }
-}
-  
-@media only screen and (min-width:1170px){
-    .navbar-custom{
         -webkit-transition:background-color .3s;
         -moz-transition:background-color .3s;
         transition:background-color .3s;
