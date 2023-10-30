@@ -1,4 +1,4 @@
-CALL FOR IEEE SMC-IT/SCC 2024 WORKSHOP PROPOSALS
+2nd CALL FOR IEEE SMC-IT/SCC 2024 WORKSHOP PROPOSALS
 
 
 10th IEEE International Conference on Space Mission Challenges for
@@ -15,8 +15,8 @@ Mountain View, California, USA
 
 Important Dates:
 
-• Workshop Proposal Submission Deadline: Oct 31st, 2023
-• Workshop Acceptance Notification: Nov 30th, 2023
+• Workshop Proposal Submission Deadline: Nov 30th, 2023 (Extended)
+• Workshop Acceptance Notification: Dec 22nd, 2023 
 • Conference: Jul 15th-19th, 2024
 
 
@@ -63,7 +63,7 @@ workshop or one/two half-day time slots. You can access a workshop
 proposal template at
 (https://smcit-scc.space/templates/WorkshopProposalTemplate.docx), and
 proposals can be submitted through
-Easychair(https://easychair.org/conferences/?conf=smcitscc2024).
+EasyChair (https://easychair.org/conferences/?conf=smcitscc2024).
 
 
 
@@ -81,6 +81,6 @@ CONFERENCE CHAIRS:
 - Program Co-chair (SCC): Christopher Green (NASA GSFC)
 
 
-Version 1.0 - Published on: October 12, 2023
+Version 1.1 - Published on: October 30, 2023
 
 
