@@ -7,8 +7,7 @@ Computer History Museum, Mountain View, California
 
 Important Dates:
 
-Abstract submission deadline for feedback: Nov 30, 2023 [optional]*
-Abstract feedback response: Dec 15, 2023
+Abstract feedback response: Dec 15, 2023*
 Deadline for full papers: Feb 9, 2024
 Author acceptance notification: Mar 22, 2024
 Workshop papers deadline: Apr 3, 2024
@@ -64,13 +63,13 @@ Infusion and adoption of industry standards for space applications.
 session. If you might be interested in submitting work for that
 session, please contact the chairs at: smcit-scc_chairs@jpl.nasa.gov.)
 
-Process and Format:
+Process and Format
 
 The SMC-IT/SCC 2024 Technical Committee is seeking two kinds of
 submissions at this time: full papers (BOTH SMC-IT AND SCC) and
 presentations (ONLY SCC).
 
-SMC-IT/SCC 2024 will use a single-pass, full-paper review process.
+IEEE SMC-IT/SCC 2024 will use a single-pass, full-paper review process.
 
 The full paper is required and peer reviewed prior to deciding on
 acceptance for the conference, even if an abstract has been submitted.
@@ -81,7 +80,7 @@ https://smcit-scc.space/submissions.html.
 
 All accepted papers will be published in the IEEE conference
 proceedings, indexed with the IEEE Xplore database. Note that IEEE has
-a "Podium and Publish" policy for conferences, which means that no
+a 'Podium and Publish' policy for conferences, which means that no
 manuscript will be published in IEEE Xplore without first being
 presented at the conference.
 
