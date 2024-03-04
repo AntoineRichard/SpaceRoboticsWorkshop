@@ -6,3 +6,5 @@ pages:
   artifacts:
     paths:
     - public
+  only:
+    - master # Avoid updating the website when we are still updating branches
