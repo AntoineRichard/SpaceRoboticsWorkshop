@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verification and Validation of Multi-Core System Architectures - IEEE SMC-IT/SCC 2024</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+  <link rel="stylesheet" href="/css/zanshang.css">
+  <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/resources/css/custom.css">
+  <link rel="stylesheet" href="/resources/css/override.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/hux-blog.js"></script>
+  <!-- Request from IEEE -->
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise(json)
+  });
+  </script>
+  <!-- END: Request from IEEE -->
+</head>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2024</a>
+    </div>
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/submissions.html">Submissions</a></li>
+          <li><a href="/#venue">Venue</a></li>
+<!--          <li><a href="/schedule.html">Schedule</a></li>-->
+          <li><a href="/speakers.html">Speakers</a></li>
+          <li><a href="/tracks.html">Tracks</a></li>
+<!--          <li><a href="registration.html">Registration</a></li>
+          <li><a href="/#organization">Organization</a></li>
+          <li><a href="/#sponsors">Sponsors</a></li> -->
+          <li><a href="/archive.html">Archive</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  var $body   = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+  function handleMagic(e){
+    if ($navbar.className.indexOf('in') > 0)
+    {
+
+      $navbar.className = " ";
+
+      setTimeout(function(){
+        if($navbar.className.indexOf('in') < 0)
+        {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    }
+    else
+    {
+        $collapse.style.height = "auto"
+        $navbar.className += " in";
+    }
+  }
+</script>
+<header class="intro-header" style="background-image: url('/')">
+  <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
+    <iframe src="https://player.vimeo.com/video/153555258?background=1&autoplay=1&loop=1&byline=0&title=0"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>Verification and Validation of Multi-Core System Architectures</h1>
+          <span class="subheading">
+            IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference
+            <br>Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="summary"></a>
+    <h1>Summary</h1>
+    <p>
+    The "Verification and Validation of Multi-Core System Architectures" Workshop is a one-day in-person seminar
+    within the 2024 IEEE Space Computing Conference(SCC), featuring invited
+    presentations and interactive discussions on best practices for verifying and validating software on a multi-core platform.
+    </p>
+    <p>
+    The workshop focuses on the transition to multi-core architectures in space flight applications and the resulting
+    implications to a system designer or system integrator’s ability to assess the safety and performance of the architecture
+    under all conditions. It also includes discussion of approaches, engineering methodologies, and tools to enable
+    space flight certification of these systems. 
+    </p>
+    <p>
+    The workshop will be chaired by Vivek Reddy (NASA/JPL, Flight Software Group Supervisor),
+    Alwyn Goodloe (NASA Langley Research Center, Research Computer Engineer), 
+    Scott Tashakkor(NASA/MSFC, NESC Deputy Software Tech Fellow), and 
+    Kenneth Costello (NASA IVV, Advanced Engineering Insight Lead).
+    </p>
+    <p>
+    The workshoop format will include invited presentation and interactive challenge problems to support discussion amongst audience members
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="speakers"></a>
+    <h1>Speakers</h1>
+    <p>
+    Dionisio de Niz is a Principal Researcher at the Software Engineering Institute at Carnegie Mellon University. 
+    He received an M.S. in information networking from the Information Networking Institute and a Ph.D. in electrical and computer engineering 
+    from Carnegie Mellon University. His research interests include cyber-physical systems, real-time systems, and model-based engineering. 
+    In the real-time arena he has recently focused on multicore processors and mixed-criticality scheduling, and has led a
+    number of projects on both fundamental research and applied research for the private industry and government organizations
+    </p>
+    <p>
+    Thea-Martine Gauthier is the software architect for the HPSC platform. Additional TBD Description here. 
+    </p>
+    <p>
+    TBD Speaker
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="schedule"></a>
+    <h1>Schedule</h1>
+    <table class="table table-hover">
+    <thead class="thead-light">
+    <tr>
+      <th>TIME (PDT)</th>
+      <th>TITLE</th>
+      <th>PRESENTER</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:30 AM</th>
+      <td>Introduction</td>
+      <td>Workshop Chairs</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">10:45 AM</th>
+      <td>Speaker Presentation 1</td>
+      <td>Thea-Martine Gauthier</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">11:30 AM</th>
+      <td>Interactive Challenge #1</td>
+    </tr>                
+    <tr>
+      <th scope="row" style="min-width: 120px;">12:00 PM</th>
+      <td>Lunch Break</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">1:15 PM</th>
+      <td>Speaker Presentation 2</td>
+      <td>Dionisio De Niz</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">2:00 PM</th>
+      <td>Interactive Challenge #1 Re-Visit</td>
+    </tr>
+    <tr>
+      <th scope="row" style="min-width: 120px;">2:30 PM</th>
+      <td>Interactive Challenge #2</td>
+    </tr>    
+    <tr>
+      <th scope="row" style="min-width: 120px;">3:15 PM</th>
+      <td>Coffee Break</td>
+    </tr>  
+    <tr>
+      <th scope="row" style="min-width: 120px;">3:45 PM</th>
+      <td>Speaker Presentation 3</td>
+      <td>TBD</td>
+    </tr> 
+    <tr>
+      <th scope="row" style="min-width: 120px;">4:30 PM</th>
+      <td>Interactive Challenges Re-Visit</td>
+    </tr>   
+    </tbody>
+    </table>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="sponsors"></a>
+    <h1>Supporters</h1>
+    <table class="supporters">
+      <tr>
+        <td>
+          <img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png">
+          <br>
+          IEEE
+        </td>
+      </tr>
+    </table>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <h1>Contact</h1>
+    <p>If you have any questions, feel free to contact us at:</p>
+    <ul>
+      <li>Email: smcit-scc_chairs@jpl.nasa.gov</li>
+      <li>Twitter: @smcit_conf</li>
+    </ul>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html">Privacy Policy</a></p>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy; IEEE SMC-IT/SCC 2024
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+</body>
+</html>
