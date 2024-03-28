@@ -1,145 +1,133 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Workshop on Acknowledging and Alleviating Uncertainties in Autonomous Systems - IEEE SMC-IT/SCC 2023</title>
-    <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
-    <link rel="stylesheet" href="/css/zanshang.css">
-    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/resources/css/custom.css">
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/hux-blog.js"></script>
-    <!-- Request from IEEE -->
-    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-    <script>
-    window.addEventListener("load", function(){
-      window.cookieconsent.initialise(json)
-    });
-    </script>
-    <!-- END: Request from IEEE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Ideas and Emerging Results Workshop - IEEE SMC-IT/SCC 2024</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+  <link rel="stylesheet" href="/css/zanshang.css">
+  <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/resources/css/custom.css">
+  <link rel="stylesheet" href="/resources/css/override.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/hux-blog.js"></script>
+  <!-- Request from IEEE -->
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise(json)
+  });
+  </script>
+  <!-- END: Request from IEEE -->
 </head>
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
-    <div class="container-fluid">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2023</a>
-        </div>
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/#about">About</a></li>
-                    <li><a href="/schedule.html">Schedule</a></li>
-                    <li><a href="/speakers.html">Speakers</a></li>
-                    <li><a href="/tracks.html">Tracks</a></li>
-                    <li><a href="/submissions.html">Submissions</a></li>
-                    <li><a href="/#venue">Venue</a></li>
-                    <li><a href="registration.html">Registration</a></li>
-                    <li><a href="/#organization">Organization</a></li>
-                    <li><a href="/#sponsors">Sponsors</a></li>
-                    <li><a href="/archive.html">Archive</a></li>
-                </ul>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2024</a>
     </div>
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/submissions.html">Submissions</a></li>
+          <li><a href="/#venue">Venue</a></li>
+<!--          <li><a href="/schedule.html">Schedule</a></li>-->
+          <li><a href="/speakers.html">Speakers</a></li>
+          <li><a href="/tracks.html">Tracks</a></li>
+<!--          <li><a href="registration.html">Registration</a></li>
+          <li><a href="/#organization">Organization</a></li>
+          <li><a href="/#sponsors">Sponsors</a></li> -->
+          <li><a href="/archive.html">Archive</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </nav>
 <script>
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
+  var $body   = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
 
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
+  $toggle.addEventListener('click', handleMagic)
+  function handleMagic(e){
+    if ($navbar.className.indexOf('in') > 0)
+    {
 
-            $navbar.className = " ";
+      $navbar.className = " ";
 
-            setTimeout(function(){
-
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        } else {
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
+      setTimeout(function(){
+        if($navbar.className.indexOf('in') < 0)
+        {
+          $collapse.style.height = "0px"
         }
+      }, 400)
     }
+    else
+    {
+        $collapse.style.height = "auto"
+        $navbar.className += " in";
+    }
+  }
 </script>
 <header class="intro-header" style="background-image: url('/')">
-    <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
-     <iframe src="https://player.vimeo.com/video/387675206?background=1&autoplay=1&loop=1&byline=0&title=0"
-             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Acknowledging and Alleviating Uncertainties in Autonomous Systems</h1>
-                    <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>Caltech, Pasadena, CA, USA - 18-21 July 2023</span>
-                </div>
-            </div>
+  <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
+    <iframe src="https://player.vimeo.com/video/153555258?background=1&autoplay=1&loop=1&byline=0&title=0"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <div class="row" style="background-color:rgba(0,0,0,.8)">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" style="padding:50px 0">
+          <h1>2nd OPEN SOURCE FOR SPACE WORKSHOP</h1>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
+            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>
         </div>
+      </div>
     </div>
+  </div>
 </header>
 
 <div class="content-block">
   <div class="content-text">
     <a id="summary"></a>
-    <h1>Summary</h1>
+    <h1>Call for Posters -- New Ideas and Emerging Results</h1>
     <p>
-      The International Conference on Space Mission Challenges for Information Technology (SMC-IT) and the Space Computing Conference (SCC) gather system designers, engineers, computer architects, scientists, practitioners, and space explorers with the objective of advancing information technology, and the computational capability and reliability of space missions. 
-      The Space Computing Conference (SCC) is a premier forum for researchers and practitioners to exchange ideas and results on all aspects of computing for space missions. The conference covers topics such as flight systems, ground systems, science data processing, engineering and development tools, operations, telecommunications, radiation-tolerant computing devices, reliable electronics, and space-qualifiable packaging technologies.
-      SMC-IT/SCC 2024 will be held at the Computer History Museum in Mountain View, California, USA, from July 15 to July19, 2024.
-      
+      The International Conference on Space Mission Challenges for Information Technology (SMC-IT) 
+      and the Space Computing Conference (SCC) gather system designers, engineers, 
+      computer architects, scientists, practitioners, and space explorers with the objective 
+      of advancing information technology, and the computational capability and reliability 
+      of space missions. 
     </p>
     <p>
-      Why Present a Poster?
-      Presenting a poster at SMC-IT/SCC 2024 is a great opportunity to showcase your work, get feedback, network with peers, and learn from experts in the field of space computing. You will also have the chance to win the Best Poster Award, based on the voting by the Poster Program Committee.
-      Posters are especially suitable for presenting:
-      •	Novel research ideas and preliminary results that have not been fully developed or evaluated
-      •	Ongoing projects and collaborations that demonstrate the state-of-the-art and the challenges of space computing
-      •	Practical experiences and lessons learned from implementing, testing, or operating space computing systems
-      •	Educational and outreach activities that promote the awareness and the interest of space computing
-      
+      The Space Computing Conference (SCC) is a premier forum for researchers and practitioners 
+      to exchange ideas and results on all aspects of computing for space missions. 
+      The conference covers topics such as flight systems, ground systems, science data processing, 
+      engineering and development tools, operations, telecommunications, 
+      radiation-tolerant computing devices, reliable electronics, and space-qualifiable packaging technologies.
     </p>
     <p>
-      How to Submit a Poster Proposal? (TBC)
-      To submit a poster proposal, you need to prepare the following:
-      •	A poster abstract of up to 250 words (TBC), describing the main content and the contribution of your poster
-      •	A draft poster in PDF format, following the template provided on the conference website
-      •	A one-slide presentation in PDF format, summarizing the key points of your poster for the lightning talks
-      The submission system will open on March 1, 2024, and you need to submit your poster proposal through the online submission system by April 3, 2024 (TBC). 
-
-      How are the Posters Selected?
-All poster proposals will be reviewed by the Poster Program Committee, based on the following criteria:
-•	Relevance and significance to the conference theme and scope
-•	Originality and novelty of the poster content
-•	Clarity and quality of the poster abstract, draft, and presentation
-•	Potential impact and interest for the conference audience
-The authors of the accepted posters will be notified by March 22, 2024 (TBC).  They will need to submit the final versions of their poster abstract, poster, and presentation by May 31, 2024. The poster abstracts will be included in the conference proceedings.
-How are the Posters Presented?
-The posters will be displayed on a large format paper or board during the conference. The poster size should not exceed A0 (841 mm x 1189 mm) (TBC) in portrait orientation. The posters should be clear, concise, and attractive, using graphs, figures, and tables to illustrate the poster content.
-The poster session will start with lightning talks, where the poster authors will introduce their work to the conference attendees in a short oral presentation, using their one-slide presentation. The lightning talks will be followed by a poster exhibition, where the poster authors will discuss their work with the interested attendees.
-Contact Information
-If you have any questions or comments about the poster session, please contact the Poster Chairs:
-•	Musad Haque (JHU APL) - musad.Haque@jhuapl.edu 
-•	Justin Bautista (NASA Johnson Space Center) – justin.r.bautista@nasa.gov 
-We look forward to receiving your poster proposals and seeing you at SCC 2024! 🚀
-
-      
+      SMC-IT/SCC 2024 will be held at the Computer History Museum in Mountain View, 
+      California, USA, from July 15 to July19, 2024.
+    </p>
+    <p>
+    The workshop will be chaired by Dr. Musad Haque (Johns Hopkins University 
+    Applied Physics Laboratory) and Justin Bautista (NASA Johnson Space Center).
+    </p>
+    <p>
+      The workshop will feature poster presentations and lightning talks.
     </p>
     <hr class="middlesep">
   </div>
@@ -147,87 +135,105 @@ We look forward to receiving your poster proposals and seeing you at SCC 2024! �
 
 <div class="content-block">
   <div class="content-text">
-    <a id="schedule"></a>
-    <h1>Schedule</h1>
-    <table class="table table-hover">
-    <thead class="thead-light">
-    <tr>
-      <th>TIME (PDT)</th>
-      <th>TITLE</th>
-      <th>PRESENTER</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:15-10:30</th>
-      <td>Introduction</td>
-      <td>Natalia Alexandrov (NASA LaRC)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:30-11:00</th>
-      <td>Planning and Control under Uncertainty for Planetary Lander Payload Offloading</td>
-      <td>Javier Puig-Navarro (Analytic Mechanics Associates)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:00-11:30</th>
-      <td>Uncertainty in Servicing and Assembly Tasks for Space Robotic Manipulators</td>
-      <td>John Cooper (NASA LaRC)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:30-11:45</th>
-      <td>Discussion</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:45-13:30</th>
-      <td>Lunch Break</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">13:30-14:00</th>
-      <td>Trustworthiness of a Surrogate Model for Assembly Sequencing of Space Structures</td>
-      <td>Dalan Loudermilk (University of Maryland and NASA Pathways)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">14:00-14:30</th>
-      <td>Managing Model Uncertainty, Disturbances, and operational Space Characteristics Using Control Barrier and Lyapunov Functions</td>
-      <td>John Pye (University of Michigan and NASA Pathways)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">14:30-15:00</th>
-      <td>Managing Uncertainties via Preconditioning Problem Complexity</td>
-      <td>Natalia Alexandrov (NASA LaRC)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">15:00-15:15</th>
-      <td>Break</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">15:15-17:30</th>
-      <td>Designing a Robust Mars Landing amidst Uncertainty</td>
-      <td>Martin Feather (NASA JPL)</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">15:45-17:15</th>
-      <td>Panel and open-mic discussion</td>
-      <td>Martin Feather (NASA JPL) and Kenneth Costello (NASA GSFC/IVV)</td>
-    </tr>
-    </tbody>
-    </table>
+    <a id="why"></a>
+    <h1>Why Present a Poster?</h1>
+    <p>
+      Presenting a poster at SMC-IT/SCC 2024 is a great opportunity to showcase your work, 
+      get feedback, network with peers, and learn from experts in the field of space computing. 
+      You will also have the chance to win the Best Poster Award, based on the voting 
+      by the Poster Program Committee.
+    </p>
+    <p>
+      Posters are especially suitable for presenting:
+      <ul>
+        <li>Novel research ideas and preliminary results that have not been fully developed or evaluated</li>
+        <li>Ongoing projects and collaborations that demonstrate the state-of-the-art and the challenges of space computing</li>
+        <li>Practical experiences and lessons learned from implementing, testing, or operating space computing systems</li>
+        <li>Educational and outreach activities that promote the awareness and the interest of space computing</li>
+      </ul>
+    </p>
     <hr class="middlesep">
   </div>
 </div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="how"></a>
+    <h1>How to Submit a Poster Proposal?</h1>
+    <p>
+      To submit a poster proposal, you need to prepare the following:
+      <ul>
+        <li>An abstract of up to 250 words, describing the main content and the contribution of your poster</li>
+        <li>A draft poster in PDF format, following the template provided on the conference website</li>
+        <li>A one-slide presentation in PDF format, summarizing the key points of your poster for the lightning talks</li>
+        <li>Educational and outreach activities that promote the awareness and the interest of space computing</li>
+      </ul>
+      The submission system will open on March 1, 2024, and you need to submit your poster proposal through 
+      the online submission system by April 10, 2024 (TBC). 
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="how2"></a>
+    <h1>How are the Posters Selected?</h1>
+    <p>
+      All poster proposals will be reviewed by the Poster Program Committee, based on the following criteria:
+      <ul>
+        <li>Relevance and significance to the conference theme and scope</li>
+        <li>Originality and novelty of the poster content</li>
+        <li>Clarity and quality of the poster abstract, draft, and presentation</li>
+        <li>Potential impact and interest for the conference audience</li>
+      </ul>
+      The authors of the accepted posters will be notified by April 10, 2024 (TBC). 
+      They will need to submit the final versions of their poster abstract, poster, and presentation by May 31, 2024. 
+      The poster abstracts will be included in the conference proceedings. 
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="how3"></a>
+    <h1>How are the Posters Presented?</h1>
+    <p>
+      The posters will be displayed on a large format paper or board during the conference. 
+      The poster size should not exceed A0 (841 mm x 1189 mm) (TBC) in portrait orientation. 
+      The posters should be clear, concise, and attractive, using graphs, figures, and tables 
+      to illustrate the poster content. The poster session will start with lightning talks, 
+      where the poster authors will introduce their work to the conference attendees in a short 
+      oral presentation, using their one-slide presentation. The lightning talks will be followed 
+      by a poster exhibition, where the poster authors will discuss their work with the 
+      interested attendees.
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="contact"></a>
+    <h1>Contact Information</h1>
+    <p>
+      If you have any questions or comments about the poster session, please contact the Poster Chairs:
+      <ul>
+        <li>Musad Haque (JHU APL) -- musad.haque@jhuapl.edu</li>
+        <li>Justin Bautista (NASA Johnson Space Center) -- justin.r.bautista@nasa.gov</li>
+      </ul>
+      We look forward to receiving your poster proposals and seeing you at SCC 2024! 🚀
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
 
 <div class="content-block">
   <div class="content-text">
     <a id="sponsors"></a>
     <h1>Supporters</h1>
-    <!-- Some logos are very wide, some are very narrow. Without any
-      adjustments, some logos dwarf others. We do our best to give them equal
-      space, but it is very hard.
-    -->
     <table class="supporters">
       <tr>
         <td>
@@ -236,99 +242,6 @@ We look forward to receiving your poster proposals and seeing you at SCC 2024! �
           IEEE
         </td>
       </tr>
-      <tr>
-        <td><h1>Platinum</h1></td>
-    </tr>
-    <tr>
-        <td id="platinum-sponsor-list">
-            <img src="resources/images/logos/platinum-microchip.png">
-            <br>
-            Microchip
-        </td>
-    </tr>
-    <tr>
-        <td><h2>Gold</h2></td>
-    </tr>
-    <tr>
-      <td id="gold-sponsor-list">
-      <ul>
-        <li>
-            <img src="resources/images/logos/gold-alphadata.png" style="max-width: 400px">
-            <br>
-            Alpha Data
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-amd.png" style="max-width: 400px">
-            <br>
-            AMD
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-aril_inc.png" style="max-width: 400px">
-            <br>
-            Aril Inc
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-avalanche_technology.png" style="max-width: 400px">
-            <br>
-            Avalanche Technology
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-lewiz.jpg" style="max-width: 300px">
-            <br>
-            LeWiz Communications
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-mirabilis.png" style="max-width: 400px">
-            <br>
-            Mirabilis Design
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-siFive.svg" style="max-width: 400px">
-            <br>
-            SiFive
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-star_dundee.png" style="max-width: 400px">
-            <br>
-            STAR-Dundee
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-synopsys.svg" style="max-width: 400px">
-            <br>
-            Synopsys
-        </li>
-        <li>
-            <img src="resources/images/logos/gold-teledyne.png" style="max-width: 400px">
-            <br>
-            Teledyne Technologies
-        </li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-        <td><h2>Silver</h2></td>
-    </tr>
-    <tr>
-      <td id="silver-sponsor-list">
-      <ul>
-        <li>
-            <img src="resources/images/logos/silver-elisa.png" style="max-width: 300px">
-            <br>
-            ELISA
-        </li>
-        <li>
-            <img src="resources/images/logos/silver-frontgrade.png" style="max-width: 300px">
-            <br>
-            Frontgrade
-        </li>
-        <li>
-            <img src="resources/images/logos/silver-kbr.jpg" style="max-width: 300px">
-            <br>
-            KBR Inc
-        </li>
-      </ul>
-      </td>
-    </tr>
     </table>
     <hr class="middlesep">
   </div>
@@ -347,18 +260,18 @@ We look forward to receiving your poster proposals and seeing you at SCC 2024! �
 </div>
 
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-               </ul>
-		<p class="copyright text-muted">
-                    Copyright &copy; IEEE SMC-IT/SCC 2024
-                    <br>
-                </p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy; IEEE SMC-IT/SCC 2024
+          <br>
+        </p>
+      </div>
     </div>
+  </div>
 </footer>
 <script>
     function loadAsync(u, c) {
@@ -372,3 +285,5 @@ We look forward to receiving your poster proposals and seeing you at SCC 2024! �
 </script>
 </body>
 </html>
+
+
