@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +18,13 @@
   <script src="/js/hux-blog.js"></script>
   <!-- Request from IEEE -->
   <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
   <script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise(json)
-  });
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise(json)
+    });
   </script>
   <!-- END: Request from IEEE -->
 </head>
@@ -43,10 +45,10 @@
           <li><a href="/#about">About</a></li>
           <li><a href="/submissions.html">Submissions</a></li>
           <li><a href="/#venue">Venue</a></li>
-<!--          <li><a href="/schedule.html">Schedule</a></li>-->
+          <!--          <li><a href="/schedule.html">Schedule</a></li>-->
           <li><a href="/speakers.html">Speakers</a></li>
           <li><a href="/tracks.html">Tracks</a></li>
-<!--          <li><a href="registration.html">Registration</a></li>
+          <!--          <li><a href="registration.html">Registration</a></li>
           <li><a href="/#organization">Organization</a></li>
           <li><a href="/#sponsors">Sponsors</a></li> -->
           <li><a href="/archive.html">Archive</a></li>
@@ -56,44 +58,43 @@
   </div>
 </nav>
 <script>
-  var $body   = document.body;
+  var $body = document.body;
   var $toggle = document.querySelector('.navbar-toggle');
   var $navbar = document.querySelector('#huxblog_navbar');
   var $collapse = document.querySelector('.navbar-collapse');
 
   $toggle.addEventListener('click', handleMagic)
-  function handleMagic(e){
-    if ($navbar.className.indexOf('in') > 0)
-    {
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
 
       $navbar.className = " ";
 
-      setTimeout(function(){
-        if($navbar.className.indexOf('in') < 0)
-        {
+      setTimeout(function () {
+        if ($navbar.className.indexOf('in') < 0) {
           $collapse.style.height = "0px"
         }
       }, 400)
     }
-    else
-    {
-        $collapse.style.height = "auto"
-        $navbar.className += " in";
+    else {
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
     }
   }
 </script>
 <header class="intro-header" style="background-image: url('/')">
   <div class="vimeo-wrapper" style="background-image: url('resources/images/preview.jpg')">
     <iframe src="https://player.vimeo.com/video/153555258?background=1&autoplay=1&loop=1&byline=0&title=0"
-            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
   <div class="container">
     <div class="row" style="background-color:rgba(0,0,0,.8)">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="site-heading" style="padding:50px 0">
           <h1>SPACE ROBOTICS WORKSHOP</h1>
-          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
-            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing
+            Conference<br>
+            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July
+            2024</span>
         </div>
       </div>
     </div>
@@ -105,61 +106,61 @@
     <a id="summary"></a>
     <h1>Summary</h1>
     <p>
-    The "Space Robotics" Workshop is a two-day in-person seminar
-    within the 2024 IEEE International Conference on Space Mission Challenges
-    for Information Technology (SMC-IT), featuring tutorials, panel discussions
-    and invited presentations on the use of AI and novel software elements
-    in robotics for space.
-    industry.
+      The "Space Robotics" Workshop is a two-day in-person seminar
+      within the 2024 IEEE International Conference on Space Mission Challenges
+      for Information Technology (SMC-IT), featuring tutorials, panel discussions
+      and invited presentations on the use of AI and novel software elements
+      in robotics for space.
+      industry.
     </p>
     <p>
-    The field of space robotics is entering a transformative era marked by an array
-    of ambitious missions and diverse collaborations. This era is characterized by
-    significant advancements in robotic missions to celestial bodies such as the Moon,
-    Mars, and beyond – exemplified by programs like NASA's VIPER and Artemis campaign,
-    Mars Sample Return, Psyche, and future explorations of Jupiter's icy moons like
-    Europa, as well as Saturn’s moons such as Enceladus and Titan. Further propelling
-    this advancement is the collaboration between NASA, commercial entities through
-    initiatives like the CLPS missions, and international partners, all converging
-    to support these ambitious endeavors.
+      The field of space robotics is entering a transformative era marked by an array
+      of ambitious missions and diverse collaborations. This era is characterized by
+      significant advancements in robotic missions to celestial bodies such as the Moon,
+      Mars, and beyond – exemplified by programs like NASA's VIPER and Artemis campaign,
+      Mars Sample Return, Psyche, and future explorations of Jupiter's icy moons like
+      Europa, as well as Saturn’s moons such as Enceladus and Titan. Further propelling
+      this advancement is the collaboration between NASA, commercial entities through
+      initiatives like the CLPS missions, and international partners, all converging
+      to support these ambitious endeavors.
     </p>
     <p>
-    In this context, the scope of applications for space robotics is expanding
-    exponentially. Robots, varying in design and function, are being tasked with a
-    spectrum of critical roles – from station keeping and in-space servicing to
-    intricate assembly, manufacturing, and the utilization of in-situ resources (ISRU)
-    for sustainable operations. Moreover, comprehensive exploration missions to lunar
-    and planetary surfaces are becoming increasingly reliant on these robotic systems.
-    This new era emphasizes the growing need for a significant shift towards greater
-    autonomy in space robotics. The reliance on human oversight is diminishing,
-    paving the way for the rise of sophisticated, data-driven autonomous systems,
-    primarily powered by Artificial Intelligence (AI). These AI systems, essential
-    for autonomous operations, demand extensive and varied datasets for training and
-    validation as well as realistic and robust simulators. This need presents both
-    a formidable challenge and a unique opportunity in advancing space robotics.
+      In this context, the scope of applications for space robotics is expanding
+      exponentially. Robots, varying in design and function, are being tasked with a
+      spectrum of critical roles – from station keeping and in-space servicing to
+      intricate assembly, manufacturing, and the utilization of in-situ resources (ISRU)
+      for sustainable operations. Moreover, comprehensive exploration missions to lunar
+      and planetary surfaces are becoming increasingly reliant on these robotic systems.
+      This new era emphasizes the growing need for a significant shift towards greater
+      autonomy in space robotics. The reliance on human oversight is diminishing,
+      paving the way for the rise of sophisticated, data-driven autonomous systems,
+      primarily powered by Artificial Intelligence (AI). These AI systems, essential
+      for autonomous operations, demand extensive and varied datasets for training and
+      validation as well as realistic and robust simulators. This need presents both
+      a formidable challenge and a unique opportunity in advancing space robotics.
     </p>
     <p>
-    Our workshop is designed to address the broad spectrum of requirements and
-    challenges presented by these diverse applications by bringing together experts
-    from terrestrial robotics, space robotics, and flight software. We will discuss
-    the unique demands of a variety of use cases, identifying how they can benefit
-    from shared technological solutions and unified frameworks. Through collaborative
-    dialogue, the workshop will explore current developments, pinpoint critical
-    challenges, and discuss the research that is needed to enable future robotics
-    and autonomy  envision the future needs and missions in space robotics.
-    Emphasizing the critical role of autonomy, we will outline strategies to enable
-    these complex, multi-faceted robotic systems to operate more independently and
-    effectively in the dynamic environment of space.
+      Our workshop is designed to address the broad spectrum of requirements and
+      challenges presented by these diverse applications by bringing together experts
+      from terrestrial robotics, space robotics, and flight software. We will discuss
+      the unique demands of a variety of use cases, identifying how they can benefit
+      from shared technological solutions and unified frameworks. Through collaborative
+      dialogue, the workshop will explore current developments, pinpoint critical
+      challenges, and discuss the research that is needed to enable future robotics
+      and autonomy envision the future needs and missions in space robotics.
+      Emphasizing the critical role of autonomy, we will outline strategies to enable
+      these complex, multi-faceted robotic systems to operate more independently and
+      effectively in the dynamic environment of space.
     </p>
     <p>
-    The Workshop will be chaired by Dr. Ignacio Lopez Franco (KBR / NASA Ames Research
-    Center), Meera Day Towler (Southwest Research Institute, Space Robotics
-    Program Manager -- Intelligent Systems Division), Dr Antoine Richard (University
-    of Luxembourg -- Space Robotics Group).
+      The Workshop will be chaired by Dr. Ignacio Lopez Franco (KBR / NASA Ames Research
+      Center), Meera Day Towler (Southwest Research Institute, Space Robotics
+      Program Manager -- Intelligent Systems Division), Dr Antoine Richard (University
+      of Luxembourg -- Space Robotics Group).
     </p>
     <p>
-    The Workshop format will include invited presentations, panel
-    discussions, and tutorials.
+      The Workshop format will include invited presentations, panel
+      discussions, and tutorials.
     </p>
     <hr class="middlesep">
   </div>
@@ -167,89 +168,175 @@
 
 <div class="content-block">
   <div class="content-text">
-    <a id="schedule"></a>
-    <h1>Schedule</h1>
+    <a id="Day 1 Schedule (07/2X)"></a>
+    <h1>Schedule Day 1</h1>
     <table class="table table-hover">
-    <thead class="thead-light">
-    <tr>
-      <th>TIME (PDT)</th>
-      <th>TITLE</th>
-      <th>PRESENTER</th>
-    </tr>
-    </thead>
+      <thead class="thead-light">
+        <tr>
+          <th>TIME (PDT)</th>
+          <th>TITLE</th>
+          <th>PRESENTER</th>
+        </tr>
+      </thead>
 
-    <tbody>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:00 AM</th>
-      <td>Introduction</td>
-      <td>Chair</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:15 AM</th>
-      <td>Talk 1</td>
-      <td>Speaker 1</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:35 AM</th>
-      <td>Talk 2</td>
-      <td>Speaker 2</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:55 AM</th>
-      <td>5 MINUTE BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:00 AM</th>
-      <td>Talk 3</td>
-      <td>Speaker 3</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:20 AM</th>
-      <td>Talk 4</td>
-      <td>Speaker 4</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:40 AM</th>
-      <td>Talk 5</td>
-      <td>Speaker 5</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">12:00 PM</th>
-      <td>LUNCH BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:00 PM</th>
-      <td>Talk 6</td>
-      <td>Speaker 6</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:20 PM</th>
-      <td>Talk 7</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:40 PM</th>
-      <td>Talk 8</td>
-      <td>Speaker 8</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:00 PM</th>
-      <td>BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:05 PM</th>
-      <td>Talk 9</td>
-      <td>Speaker 9</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:25 PM</th>
-      <td>Group Discussion</td>
-      <td>Panelists</td>
-    </tr>
-    </tbody>
+      <tbody>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:00 AM</th>
+          <td>Introduction</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:15 AM</th>
+          <td>Talk 1</td>
+          <td>Speaker 1</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:35 AM</th>
+          <td>Talk 2</td>
+          <td>Speaker 2</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:55 AM</th>
+          <td>5 MINUTE BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:00 AM</th>
+          <td>Talk 3</td>
+          <td>Speaker 3</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:20 AM</th>
+          <td>Talk 4</td>
+          <td>Speaker 4</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:40 AM</th>
+          <td>Talk 5</td>
+          <td>Speaker 5</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">12:00 PM</th>
+          <td>LUNCH BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:00 PM</th>
+          <td>Talk 6</td>
+          <td>Speaker 6</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:20 PM</th>
+          <td>Talk 7</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:40 PM</th>
+          <td>Talk 8</td>
+          <td>Speaker 8</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:00 PM</th>
+          <td>BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:05 PM</th>
+          <td>Talk 9</td>
+          <td>Speaker 9</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:25 PM</th>
+          <td>Group Discussion</td>
+          <td>Panelists</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <a id="Day 2 Schedule (07/2X)"></a>
+    <h1>Schedule Day 2</h1>
+    <table class="table table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th>TIME (PDT)</th>
+          <th>TITLE</th>
+          <th>PRESENTER</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:00 AM</th>
+          <td>Introduction</td>
+          <td>Chair</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:15 AM</th>
+          <td>Talk 1</td>
+          <td>Speaker 1</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:35 AM</th>
+          <td>Talk 2</td>
+          <td>Speaker 2</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:55 AM</th>
+          <td>5 MINUTE BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:00 AM</th>
+          <td>Talk 3</td>
+          <td>Speaker 3</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:20 AM</th>
+          <td>Talk 4</td>
+          <td>Speaker 4</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:40 AM</th>
+          <td>Talk 5</td>
+          <td>Speaker 5</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">12:00 PM</th>
+          <td>LUNCH BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:00 PM</th>
+          <td>Talk 6</td>
+          <td>Speaker 6</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:20 PM</th>
+          <td>Talk 7</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:40 PM</th>
+          <td>Talk 8</td>
+          <td>Speaker 8</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:00 PM</th>
+          <td>BREAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:05 PM</th>
+          <td>Talk 9</td>
+          <td>Speaker 9</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:25 PM</th>
+          <td>Group Discussion</td>
+          <td>Panelists</td>
+        </tr>
+      </tbody>
     </table>
     <hr class="middlesep">
   </div>
@@ -280,7 +367,8 @@
       <li>Email: smcit-scc_chairs@jpl.nasa.gov</li>
       <li>Twitter: @smcit_conf</li>
     </ul>
-    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html" target="_blank">Privacy Policy</a></p>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html"
+        target="_blank">Privacy Policy</a></p>
   </div>
 </div>
 
@@ -299,14 +387,15 @@
   </div>
 </footer>
 <script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
+  function loadAsync(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
 </script>
 </body>
+
 </html>
