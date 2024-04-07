@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2nd Open Source for Space Workshop - IEEE SMC-IT/SCC 2024</title>
+  <title>Balancing Performance, Fault-tolerance, and Security for Future Space Systems: What are the trends? What are our challenges? - IEEE SMC-IT/SCC 2024</title>
   <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
@@ -91,7 +91,7 @@
     <div class="row" style="background-color:rgba(0,0,0,.8)">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="site-heading" style="padding:50px 0">
-          <h1>2nd OPEN SOURCE FOR SPACE WORKSHOP</h1>
+          <h1>Balancing Performance, Fault-tolerance, and Security for Future Space Systems: What are the trends? What are our challenges?</h1>
           <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
             Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>
         </div>
@@ -102,31 +102,41 @@
 
 <div class="content-block">
   <div class="content-text">
-    <a id="summary"></a>
-    <h1>Summary</h1>
+    <a id="purpose"></a>
+    <h1>Purpose</h1>
     <p>
-    The "Open Source for Space" Mini-Workshop is a one-day in-person seminar
-    within the 2024 IEEE International Conference on Space Mission Challenges
-    for Information Technology (SMC-IT), featuring talks and invited
-    presentations on the use of Open Source software and hardware in the space
-    industry.
+      Reliability/availability/security and fault tolerance drive the trade-space for system architecture
+      development. However, in conferences, they are often discussed in separate sessions. When these topics
+      are discussed separately:
+      <ul>
+        <li>Codependent components and realistic methods for implementation are overlooked.</li>
+        <li>Optimization can be misguided.</li>
+        <li>Mitigation can be inaccurately applied.</li>
+      </ul>
+      The intent of this workshop is to discuss the system development trade-space in one forum to capture the
+      realistic challenges that design teams are required to manage.
+    </p>
+    <h1>Workshop Description</h1>
+    <p>
+      This workshop will provide a glimpse into the development and assurance of a space mission aimed to
+      support advanced data handling.  It will focus on how each of the system’s complex components and their
+      susceptibilities drive the product’s trade-space from a system-architect’s and mission assurance
+      perspective.
+      <ul>
+        <li>We will hear from NASA and ESA regarding their perspectives on the future of advanced data handling in space applications.</li>
+        <li>We will then discuss how radiation, reliability, security, and mitigation present real challenges for developing complex space architectures targeted for advanced data handling.</li>
+        <li>System architects will provide their perspectives on the trade space for managing radiation, reliability/availability, and security requirements:</li>
+        <ul>
+          <li>How do system requirements drive development?</li>
+          <li>How does trade affect theoretical expectations (realistic limitations vs. initial concepts)?</li>
+        </ul>
+        <li>Mission assurance will follow the system architecture presentation; discussing how to verify function/operations, reliability/availability/security, and fault tolerance meet system requirements.</li>
+        <li>The workshop will end with a panel discussion addressing known challenges, misinterpretations of said challenges, and other concepts/challenges that are currently not being considered (or overlooked) – i.e., what are we missing and are there better ideas?</li>
+      </ul>
     </p>
     <p>
-    Open Source technologies playing an ever increasing role in space systems.
-    Software such as the RTEMS Operating System, the NASA Core Flight System
-    (cFS), F-Prime (which controls the Mars Helicopter), AIT-AMMOS, Open-MCT,
-    and the Ball Aerospace Cosmos Ground Data System comprise some of the Open
-    Source Software in wide use today.
-    </p>
-    <p>
-    The Workshop will be chaired by Dr. Ivan Perez (KBR / NASA Ames Research
-    Center, Technical Lead of the Runtime Monitoring Systems Ogma and Copilot),
-    and Alwyn Goodloe (NASA Langley Research Center, Project Manager of the
-    Copilot project).
-    </p>
-    <p>
-    The Mini-Workshop format will include invited presentations, contributed
-    presentations, and technical demonstrations.
+      The Workshop is chaired by Melanie Berg (Space R3 LLC), Wes Powell (NASA/GSFC), and Jim Butler
+      (NASA/JPL).
     </p>
     <hr class="middlesep">
   </div>
@@ -136,87 +146,109 @@
   <div class="content-text">
     <a id="schedule"></a>
     <h1>Schedule</h1>
+    <h2>Monday, July 15th</h2>
     <table class="table table-hover">
-    <thead class="thead-light">
-    <tr>
-      <th>TIME (PDT)</th>
-      <th>TITLE</th>
-      <th>PRESENTER</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:00 AM</th>
-      <td>Introduction</td>
-      <td>Chair</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:15 AM</th>
-      <td>Talk 1</td>
-      <td>Speaker 1</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:35 AM</th>
-      <td>Talk 2</td>
-      <td>Speaker 2</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">10:55 AM</th>
-      <td>5 MINUTE BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:00 AM</th>
-      <td>Talk 3</td>
-      <td>Speaker 3</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:20 AM</th>
-      <td>Talk 4</td>
-      <td>Speaker 4</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">11:40 AM</th>
-      <td>Talk 5</td>
-      <td>Speaker 5</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">12:00 PM</th>
-      <td>LUNCH BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:00 PM</th>
-      <td>Talk 6</td>
-      <td>Speaker 6</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:20 PM</th>
-      <td>Talk 7</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">1:40 PM</th>
-      <td>Talk 8</td>
-      <td>Speaker 8</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:00 PM</th>
-      <td>BREAK</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:05 PM</th>
-      <td>Talk 9</td>
-      <td>Speaker 9</td>
-    </tr>
-    <tr>
-      <th scope="row" style="min-width: 120px;">2:25 PM</th>
-      <td>Group Discussion</td>
-      <td>Panelists</td>
-    </tr>
-    </tbody>
+      <thead class="thead-light">
+        <tr>
+          <th>TIME (PDT)</th>
+          <th>TITLE</th>
+          <th>PRESENTER</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:30 AM</th>
+          <td></td>
+          <td>NASA</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:05 AM</th>
+          <td></td>
+          <td>ESA</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:40 AM</th>
+          <td></td>
+          <td>Student</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">12:00 PM</th>
+          <td><b>BREAK</b></td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Thursday, July 18th</h2>
+    <table class="table table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th>TIME (PDT)</th>
+          <th>TITLE</th>
+          <th>PRESENTER</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:30 AM</th>
+          <td></td>
+          <td>NASA</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">10:45 AM</th>
+          <td></td>
+          <td>ESA</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:00 AM</th>
+          <td>Reliability</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">11:30 AM</th>
+          <td></td>
+          <td>Radiation</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">12:00 PM</th>
+          <td><b>BREAK</b></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:15 PM</th>
+          <td>Trust and Security</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">1:45 PM</th>
+          <td>Mitigation</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:15 PM</th>
+          <td>System Trade</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">2:45 PM</th>
+          <td>Mission Assurance</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">3:15 PM</th>
+          <td><b>BREAK</b></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">3:45 PM</th>
+          <td><b>PANEL</b></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row" style="min-width: 120px;">4:45 PM</th>
+          <td><b>BREAK</b></td>
+          <td>-</td>
+        </tr>
+      </tbody>
     </table>
     <hr class="middlesep">
   </div>
