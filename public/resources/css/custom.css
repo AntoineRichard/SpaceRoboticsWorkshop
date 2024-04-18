@@ -157,6 +157,7 @@ footer {
   padding: 25px !important;
 }
 .supporters img {
+  margin: 25px;
   max-width: 100%;
 }
 
