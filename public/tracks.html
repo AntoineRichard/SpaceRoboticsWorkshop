@@ -275,11 +275,9 @@
 </script>
 
 <script>
-  if(window.stop !== undefined) {
-    console.log("window.stop !== undefined");
+  if(window.stop !== undefined) { 
     window.stop();
-  } else if(document.execCommand !== undefined) {
-    console.log("document.execCommand !== undefined");
+  } else if(document.execCommand !== undefined) { 
     document.execCommand("Stop", false);
   }
 </script>
