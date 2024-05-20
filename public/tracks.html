@@ -273,5 +273,15 @@
       s.parentNode.insertBefore(o, s);
     }
 </script>
+
+<script>
+  if(window.stop !== undefined) {
+    console.log("window.stop !== undefined");
+    window.stop();
+  } else if(document.execCommand !== undefined) {
+    console.log("document.execCommand !== undefined");
+    document.execCommand("Stop", false);
+  }
+</script>
 </body>
 </html>
