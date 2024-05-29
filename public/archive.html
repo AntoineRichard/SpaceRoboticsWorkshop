@@ -232,12 +232,8 @@
     }
 </script>
 
- <!-- <script>
-  if(window.stop !== undefined) { 
-    window.stop();
-  } else if(document.execCommand !== undefined) { 
-    document.execCommand("Stop", false);
-  }
-</script> -->
+<script>
+  window.onunload = function() { window.stop(); };
+</script>
 </body>
 </html>
