@@ -161,6 +161,10 @@ footer {
   max-width: 100%;
 }
 
+#ieee-tc-list ul {
+  list-style: none;
+}
+
 #gold-sponsor-list ul {
   list-style: none;
 }
@@ -269,6 +273,11 @@ footer {
     max-width: calc(70vw) !important;
   }
 
+  #ieee-tc-list ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #gold-sponsor-list ul {
     padding-left: 0;
     padding-right: 0;
@@ -279,6 +288,9 @@ footer {
     padding-right: 0;
   }
 
+  #ieee-tc-list li {
+    padding-bottom: 25px !important;
+  }
   #gold-sponsor-list li {
     padding-bottom: 25px !important;
   }
@@ -288,6 +300,14 @@ footer {
 }
 
 @media all and (min-width: 43.75em) {
+  #ieee-tc-list ul {
+    column-count: 2;
+    column-gap: 60px;
+  }
+  #ieee-tc-list li {
+    break-inside: avoid-column;
+    margin-bottom: 60px;
+  }
   #gold-sponsor-list ul {
     column-count: 2;
     column-gap: 60px;
