@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> 1st Space Robotics Workshop - IEEE SMC-IT/SCC 2024</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+  <link rel="stylesheet" href="/css/zanshang.css">
+  <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/resources/css/custom.css">
+  <link rel="stylesheet" href="/resources/css/override.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/hux-blog.js"></script>
+  <!-- Request from IEEE -->
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise(json)
+  });
+  </script>
+  <!-- END: Request from IEEE -->
+  <style>
+   #speaker-portrait {
+       border-radius: 5px;
+       object-fit: cover;
+       width: 400px;
+       height: 550px;
+       float: right;
+       margin-top: 20px;
+       margin-left: 20px;
+   }
+   #speaker-row-delimit {
+       clear: both;
+       margin-top: 40px;
+       margin-bottom: 40px;
+   }
+  </style>
+</head>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2024</a>
+    </div>
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#workshop-srw">1st Space Robotics Workshop</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/registration.html">Registration</a></li>
+          <li><a href="/submissions.html">Submissions</a></li>
+          <li><a href="/#venue">Venue</a></li>
+          <li><a href="/schedule.html">Schedule</a></li>
+          <li><a href="/speakers.html">Speakers</a></li>
+          <li><a href="/tracks.html">Tracks</a></li>
+          <!--<li><a href="/#organization">Organization</a></li>-->
+          <!--<li><a href="/#sponsors">Sponsors</a></li> -->
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/archive.html">Archive</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  var $body   = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+  function handleMagic(e){
+    if ($navbar.className.indexOf('in') > 0)
+    {
+      $navbar.className = " ";
+
+      setTimeout(function(){
+        if($navbar.className.indexOf('in') < 0)
+        {
+            $collapse.style.height = "0px"
+        }
+      }, 400)
+    }
+    else
+    {
+        $collapse.style.height = "auto"
+        $navbar.className += " in";
+    }
+  }
+</script>
+<header class="intro-header" style="background-image: url('/')">
+  <div class="vimeo-wrapper">
+    <video src="resources/videos/earth.webm" type="video/webm" autoplay muted loop poster="resources/images/preview.jpg">
+    </video>
+  </div>
+  <div class="container">
+    <div class="row" style="background-color:rgba(0,0,0,.8)">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" style="padding:50px 0">
+          <h1>SPEAKERS</h1>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
+            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="content-block"><div class="content-text">
+
+  <a id="rthakker"></a>
+
+  <img src="/srw-resources/images/rthakker.png" id="speaker-portrait" />
+
+  <h1>Rohan Thakker</h1>
+  <h2>Robotics Technologist</h2>
+  <h2>JPL - Aerial Mobility</h2>
+
+  <p>
+    Missing BIO.
+  </p>
+
+  <div class="button-row">
+    <a href="https://www-robotics.jpl.nasa.gov/who-we-are/people/rohan_thakker/" target="_blank">Speaker Website</a>
+  </div>
+
+  <hr class="middlesep" id="speaker-row-delimit" />
+
+  <a id="jpdelacroix"></a>
+  <img src="/srw-resources/images/jpdelacroix.png" id="speaker-portrait" />
+  <h1>Jean-Pierre de la Croix</h1>
+  <h2>Group Leader</h2>
+  <h2>JPL - Maritime and Multi-Agent Autonomy</h2>
+
+  <p>
+    Missing BIO.
+  </p>
+
+  
+  <div class="button-row">
+    <a href="https://www-robotics.jpl.nasa.gov/who-we-are/people/jean-pierre_de-la-croix/" target="_blank">Speaker Website</a>
+  </div>
+
+  <hr class="middlesep" id="speaker-row-delimit" />
+
+  <a id="tfong"></a>
+
+  <img src="/srw-resources/images/tfong.png" id="speaker-portrait" />
+
+  <h1>Dr. Terry Fong</h1>
+  <h2>Chief Roboticist</h2>
+  <h2>NASA ARC - Intelligent Robotics Group</h2>
+
+  <p>
+    Dr. Terry Fong is the Chief Roboticist at the NASA Ames Research Center. 
+    He is also the deputy rover manager and lead rover driver for NASA's 
+    VIPER lunar rover mission. Terry previously led development of the 
+    Astrobee free-flying robot, which was deployed to the International 
+    Space Station in 2019. Terry has published more than 150 papers in space 
+    and field robotics, human-robot interaction, virtual reality user 
+    interfaces, and planetary mapping. Terry received his B.S. and M.S. in 
+    Aeronautics and Astronautics from MIT and his Ph.D. in Robotics from CMU.
+  </p>
+
+  <div class="button-row">
+    <a href="https://www.nasa.gov/people/terry-fong/" target="_blank">Speaker Website</a>
+  </div>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="kcarpenter"></a>
+
+  <img src="/srw-resources/images/kcarpenter.png" id="speaker-portrait" />
+
+  <h1>Kalind Carpenter</h1>
+  <h2>Robotics Mechanical Engineer</h2>
+  <h2>JPL - Advanced Robotics Systems</h2>
+
+  <p>
+    Missing BIO.
+  </p>
+
+  <div class="button-row">
+    <a href="https://www-robotics.jpl.nasa.gov/who-we-are/people/kalind_carpenter/" target="_blank">Speaker Website</a>
+  </div>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="sazimi"></a>
+
+  <img src="/resources/images/sazimi.jpeg" id="speaker-portrait" />
+
+  <h1>Al Tadros</h1>
+  <h2>CTO</h2>
+  <h2>Redwire USA</h2>
+
+  <p>
+  Al Tadros is the Chief Technology Officer of Redwire. In this role, he is focused
+  on making strategic investments that support Redwire’s customers, advancing technology
+  development and commercialization, and maintaining a nimble and collaborative Technical
+  culture. With three decades of experience in space systems engineering and as an
+  aerospace executive, Al is a thought leader in AI-enabled autonomy, machine vision,
+  rendezvous and proximity operations, and robotics. He has a proven track record in
+  maturing satellite and space systems programs for exploration, national security, and
+  commercial missions.
+  </p>
+  <p>
+  Previously, Al was Chief Growth Officer and Executive Vice President of Space
+  Infrastructure at Redwire. In this role, he oversaw the company’s long-term growth
+  strategy and business development activities, and was responsible for advancing
+  development, increasing adoption, and building momentum for Redwire’s
+  mission-enabling capabilities. 
+  </p>
+  <p>
+  Prior to Redwire, he served as Vice President of Space Infrastructure and Civil Space
+  at Maxar Technologies, where he led significant innovation in next-generation
+  spacecraft design and space infrastructure, integrating robotics and in-space satellite
+  manufacturing, servicing, and assembly capabilities. Over the course of his career at
+  Maxar, Al contributed to 13 missions and launch campaigns, many of which deployed
+  cutting-edge communications and remote sensing systems. Al has worked with both
+  commercial enterprises and government agencies to develop space systems for
+  communications, satellite servicing, remote sensing, and exploration.
+  </p>
+  <p>
+  Al leads Redwire’s involvement in Stanford University’s Center for AEroSpace Autonomy
+  Research (CAESAR), which is working to advance autonomous reasoning capabilities in space
+  with artificial intelligence and machine vision. As an authority in robotics, Al also
+  holds patents in the field of attitude control systems and was responsible for early
+  telerobotics research for the International Space Station.
+  </p>
+  <p>
+  He holds a bachelor’s degree in aerospace engineering and a master’s degree in
+  mechanical engineering from Massachusetts Institute of Technology (MIT).
+  </p>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="rkalinowsky"></a>
+
+  <img src="/resources/images/rkalinowsky.png" id="speaker-portrait" />
+
+  <h1>Robert Kalinowsky</h1>
+  <h2>Senior Project Leader</h2>
+  <h2>COSMIC / The Aerospace Corporation</h2>
+
+  <p>
+  Robert Kalinowsky is a Senior Project Leader in the Human Exploration and Space Flight
+  Division of the Civil Systems Group at The Aerospace Corporation and is both the
+  Missions and Ecosystems Focus Area Lead and Industry Caucus Facilitator for COSMIC,
+  the Consortium for Space Mobility and ISAM Capabilities. His career highlights include
+  developing a real-time operations monitoring cell in the Pentagon supporting Operation
+  Enduring Freedom in the days following 9/11, and nearly twenty years in direct support
+  to the National Reconnaissance Office where he served as Technical Lead for the Flight
+  Safety office and developed innovative proactive operations paradigms for mission
+  operations utilizing real-time operations monitoring and data-driven decision-making.
+  Prior to COSMIC, his roles at Aerospace included Associate Director of the Space
+  Architecture Department and facilitating working groups for federated enterprise
+  solution development through the Corporate Chief Engineer’s Office. Mr. Kalinowsky
+  holds a B.S. in Aerospace Engineering and an M.P.S. in Enterprise Architecture
+  and Business Transformation, both from Pennsylvania State University.
+  </p>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="sazimi"></a>
+
+  <img src="/resources/images/sazimi.png" id="speaker-portrait" />
+
+  <h1>Shaun Azimi</h1>
+  <h2>Technical Discipline Lead</h2>
+  <h2>NASA JSC - Dexterous Robotics Team</h2>
+
+  <p>
+  Shaun Azimi is the Technical Discipline Lead (TDL) for Robotics and the leader of the
+  Dexterous Robotics Team at NASA Johnson Space Center (JSC) in Houston, Texas.
+  Shaun is responsible for developing the strategic vision for NASA robotics technology
+  development supporting human space exploration as well as coordination with NASA programs,
+  other government agencies, and commercial partners. The NASA dexterous robotics team
+  develops hardware and software for advanced robotic manipulation in a variety of
+  terrestrial and space applications.
+  </p>
+  <p>
+  Shaun has over 20 years of experience with the research and development of robotics
+  and autonomous systems and he manages a portfolio of ongoing technology development
+  collaborations between NASA and the US Department of Defense, Department of Energy,
+  PickNik Robotics, Boardwalk Robotics, Apptronik, Woodside Energy and others.
+  Previously, Shaun served as the Principal Technologist for Robotics with NASA STMD
+  HQ and as the Chief Engineer for the Lunar Terrain Vehicle (LTV) moon rover for the
+  Artemis program. Prior to his career at NASA, Shaun worked as a software engineer
+  at Avidyne Corp., a mechanical engineer at Schlumberger,  and a robotics engineer
+  at Jacobs. Shaun holds a bachelor's degree in Aeronautics and Astronautics from
+  Stanford University.
+  </p>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="lsentis"></a>
+
+  <img src="/resources/images/lsentis.png" id="speaker-portrait" />
+
+  <h1>Prof. Luis Sentis</h1>
+  <h2>University of Texas at Austin</h2>
+
+  <p>
+  Missing BIO.
+  </p>
+
+  <div class="button-row">
+    <a href="https://www.ae.utexas.edu/people/faculty/faculty-directory/sentis" target="_blank">Speaker Website</a>
+  </div>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+  <a id="snakanose"></a>
+
+  <img src="/resources/images/snakanose.png" id="speaker-portrait" />
+
+  <h1>Sho Nakanose</h1>
+  <h2>Founder & CEO</h2>
+  <h2>GITAI</h2>
+
+  <p>
+  Missing BIO.
+  </p>
+
+  <hr class="middlesep" id="speaker-row-delimit">
+
+
+</div></div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="sponsors"></a>
+    <h1>Supporters</h1>
+    <!-- Some logos are very wide, some are very narrow. Without any
+      adjustments, some logos dwarf others. We do our best to give them equal
+      space, but it is very hard.
+    -->
+    <table class="supporters">
+      <tr>
+        <td><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png" alt="IEEE"></td>
+      </tr>
+      <tr>
+        <td id="ieee-tc-list">
+          <ul>
+            <li><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05190624/TCSE.png" alt="Technical Community of Software Engineering - IEEE" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/ieee-tcca.png" alt="Technical Community on Computer Architecture - IEEE" style="max-width: 400px"></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <hr class="middlesep">
+
+    <p>
+      Your sponsorship is a strong statement about your organization's commitment to the field of Space
+      Computing. SMC-IT/SCC 2024 continues to offer exciting opportunities for sponsors. Please refer to the
+      <a href="resources/SCC-SMCIT-2024-Prospectus-v11.pdf" style="text-decoration: underline">Sponsor Prospectus</a>
+      and <a href="resources/SCC 2024 Sponsor Order Form V1-0.pdf" style="text-decoration: underline" >Sponsor Guide and Order Form</a>
+      for further sponsorship information.
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <h1>Contact</h1>
+    <p>If you have any questions, feel free to contact us at:</p>
+    <ul>
+      <li>Email: <a style="text-decoration: underline" href="mailto:smcit-scc_chairs@jpl.nasa.gov">smcit-scc_chairs@jpl.nasa.gov</a></li>
+      <li>Twitter: @smcit_conf</li>
+    </ul>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<script>
+  window.onunload = function() { window.stop(); };
+</script>
+</body>
+</html>
