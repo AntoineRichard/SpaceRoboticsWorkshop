@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IEEE SMC-IT/SCC 2024</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
+  <link rel="stylesheet" href="/css/zanshang.css">
+  <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/resources/css/custom.css">
+  <link rel="stylesheet" href="/resources/css/override.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/hux-blog.js"></script>
+  <!-- Request from IEEE -->
+  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise(json)
+  });
+  </script>
+  <!-- END: Request from IEEE -->
+</head>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top is-fixed is-visible" style="top: 0px!">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">IEEE SMC-IT/SCC 2024</a>
+    </div>
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/registration.html">Registration</a></li>
+          <li><a href="/submissions.html">Submissions</a></li>
+          <li><a href="/#venue">Venue</a></li>
+          <li><a href="/schedule.html">Schedule</a></li>
+          <li><a href="/speakers.html">Speakers</a></li>
+          <li><a href="/tracks.html">Tracks</a></li>
+          <!--<li><a href="/#organization">Organization</a></li>-->
+          <!--<li><a href="/#sponsors">Sponsors</a></li> -->
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/archive.html">Archive</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  var $body   = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+  function handleMagic(e){
+    if ($navbar.className.indexOf('in') > 0)
+    {
+      $navbar.className = " ";
+
+      setTimeout(function(){
+        if($navbar.className.indexOf('in') < 0)
+        {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    }
+    else
+    {
+        $collapse.style.height = "auto"
+        $navbar.className += " in";
+    }
+  }
+</script>
+<header class="intro-header" style="background-image: url('/')">
+  <div class="vimeo-wrapper">
+    <video src="resources/videos/earth.webm" type="video/webm" autoplay muted loop poster="resources/images/preview.jpg">
+    </video>
+  </div>
+  <div class="container">
+    <div class="row" style="background-color:rgba(0,0,0,.8)">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading" style="padding:50px 0">
+          <h1>IEEE SMC-IT/SCC 2024</h1>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
+            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>
+          <span class="subheading"><a style="color: #fff !important;" href="https://smcit-scc.space/registration.html">REGISTRATION IS NOW OPEN - EARLY BIRD CLOSES ON JUNE 7TH. CLICK HERE TO REGISTER.</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="about"></a>
+    <h1>About SMC-IT/SCC</h1>
+    <p>
+      The International Conference on Space Mission Challenges for Information
+      Technology (SMC-IT) and the Space Computing Conference (SCC) gather
+      system designers, engineers, computer architects, scientists,
+      practitioners, and space explorers with the objective of advancing
+      information technology, and the computational capability and reliability
+      of space missions. The forums will provide an excellent opportunity for
+      fostering technical interchange on all hardware and software aspects of
+      space missions. The joint conferences will focus on current systems
+      practice and challenges as well as emerging hardware and software
+      technologies with applicability for future space missions.
+    </p>
+    <p>
+      Systems in all aspects of the space mission will be explored, including
+      flight systems, ground systems, science data processing, engineering and
+      development tools, operations, telecommunications, radiation-tolerant
+      computing devices, reliable electronics, space-qualifiable packaging
+      technologies. The entire information systems lifecycle of the mission
+      development will also be covered, such as conceptual design, engineering
+      tools development, integration and test, operations, science analysis,
+      quality control.
+    </p>
+
+    <hr class="middlesep">
+  </div>
+</div>
+
+<a id="speakers"></a>
+<div class="content-block">
+  <div class="content-text">
+    <h1>Speakers</h1>
+    <h2>Keynote Speakers</h2>
+    <table class="speakers" style="table-layout: fixed">
+      <tr>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#tu-eugene">
+            <img src="/resources/images/tu-eugene.jpg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Eugene Tu</b>
+            <br>
+            Center Director
+            <br>
+            NASA Ames Research Center
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#aspiotis-jason">
+            <img src="/resources/images/aspiotis-jason.jpg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Jason Aspiotis</b>
+            <br>
+            Director, In-Space Infrastructure and Logistics
+            <br>
+            Axiom Space
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#turtle-elizabeth">
+            <img src="/resources/images/turtle-elizabeth.jpg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Elizabeth Turtle</b>
+            <br>
+            Planetary Scientist
+            <br>
+            Johns Hopkins Applied Physics Laboratory
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#mee-jesse">
+            <img src="/resources/images/mee-jesse.jpg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Jesse Mee</b>
+            <br>
+            Air Force Research Laboratory
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#desai-prasun">
+            <img src="/resources/images/desai-prasun.jpeg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Prasun Desai</b>
+            <br/>Deputy Associate Administrator, Space Technology Mission Directorate
+            <br/>NASA HQ
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="speakers.html#bradley-damon">
+            <img src="/resources/images/bradley-damon.jpeg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Damon Bradley</b>
+            <br/>Founder and President
+            <br/>DeepSpace Technologies
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="venue"></a>
+    <h1>Venue</h1>
+    <p>
+      The conference will be held at the Computer History Museum in Mountain View, California. The
+      embedded map below displays the immediate area around the museum along with landmarks
+      and other sites relevant to the conference.
+    </p>
+
+    <center>
+      <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1PJZuAYCtoEHjtJ6JvXR3kHT97fCvq_w&ehbc=2E312F&noprof=1" width="960" height="640"></iframe>
+    </center>
+
+    <h2>Hotels</h2>
+    <p>
+    The following hotels have kindly offered discounted group rates for SMC-IT/SCC attendees. Rooms booked at group rates have limited availability. These hotels are indicated with purple icons in the above map.
+    </p>
+    <ul>
+      <li>
+        <b>
+          <a href="https://www.shashihotel.com/" style="text-decoration:underline;" target="_blank">Shashi Hotel</a> (0.4 mi / 2 min)
+        </b>
+        <br>
+        Located one block away from conference venue.
+        <br>
+        <i>$299 per night for 1-King bedrooms (<a href="https://reservations.travelclick.com/111779?groupID=4142756" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
+        <br>
+      </li>
+      <li>
+        <b>
+          <a href="https://www.theameswellhotel.com/" style="text-decoration:underline;" target="_blank">The Ameswell Hotel</a> (1.7 mi / 5 min)
+        </b>
+        <br>
+        Located in Mountain View, off Hwy 101. This will also be the evening banquet venue.
+        <br>
+        <i>$245 per night (<a href="https://res.windsurfercrs.com/ibe/details.aspx?propertyid=17423&nights=1&checkin=07/14/2024&group=IEEES240714-1544&lang=en-us&adults=2&childAges=" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
+      </li>
+      <li>
+        <b>
+          <a href="https://www.marriott.com/en-us/hotels/sjcao-ac-hotel-palo-alto/overview/" style="text-decoration:underline;" target="_blank">AC Hotel</a> (2.4 mi / 6 min)
+        </b>
+        <br>
+        Located in south Palo Alto, close to Hwy 101.
+        <br>
+        <i>$245 per night for US government employees (<a href="https://www.marriott.com/events/start.mi?id=1709102894164&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>), $375 per night otherwise (<a href="https://www.marriott.com/events/start.mi?id=1709102740180&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
+        <br>
+      </li>
+      <li>
+        <b>
+          <a href="https://www.hotelcitrine.com/" style="text-decoration:underline;" target="_blank">Hotel Citrine</a> (2.3 mi / 6 min)
+        </b>
+        <br>
+        Located in south Palo Alto, close to Hwy 101.
+        <br>
+        <i>$245 per night for US government employees (<a href="https://www.marriott.com/events/start.mi?id=1709682654063&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>), $375 per night otherwise (<a href="https://www.marriott.com/events/start.mi?id=1709682502558&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
+      </li>
+    </ul>
+
+    There are several other hotels in the area for which we do not have special offers or room blocks, but that offer affordable rates. For details, see: <a href="https://www.wyndhamhotels.com/ramada/mountain-view-california/ramada-limited-mountain-view/overview" style="text-decoration:underline;" target="_blank">Ramada</a> and the <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mountain-view/nuqmv/hoteldetail" style="text-decoration:underline;" target="_blank">Holiday Inn Express</a>. If you are a NASA employee (fulltime or intern) or a military retiree, you have the option of staying at the nearby <a href="https://nasa.sharepoint.com/sites/arc-exchange/SitePages/The-Exchange-Lodge.aspx" style="text-decoration:underline;" target="_blank">NASA Ames Exchange Lodge</a>.
+
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="organization"></a>
+    <h1>Organization</h1>
+    <ul>
+      <li>General Chair: Ivan Perez (KBR @ NASA Ames Research Center)</li>
+      <li>General Co-chair: Rory Lipkis (NASA Ames Research Center)</li>
+      <li>Program Chair (SCC): David Rutishauser (NASA Johnson Space Center)</li>
+      <li>Program Co-chair (SCC): Chris Green (NASA Goddard Space Flight Center)</li>
+      <li>Program Chair (SMC-IT): Marie Farrell (University of Manchester)</li>
+      <li>Program Co-chair (SMC-IT): Alessandro Pinto (Jet Propulsion Laboratory)</li>
+      <li>Program Co-chair (SMC-IT): Victoria Da Poian (Microtel LLC @ NASA Goddard Space Flight Center)</li>
+      <li>Workshop Chair: Sanaz Sheikhi (Stony Brook University)</li>
+      <li>Workshop Co-chair: Wesley Powell (NASA)</li>
+      <li>Industry Chair (SCC): Ken O'Neill (AMD)</li>
+      <li>Industry Chair (SMC-IT): Yogita Shah (Jet Propulsion Laboratory)</li>
+      <li>Diversity Chair: Michelle Carter (The Aerospace Corporation)</li>
+      <li>Diversity Co-chair: Allie Gatewood (The Aerospace Corporation)</li>
+      <li>Publicity Chair: Simon Kolker (University of Manchester)</li>
+      <li>Informatics Manager: Leigh Garbs (NASA ARC)</li>
+      <li>Finance Chair: Jim Oyama (Jet Propulsion Laboratory)</li>
+      <li>Finance Co-chair: Mariam Malek (Jet Propulsion Laboratory)</li>
+      <li>Logistics Chair: Ian Land (Synopsys)</li>
+      <li>Logistics Co-chair: Jeff Wetch (Synopsys)</li>
+      <li>IEEE Conference Coordinator: Kathy Park (IEEE)</li>
+      <li>Advisors to the Chairs:
+        <ul>
+            <li>Larry Bergman (NASA JPL, Ret.)</li>
+            <li>Jim Butler (Jet Propulsion Laboratory)</li>
+            <li>Michael Campbell (The Aerospace Corporation, Ret.)</li>
+            <li>David Henriquez (Jet Propulsion Laboratory)</li>
+        </ul>
+      </li>
+    </ul>
+    <h2>Steering committee</h2>
+    <ul>
+      <li>Richard Doyle (NASA JPL)</li>
+      <li>Rupak Biswas (NASA)</li>
+      <li>Chris Mattman (NASA JPL)</li>
+      <li>Yisong Yue (Caltech)</li>
+    </ul>
+    <h2>Program committee (SCC)</h2>
+    <ul>
+      <li>Mehmet Adalier (Antara Teknik LLC)</li>
+      <li>Jim Butler (NASA Jet Propulsion Laboratory)</li>
+      <li>Bob Campanini (Micropac Industries Inc.)</li>
+      <li>Patrick Collier (Aspen Consulting Group)</li>
+      <li>Josh Donckels (Sandia National Laboratories)</li>
+      <li>Susana Douglas (NASA Goddard Space Flight Center)</li>
+      <li>Eliot Glaser (Northrop Grumman Space Systems)</li>
+      <li>Christopher Green (NASA Goddard Space Flight Center)</li>
+      <li>David Henriquez (NASA Jet Propulsion Laboratory)</li>
+      <li>Ken O'Neill (AMD)</li>
+      <li>Wes Powell (NASA)</li>
+      <li>Dave Rutishauser (NASA Johnson Space Center)</li>
+      <li>Cory Simon (NASA Johnson Space Center)</li>
+      <li>Vivek Dwivedi (NASA Goddard Space Flight Center)</li>
+      <li>Dara McConville (Maynooth University)</li>
+      <li>Alan George (University of Pittsburgh, NSF SHREC Center)</li>
+      <li>Tao Lang (Microchip)</li>
+      <li>Craig Vineyard (Sandia National Laboratories)</li>
+    </ul>
+    <h2>Program committee (SMC-IT)</h2>
+    <ul>
+      <li>Alwyn Goodloe (NASA LARC)</li>
+      <li>Anastasia Mavridou (KBR / NASA ARC)</li>
+      <li>Andrea Guerrieri (EPFL and HES-SO Valais-Wallis)</li>
+      <li>Andrea Orlandini (Institute of Cognitive Sciences and Technologies)</li>
+      <li>Angelo Ferrando (University of Genova)</li>
+      <li>Angelo Oddi (Institute of Cognitive Sciences and Technologies)</li>
+      <li>Arby Argueta (JPL)</li>
+      <li>Bill Van Besien (IOMAXIS)</li>
+      <li>Bob Berardino (JHU Applied Physics Laboratory)</li>
+      <li>Clare Dixon (The University of Manchester)</li>
+      <li>Conor Reynolds (The University of Manchester)</li>
+      <li>Divya Gopinath (KBR / NASA ARC)</li>
+      <li>Gerard Holzmann (Nimble Research)</li>
+      <li>Gregory Falco (JHU Applied Physics Laboratory)</li>
+      <li>Ivan Ruchkin (University of Florida)</li>
+      <li>Jeremy Hadall (UK Satellite Applications Catapult)</li>
+      <li>Julia Badger (NASA)</li>
+      <li>Klaus Havelund (Jet Propulsion Laboratory)</li>
+      <li>Leonard Reder (NASA JPL)</li>
+      <li>Mallory Graydon (NASA LARC)</li>
+      <li>Maria R-Moreno (Universidad de Alcala)</li>
+      <li>Michael Koller (European Space Agency)</li>
+      <li>Mike Curtis-Rouse (UK Satellite Applications Catapult)</li>
+      <li>Nate Hamilton (Parallax)</li>
+      <li>Nicolas Rouquette (JPL)</li>
+      <li>Oisín Sheridan (Maynooth University)</li>
+      <li>Pierre-Loïc Garoche (NASA ARC (contractor))</li>
+      <li>Riccardo Rasconi (Institute of Cognitive Sciences and Technologies)</li>
+      <li>Rosemary Monahan (Maynooth University)</li>
+      <li>Taylor Johnson (Vanderbilt University)</li>
+      <li>Thomas Pressburger (NASA ARC)</li>
+      <li>Zamira Daw (University of Stuttgart)</li>
+    </ul>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <a id="sponsors"></a>
+    <h1>Supporters</h1>
+    <!-- Some logos are very wide, some are very narrow. Without any
+      adjustments, some logos dwarf others. We do our best to give them equal
+      space, but it is very hard.
+    -->
+    <table class="supporters">
+      <tr>
+        <td><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png" alt="IEEE"></td>
+      </tr>
+      <tr>
+        <td id="ieee-tc-list">
+          <ul>
+            <li><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05190624/TCSE.png" alt="Technical Community of Software Engineering - IEEE" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/ieee-tcca.png" alt="Technical Community on Computer Architecture - IEEE" style="max-width: 400px"></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><h1>Platinum</h1></td>
+      </tr>
+      <tr>
+        <td id="platinum-sponsor-list">
+          <img src="resources/images/logos/3d-plus.png" alt="3D-Plus">
+          <img src="resources/images/logos/microchip.png" alt="Microchip">
+          <img src="resources/images/logos/antmicro.png" alt="antmicro">
+        </td>
+      </tr>
+      <tr>
+        <td><h2>Gold</h2></td>
+      </tr>
+      <tr>
+        <td id="gold-sponsor-list">
+          <ul>
+            <li><img src="resources/images/logos/alpha_data.png" alt="Alpha Data" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/gold-amd.png" alt="AMD" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/avalanche-technology.png" alt="Avalanche Technology" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/gold-frontgrade-gaisler.png" alt="Frontgrade Gaisler" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/lewiz.png" alt="Lewiz" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/gold-mirabilis.png" alt="Mirabilis Design" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/moog.png" alt="Moog" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/sifive.png" alt="SiFive" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/star-dundee.png" alt="Star Dundee" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/synopsys.png" alt="Synopsys" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/teledyne.png" alt="Teledyne E2V" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/gold-voragotech.png" alt="Vorago Technologies" style="max-width: 400px"></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><h2>Silver</h2></td>
+      </tr>
+      <tr>
+        <td id="silver-sponsor-list">
+          <ul>
+            <li><img src="resources/images/logos/silver-elisa.png" alt="ELISA" style="max-width: 400px"></li>
+            <li><img src="resources/images/logos/silver-kbr.png" alt="KBR" style="max-width: 400px"></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <hr class="middlesep">
+
+    <p>
+      Your sponsorship is a strong statement about your organization's commitment to the field of Space
+      Computing. SMC-IT/SCC 2024 continues to offer exciting opportunities for sponsors. Please refer to the
+      <a href="resources/SCC-SMCIT-2024-Prospectus-v11.pdf" style="text-decoration: underline">Sponsor Prospectus</a>
+      and <a href="resources/SCC 2024 Sponsor Order Form V1-0.pdf" style="text-decoration: underline" >Sponsor Guide and Order Form</a>
+      for further sponsorship information.
+    </p>
+    <hr class="middlesep">
+  </div>
+</div>
+
+<div class="content-block">
+  <div class="content-text">
+    <h1>Contact</h1>
+    <p>If you have any questions, feel free to contact us at:</p>
+    <ul>
+      <li>Email: <a style="text-decoration: underline" href="mailto:smcit-scc_chairs@jpl.nasa.gov">smcit-scc_chairs@jpl.nasa.gov</a></li>
+      <li>Twitter: @smcit_conf</li>
+    </ul>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html" target="_blank">Privacy Policy</a></p>
+  </div>
+</div>
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<script>
+  window.onunload = function() { window.stop(); };
+</script>
+</body>
+</html>

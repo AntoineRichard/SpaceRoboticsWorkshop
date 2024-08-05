@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IEEE SMC-IT/SCC 2024</title>
+  <title> 1st Space Robotics Workshop - IEEE SMC-IT/SCC 2024</title>
   <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.css">
@@ -20,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
   <script>
-  window.addEventListener("load", function(){
+  window.addEventListener("load", function () {
     window.cookieconsent.initialise(json)
   });
   </script>
@@ -57,28 +58,26 @@
   </div>
 </nav>
 <script>
-  var $body   = document.body;
+  var $body = document.body;
   var $toggle = document.querySelector('.navbar-toggle');
   var $navbar = document.querySelector('#huxblog_navbar');
   var $collapse = document.querySelector('.navbar-collapse');
 
   $toggle.addEventListener('click', handleMagic)
-  function handleMagic(e){
-    if ($navbar.className.indexOf('in') > 0)
-    {
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+
       $navbar.className = " ";
 
-      setTimeout(function(){
-        if($navbar.className.indexOf('in') < 0)
-        {
+      setTimeout(function () {
+        if ($navbar.className.indexOf('in') < 0) {
           $collapse.style.height = "0px"
         }
       }, 400)
     }
-    else
-    {
-        $collapse.style.height = "auto"
-        $navbar.className += " in";
+    else {
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
     }
   }
 </script>
@@ -91,10 +90,11 @@
     <div class="row" style="background-color:rgba(0,0,0,.8)">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="site-heading" style="padding:50px 0">
-          <h1>IEEE SMC-IT/SCC 2024</h1>
-          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing Conference<br>
-            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 15-19 July 2024</span>
-          <span class="subheading"><a style="color: #fff !important;" href="https://smcit-scc.space/registration.html">REGISTRATION IS NOW OPEN - EARLY BIRD CLOSES ON JUNE 7TH. CLICK HERE TO REGISTER.</a></span>
+          <h1>1st SPACE ROBOTICS WORKSHOP</h1>
+          <span class="subheading">IEEE Space Mission Challenges for Information Technology - IEEE Space Computing
+            Conference<br>
+            Computer History Museum &#x2000;&#x2022;&#x2000; Mountain View, CA, USA &#x2000;&#x2022;&#x2000; 17-18 July
+            2024</span>
         </div>
       </div>
     </div>
@@ -103,29 +103,58 @@
 
 <div class="content-block">
   <div class="content-text">
-    <a id="about"></a>
-    <h1>About SMC-IT/SCC</h1>
+    <a id="summary"></a>
+    <!-- <h1>Summary</h1> -->
+ 
     <p>
-      The International Conference on Space Mission Challenges for Information
-      Technology (SMC-IT) and the Space Computing Conference (SCC) gather
-      system designers, engineers, computer architects, scientists,
-      practitioners, and space explorers with the objective of advancing
-      information technology, and the computational capability and reliability
-      of space missions. The forums will provide an excellent opportunity for
-      fostering technical interchange on all hardware and software aspects of
-      space missions. The joint conferences will focus on current systems
-      practice and challenges as well as emerging hardware and software
-      technologies with applicability for future space missions.
+      The <b>1st Space Robotics Workshop</b> is a two-day in-person seminar 
+      scheduled for <b>July 17th and 18th</b>, within the 2024 IEEE International Conference
+      on Space Mission Challenges for Information Technology (SMC-IT) in Mountain View, CA. 
+      It will feature tutorials, panel discussions, and invited presentations centered around
+      the integration of AI and novel software elements in robotics for space.
     </p>
     <p>
-      Systems in all aspects of the space mission will be explored, including
-      flight systems, ground systems, science data processing, engineering and
-      development tools, operations, telecommunications, radiation-tolerant
-      computing devices, reliable electronics, space-qualifiable packaging
-      technologies. The entire information systems lifecycle of the mission
-      development will also be covered, such as conceptual design, engineering
-      tools development, integration and test, operations, science analysis,
-      quality control.
+      The field of space robotics is entering a transformative era marked by an array
+      of ambitious missions and global collaborations. This period is characterized by
+      significant advancements in robotic missions to celestial bodies such as the Moon,
+      Mars, and beyond – exemplified by programs like NASA's VIPER, Artemis campaign,
+      Psyche, Mars Sample Return, and future explorations of Jupiter's icy moons like
+      Europa, and Saturn’s Enceladus and Titan moons. Further propelling
+      this advancement is the collaboration between NASA, commercial entities – through
+      initiatives like CLPS – and international partners, all converging
+      to support these ambitious endeavors.
+    </p>
+    <p>
+      In this context, the scope of applications for space robotics is expanding
+      exponentially. Robots, varying in design and function, are being tasked with a
+      spectrum of critical roles – from station keeping and in-space servicing to
+      complex assembly, manufacturing, and the utilization of in-situ resources (ISRU)
+      for sustainable operations. Moreover, comprehensive exploration missions to lunar
+      and planetary surfaces are becoming increasingly reliant on these robotic systems.
+      This new era emphasizes the growing need for a shift from human-operated systems
+      to semi-autonomous and eventually fully autonomous space robotics, powered by 
+      advanced AI technologies. Developing these AI systems demand new key challenges, 
+      including extensive and diverse datasets for training and validation, physically 
+      realistic simulators, energy-optimized edge computing, and self-verification and
+      trustworthines of these algorithms. 
+    </p>
+    <p>
+      Our workshop aims to address the broad spectrum of opportunities and
+      challenges presented by this new era of space exploration by bringing together experts
+      in terrestrial robotics, space robotics, AI, mission operations, and flight software. 
+      Discussions will focus on the specific requirements of space applications, how they 
+      can leverage shared technological solutions, and benefit from unified frameworks. 
+      The workshop will facilitate collaborative discussions, highlight current 
+      developments, identify key challenges, and strategize on the necessary research 
+      to advance robotics and autonomy in future space missions. 
+    </p>
+    <p>
+      This workshop is chaired by:
+      <li><b>Ignacio G. Lopez-Francos</b> (NASA Ames Research Center – Intelligent Systems Division / KBR)</li>
+      <li><b>Meera Day Towler</b> (Southwest Research Institute – Intelligent Systems Division)</li>
+      <li><b>Dr. Antoine Richard</b> (University of Luxembourg – Space Robotics Group)</li>
+    </ul>
+      
     </p>
 
     <hr class="middlesep">
@@ -135,76 +164,101 @@
 <a id="speakers"></a>
 <div class="content-block">
   <div class="content-text">
-    <h1>Speakers</h1>
-    <h2>Keynote Speakers</h2>
-    <table class="speakers" style="table-layout: fixed">
+    <h1>Confirmed Speakers</h1>
+    <table class="speakers" style="table-layout: fixed; width: 100%;">
       <tr>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#tu-eugene">
-            <img src="/resources/images/tu-eugene.jpg"
+          <a href="srw-speakers.html#tfong">
+            <img src="/srw-resources/images/tfong.png"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Eugene Tu</b>
-            <br>
-            Center Director
-            <br>
-            NASA Ames Research Center
+            <b>Dr. Terry Fong</b>
+            <br>Chief Roboticist
+            <br>NASA ARC - Intelligent Robotics Group
           </a>
         </td>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#aspiotis-jason">
-            <img src="/resources/images/aspiotis-jason.jpg"
+          <a href="srw-speakers.html#cgregg">
+            <img src="/srw-resources/images/cgregg.png"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Jason Aspiotis</b>
-            <br>
-            Director, In-Space Infrastructure and Logistics
-            <br>
-            Axiom Space
+            <b>Christine Gregg</b>
+            <br>Chief Engineer, ARMADAS
+            <br>NASA ARC - Intelligent Robotics Group
           </a>
         </td>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#turtle-elizabeth">
-            <img src="/resources/images/turtle-elizabeth.jpg"
+          <a href="srw-speakers.html#atadros">
+            <img src="/srw-resources/images/atadros.jpg"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Elizabeth Turtle</b>
-            <br>
-            Planetary Scientist
-            <br>
-            Johns Hopkins Applied Physics Laboratory
+            <b>Al Tadros</b>
+            <br>Chief Technology Officer
+            <br>Redwire USA
           </a>
         </td>
       </tr>
       <tr>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#mee-jesse">
-            <img src="/resources/images/mee-jesse.jpg"
+          <a href="srw-speakers.html#rthakker">
+            <img src="/srw-resources/images/rthakker.jpg"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Jesse Mee</b>
-            <br>
-            Air Force Research Laboratory
+            <b>Rohan Thakker</b>
+            <br>Robotics Technologist
+            <br>JPL - Aerial Mobility 
           </a>
         </td>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#desai-prasun">
-            <img src="/resources/images/desai-prasun.jpeg"
+          <a href="srw-speakers.html#jpdelacroix">
+            <img src="/srw-resources/images/jpcroix.jpg"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Prasun Desai</b>
-            <br/>Deputy Associate Administrator, Space Technology Mission Directorate
-            <br/>NASA HQ
+            <b>Dr. Jean-Pierre de la Croix</b>
+            <br>Group Leader
+            <br>JPL - Maritime and Multi-Agent Autonomy
           </a>
         </td>
         <td style="width: 33%; text-align: center;">
-          <a href="speakers.html#bradley-damon">
-            <img src="/resources/images/bradley-damon.jpeg"
+          <a href="speakers.html#kcarpenter">
+            <img src="/srw-resources/images/kcarpenter.jpg"
                  style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
             <br>
-            <b>Damon Bradley</b>
-            <br/>Founder and President
-            <br/>DeepSpace Technologies
+            <b>Kalind Carpenter</b>
+            <br>Robotics Mechanical Engineer
+            <br>JPL - Advanced Robotic Systems
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 33%; text-align: center;">
+          <a href="srw-speakers.html#rkalinowsky">
+            <img src="/srw-resources/images/rkalinowsky.png"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Robert Kalinowsky</b>
+            <br>Senior Project Leader
+            <br>COSMIC / The Aerospace Corp
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="srw-speakers.html#sazimi">
+            <img src="/srw-resources/images/sazimi.png"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Shaun Azimi</b>
+            <br>Technical Discipline Lead
+            <br>NASA JSC - Dexterous Robotics Team
+          </a>
+        </td>
+        <td style="width: 33%; text-align: center;">
+          <a href="srw-speakers.html#lsentis">
+            <img src="/srw-resources/images/sentis.jpg"
+                 style="border-radius: 5px; object-fit: cover; width: 300px; height: 410px; margin-bottom: 10px;">
+            <br>
+            <b>Dr. Luis Sentis</b>
+            <br>Professor
+            <br>University of Texas at Austin - Human Centered Robotics Laboratory
           </a>
         </td>
       </tr>
@@ -212,244 +266,163 @@
   </div>
 </div>
 
+
+<style>
+  .schedule-table th, .schedule-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .time-column {
+    width: 150px;
+  }
+  
+  .title-column {
+    width: 600px;
+  }
+  
+  .presenter-column {
+    width: 350px;
+  }
+</style>
 <div class="content-block">
   <div class="content-text">
-    <a id="venue"></a>
-    <h1>Venue</h1>
-    <p>
-      The conference will be held at the Computer History Museum in Mountain View, California. The
-      embedded map below displays the immediate area around the museum along with landmarks
-      and other sites relevant to the conference.
-    </p>
-
-    <center>
-      <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1PJZuAYCtoEHjtJ6JvXR3kHT97fCvq_w&ehbc=2E312F&noprof=1" width="960" height="640"></iframe>
-    </center>
-
-    <h2>Hotels</h2>
-    <p>
-    The following hotels have kindly offered discounted group rates for SMC-IT/SCC attendees. Rooms booked at group rates have limited availability. These hotels are indicated with purple icons in the above map.
-    </p>
-    <ul>
-      <li>
-        <b>
-          <a href="https://www.shashihotel.com/" style="text-decoration:underline;" target="_blank">Shashi Hotel</a> (0.4 mi / 2 min)
-        </b>
-        <br>
-        Located one block away from conference venue.
-        <br>
-        <i>$299 per night for 1-King bedrooms (<a href="https://reservations.travelclick.com/111779?groupID=4142756" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
-        <br>
-      </li>
-      <li>
-        <b>
-          <a href="https://www.theameswellhotel.com/" style="text-decoration:underline;" target="_blank">The Ameswell Hotel</a> (1.7 mi / 5 min)
-        </b>
-        <br>
-        Located in Mountain View, off Hwy 101. This will also be the evening banquet venue.
-        <br>
-        <i>$245 per night (<a href="https://res.windsurfercrs.com/ibe/details.aspx?propertyid=17423&nights=1&checkin=07/14/2024&group=IEEES240714-1544&lang=en-us&adults=2&childAges=" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
-      </li>
-      <li>
-        <b>
-          <a href="https://www.marriott.com/en-us/hotels/sjcao-ac-hotel-palo-alto/overview/" style="text-decoration:underline;" target="_blank">AC Hotel</a> (2.4 mi / 6 min)
-        </b>
-        <br>
-        Located in south Palo Alto, close to Hwy 101.
-        <br>
-        <i>$245 per night for US government employees (<a href="https://www.marriott.com/events/start.mi?id=1709102894164&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>), $375 per night otherwise (<a href="https://www.marriott.com/events/start.mi?id=1709102740180&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
-        <br>
-      </li>
-      <li>
-        <b>
-          <a href="https://www.hotelcitrine.com/" style="text-decoration:underline;" target="_blank">Hotel Citrine</a> (2.3 mi / 6 min)
-        </b>
-        <br>
-        Located in south Palo Alto, close to Hwy 101.
-        <br>
-        <i>$245 per night for US government employees (<a href="https://www.marriott.com/events/start.mi?id=1709682654063&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>), $375 per night otherwise (<a href="https://www.marriott.com/events/start.mi?id=1709682502558&key=GRP" style="text-decoration:underline;" target="_blank">book here</a>). Other local fees or state taxes may apply.</i>
-      </li>
-    </ul>
-
-    There are several other hotels in the area for which we do not have special offers or room blocks, but that offer affordable rates. For details, see: <a href="https://www.wyndhamhotels.com/ramada/mountain-view-california/ramada-limited-mountain-view/overview" style="text-decoration:underline;" target="_blank">Ramada</a> and the <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mountain-view/nuqmv/hoteldetail" style="text-decoration:underline;" target="_blank">Holiday Inn Express</a>. If you are a NASA employee (fulltime or intern) or a military retiree, you have the option of staying at the nearby <a href="https://nasa.sharepoint.com/sites/arc-exchange/SitePages/The-Exchange-Lodge.aspx" style="text-decoration:underline;" target="_blank">NASA Ames Exchange Lodge</a>.
-
+    <a id="schedule"></a>
+    <h1>Schedule</h1>
+    <h2>DAY 1</h2>
+    <!-- <p><i>in progress</i></p> -->
+    <table class="table table-hover schedule-table">
+      <thead class="thead-light">
+        <tr>
+          <th class="time-column">TIME (PST)</th>
+          <th class="title-column">TITLE</th>
+          <th class="presenter-column">PRESENTERS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="time-column">10:30 AM - 10:35 AM</th>
+          <td class="title-column">Space Robotics Workshop Kickoff</td>
+          <td class="presenter-column">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <li>Ignacio Lopez-Francos (NASA ARC)</li>
+              <li>Meera Day Towler (SWRI)</li>
+              <li>Antoine Richard (UniLu)</li>
+            </ul>   
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">10:35 AM - 12 PM</th>
+          <td class="title-column">Session 1: <i>"Scaling up Robotics via Foundation Models: Exploring Opportunities and Challenges"</i></td>
+          <td class="presenter-column">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <li>TBD</li>
+            </ul>   
+          </td>
+        </tr>
+        <tr style="background-color:#d3d3d3;">
+          <th scope="row" class="time-column">12 PM - 1:15 PM</th>
+          <td class="title-column">Lunch Break</td>
+          <td class="presenter-column"></td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">1:15 PM - 3:15 PM</th>
+          <td class="title-column">Session 2: <i>"Multi-Modal Robotic Cooperation for Next-Gen Space Missions"</i></td>
+          <td class="presenter-column">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <li>Jean Pierre de la Croix (JPL)</li>
+              <li>Terry Fong (NASA ARC)</li>
+              <li>Kalind Carpenter (JPL)</li>
+              <li>Rohan Thakker (JPL)</li>
+            </ul>   
+          </td>
+        </tr>
+        <tr style="background-color:#d3d3d3;">
+          <th scope="row" class="time-column">3:15 PM - 3:45 PM</th>
+          <td class="title-column">Coffee Break</td>
+          <td class="presenter-column"></td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">3:45 PM - 5:15 PM</th>
+          <td class="title-column">Session 3: <i>"Space Use Cases for AI: Exploring Real Objectives and Challenges for Modern Robotics"</i></td>
+          <td class="presenter-column">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <li>Al Tadros (RedWire USA)</li>
+              <li>Christine Gregg (NASA ARC)</li>
+              <li>Robert Kalinowsky (COSMIC / The Aerospace Corp)</li>
+            </ul>   
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
 <div class="content-block">
   <div class="content-text">
-    <a id="organization"></a>
-    <h1>Organization</h1>
-    <ul>
-      <li>General Chair: Ivan Perez (KBR @ NASA Ames Research Center)</li>
-      <li>General Co-chair: Rory Lipkis (NASA Ames Research Center)</li>
-      <li>Program Chair (SCC): David Rutishauser (NASA Johnson Space Center)</li>
-      <li>Program Co-chair (SCC): Chris Green (NASA Goddard Space Flight Center)</li>
-      <li>Program Chair (SMC-IT): Marie Farrell (University of Manchester)</li>
-      <li>Program Co-chair (SMC-IT): Alessandro Pinto (Jet Propulsion Laboratory)</li>
-      <li>Program Co-chair (SMC-IT): Victoria Da Poian (Microtel LLC @ NASA Goddard Space Flight Center)</li>
-      <li>Workshop Chair: Sanaz Sheikhi (Stony Brook University)</li>
-      <li>Workshop Co-chair: Wesley Powell (NASA)</li>
-      <li>Industry Chair (SCC): Ken O'Neill (AMD)</li>
-      <li>Industry Chair (SMC-IT): Yogita Shah (Jet Propulsion Laboratory)</li>
-      <li>Diversity Chair: Michelle Carter (The Aerospace Corporation)</li>
-      <li>Diversity Co-chair: Allie Gatewood (The Aerospace Corporation)</li>
-      <li>Publicity Chair: Simon Kolker (University of Manchester)</li>
-      <li>Informatics Manager: Leigh Garbs (NASA ARC)</li>
-      <li>Finance Chair: Jim Oyama (Jet Propulsion Laboratory)</li>
-      <li>Finance Co-chair: Mariam Malek (Jet Propulsion Laboratory)</li>
-      <li>Logistics Chair: Ian Land (Synopsys)</li>
-      <li>Logistics Co-chair: Jeff Wetch (Synopsys)</li>
-      <li>IEEE Conference Coordinator: Kathy Park (IEEE)</li>
-      <li>Advisors to the Chairs:
-        <ul>
-            <li>Larry Bergman (NASA JPL, Ret.)</li>
-            <li>Jim Butler (Jet Propulsion Laboratory)</li>
-            <li>Michael Campbell (The Aerospace Corporation, Ret.)</li>
-            <li>David Henriquez (Jet Propulsion Laboratory)</li>
-        </ul>
-      </li>
-    </ul>
-    <h2>Steering committee</h2>
-    <ul>
-      <li>Richard Doyle (NASA JPL)</li>
-      <li>Rupak Biswas (NASA)</li>
-      <li>Chris Mattman (NASA JPL)</li>
-      <li>Yisong Yue (Caltech)</li>
-    </ul>
-    <h2>Program committee (SCC)</h2>
-    <ul>
-      <li>Mehmet Adalier (Antara Teknik LLC)</li>
-      <li>Jim Butler (NASA Jet Propulsion Laboratory)</li>
-      <li>Bob Campanini (Micropac Industries Inc.)</li>
-      <li>Patrick Collier (Aspen Consulting Group)</li>
-      <li>Josh Donckels (Sandia National Laboratories)</li>
-      <li>Susana Douglas (NASA Goddard Space Flight Center)</li>
-      <li>Eliot Glaser (Northrop Grumman Space Systems)</li>
-      <li>Christopher Green (NASA Goddard Space Flight Center)</li>
-      <li>David Henriquez (NASA Jet Propulsion Laboratory)</li>
-      <li>Ken O'Neill (AMD)</li>
-      <li>Wes Powell (NASA)</li>
-      <li>Dave Rutishauser (NASA Johnson Space Center)</li>
-      <li>Cory Simon (NASA Johnson Space Center)</li>
-      <li>Vivek Dwivedi (NASA Goddard Space Flight Center)</li>
-      <li>Dara McConville (Maynooth University)</li>
-      <li>Alan George (University of Pittsburgh, NSF SHREC Center)</li>
-      <li>Tao Lang (Microchip)</li>
-      <li>Craig Vineyard (Sandia National Laboratories)</li>
-    </ul>
-    <h2>Program committee (SMC-IT)</h2>
-    <ul>
-      <li>Alwyn Goodloe (NASA LARC)</li>
-      <li>Anastasia Mavridou (KBR / NASA ARC)</li>
-      <li>Andrea Guerrieri (EPFL and HES-SO Valais-Wallis)</li>
-      <li>Andrea Orlandini (Institute of Cognitive Sciences and Technologies)</li>
-      <li>Angelo Ferrando (University of Genova)</li>
-      <li>Angelo Oddi (Institute of Cognitive Sciences and Technologies)</li>
-      <li>Arby Argueta (JPL)</li>
-      <li>Bill Van Besien (IOMAXIS)</li>
-      <li>Bob Berardino (JHU Applied Physics Laboratory)</li>
-      <li>Clare Dixon (The University of Manchester)</li>
-      <li>Conor Reynolds (The University of Manchester)</li>
-      <li>Divya Gopinath (KBR / NASA ARC)</li>
-      <li>Gerard Holzmann (Nimble Research)</li>
-      <li>Gregory Falco (JHU Applied Physics Laboratory)</li>
-      <li>Ivan Ruchkin (University of Florida)</li>
-      <li>Jeremy Hadall (UK Satellite Applications Catapult)</li>
-      <li>Julia Badger (NASA)</li>
-      <li>Klaus Havelund (Jet Propulsion Laboratory)</li>
-      <li>Leonard Reder (NASA JPL)</li>
-      <li>Mallory Graydon (NASA LARC)</li>
-      <li>Maria R-Moreno (Universidad de Alcala)</li>
-      <li>Michael Koller (European Space Agency)</li>
-      <li>Mike Curtis-Rouse (UK Satellite Applications Catapult)</li>
-      <li>Nate Hamilton (Parallax)</li>
-      <li>Nicolas Rouquette (JPL)</li>
-      <li>Oisín Sheridan (Maynooth University)</li>
-      <li>Pierre-Loïc Garoche (NASA ARC (contractor))</li>
-      <li>Riccardo Rasconi (Institute of Cognitive Sciences and Technologies)</li>
-      <li>Rosemary Monahan (Maynooth University)</li>
-      <li>Taylor Johnson (Vanderbilt University)</li>
-      <li>Thomas Pressburger (NASA ARC)</li>
-      <li>Zamira Daw (University of Stuttgart)</li>
-    </ul>
+    <a id="schedule"></a>
+    <h2>DAY 2</h2>
+    <!-- <p><i>in progress</i></p> -->
+    <table class="table table-hover schedule-table">
+      <thead class="thead-light">
+        <tr>
+          <th class="time-column">TIME (PST)</th>
+          <th class="title-column">TITLE</th>
+          <th class="presenter-column">PRESENTER(S)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="time-column">10:30 AM - 12 PM</th>
+          <td class="title-column">Session 4: <i>"Bots Before Boots: Venturing into New Worlds with Humanoid Robots as Modern Explorers"</i></td>
+          <td class="presenter-column">
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <li>Shaun Azimi (NASA JSC)</li>
+              <li>Luis Sentis (UT-Austin)</li>
+              <li>TBD</li>
+            </ul>   
+          </td>
+        </tr>
+        <tr style="background-color:#d3d3d3;">
+          <th scope="row" class="time-column">12 PM - 1:15 PM</th>
+          <td class="title-column">Lunch Break</td>
+          <td class="presenter-column"></td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">1:15 PM - 3:15 PM</th>
+          <td class="title-column">Tutorial Part 1: <i>"Introduction to Robotic Simulations in NVIDIA Isaac Sim & Omniverse"</i></td>
+          <td class="presenter-column">NVIDIA, NASA ARC, UniLu</td>
+        </tr>
+        <tr style="background-color:#d3d3d3;">
+          <th scope="row" class="time-column">3:15 PM - 3:45 PM</th>
+          <td class="title-column">Coffee Break</td>
+          <td class="presenter-column"></td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">3:45 PM - 4:45 PM</th>
+          <td class="title-column">Tutorial Part 2: <i>"Introduction to Robotic Simulations in NVIDIA Isaac Sim & Omniverse"</i></td>
+          <td class="presenter-column">NVIDIA, NASA ARC, UniLu</td>
+        </tr>
+        <tr>
+          <th scope="row" class="time-column">4:45 PM - 5:15 PM</th>
+          <td class="title-column">Close Outs</td>
+          <td class="presenter-column"></td>
+      </tbody>
+    </table>
     <hr class="middlesep">
   </div>
 </div>
+
 
 <div class="content-block">
   <div class="content-text">
     <a id="sponsors"></a>
     <h1>Supporters</h1>
-    <!-- Some logos are very wide, some are very narrow. Without any
-      adjustments, some logos dwarf others. We do our best to give them equal
-      space, but it is very hard.
-    -->
     <table class="supporters">
       <tr>
         <td><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05191103/IEEE-CS_LogoTM-black.png" alt="IEEE"></td>
       </tr>
-      <tr>
-        <td id="ieee-tc-list">
-          <ul>
-            <li><img src="https://ieeecs-media.computer.org/tc-media/sites/27/2020/03/05190624/TCSE.png" alt="Technical Community of Software Engineering - IEEE" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/ieee-tcca.png" alt="Technical Community on Computer Architecture - IEEE" style="max-width: 400px"></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td><h1>Platinum</h1></td>
-      </tr>
-      <tr>
-        <td id="platinum-sponsor-list">
-          <img src="resources/images/logos/3d-plus.png" alt="3D-Plus">
-          <img src="resources/images/logos/microchip.png" alt="Microchip">
-          <img src="resources/images/logos/antmicro.png" alt="antmicro">
-        </td>
-      </tr>
-      <tr>
-        <td><h2>Gold</h2></td>
-      </tr>
-      <tr>
-        <td id="gold-sponsor-list">
-          <ul>
-            <li><img src="resources/images/logos/alpha_data.png" alt="Alpha Data" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/gold-amd.png" alt="AMD" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/avalanche-technology.png" alt="Avalanche Technology" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/gold-frontgrade-gaisler.png" alt="Frontgrade Gaisler" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/lewiz.png" alt="Lewiz" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/gold-mirabilis.png" alt="Mirabilis Design" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/moog.png" alt="Moog" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/sifive.png" alt="SiFive" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/star-dundee.png" alt="Star Dundee" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/synopsys.png" alt="Synopsys" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/teledyne.png" alt="Teledyne E2V" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/gold-voragotech.png" alt="Vorago Technologies" style="max-width: 400px"></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td><h2>Silver</h2></td>
-      </tr>
-      <tr>
-        <td id="silver-sponsor-list">
-          <ul>
-            <li><img src="resources/images/logos/silver-elisa.png" alt="ELISA" style="max-width: 400px"></li>
-            <li><img src="resources/images/logos/silver-kbr.png" alt="KBR" style="max-width: 400px"></li>
-          </ul>
-        </td>
-      </tr>
     </table>
-
-    <hr class="middlesep">
-
-    <p>
-      Your sponsorship is a strong statement about your organization's commitment to the field of Space
-      Computing. SMC-IT/SCC 2024 continues to offer exciting opportunities for sponsors. Please refer to the
-      <a href="resources/SCC-SMCIT-2024-Prospectus-v11.pdf" style="text-decoration: underline">Sponsor Prospectus</a>
-      and <a href="resources/SCC 2024 Sponsor Order Form V1-0.pdf" style="text-decoration: underline" >Sponsor Guide and Order Form</a>
-      for further sponsorship information.
-    </p>
     <hr class="middlesep">
   </div>
 </div>
@@ -462,23 +435,25 @@
       <li>Email: <a style="text-decoration: underline" href="mailto:smcit-scc_chairs@jpl.nasa.gov">smcit-scc_chairs@jpl.nasa.gov</a></li>
       <li>Twitter: @smcit_conf</li>
     </ul>
-    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html" target="_blank">Privacy Policy</a></p>
+    <p>Copyright &copy; IEEE SMC-IT/SCC 2024 - <a href="https://www.ieee.org/security-privacy.html"
+        target="_blank">Privacy Policy</a></p>
   </div>
 </div>
 
 <script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
+  function loadAsync(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
 </script>
 
 <script>
   window.onunload = function() { window.stop(); };
 </script>
 </body>
+
 </html>
